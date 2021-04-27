@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.9.1-fix-RecordService-fetchRecords-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "xud6ebqvlzh5ndholrtj75amoq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.1-fix-RecordService-fetchRecords-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.1-fix-RecordService-fetchRecords-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "f034de319bf02d30ffd6e2b241ced9a35a70b1c01bd7ddb01634947b715d134c0976537add3207ebabbb35bab625ba676975d94c6c6688ad166250c14f039f34",
+          "sha256": "f576a8e1795dd3200ebbf0bdeb79bbc1d18903676bbd62c9a0f02ab78af6439f",
+          "sha1": "0a5bf4082fe4973269a6098a9197e6f32a09aa33",
+          "md5": "2e16de2eaef660e99a4d2e88157634b1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.1-fix-RecordService-fetchRecords-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.1-fix-RecordService-fetchRecords-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "f034de319bf02d30ffd6e2b241ced9a35a70b1c01bd7ddb01634947b715d134c0976537add3207ebabbb35bab625ba676975d94c6c6688ad166250c14f039f34",
+          "sha256": "f576a8e1795dd3200ebbf0bdeb79bbc1d18903676bbd62c9a0f02ab78af6439f",
+          "sha1": "0a5bf4082fe4973269a6098a9197e6f32a09aa33",
+          "md5": "2e16de2eaef660e99a4d2e88157634b1"
+        }
+      ]
+    }
+  ]
+}

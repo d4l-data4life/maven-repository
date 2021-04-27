@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-android",
+    "version": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "v4ctzmp7e5d3ppl3scyle3squi"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.aar",
+          "url": "crypto-android-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.aar",
+          "size": 51843,
+          "sha512": "b5879d239601aa32a2abc9e69c8eee62d9839af9decf1428760c692bcb11c50529a04554d4fddb568ce2fd3e0b2d3018c78c1c1d0c981597e4167f9a8a044726",
+          "sha256": "d512c84d01a1c50c94930a0c03affe37bbb481714521957e77b357963093ef0c",
+          "sha1": "6ce437f79f5b45041e60cb17ca248d5bc9ee491b",
+          "md5": "576db359ee42e7cf901edbb996f33aeb"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.aar",
+          "url": "crypto-android-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.aar",
+          "size": 51843,
+          "sha512": "b5879d239601aa32a2abc9e69c8eee62d9839af9decf1428760c692bcb11c50529a04554d4fddb568ce2fd3e0b2d3018c78c1c1d0c981597e4167f9a8a044726",
+          "sha256": "d512c84d01a1c50c94930a0c03affe37bbb481714521957e77b357963093ef0c",
+          "sha1": "6ce437f79f5b45041e60cb17ca248d5bc9ee491b",
+          "md5": "576db359ee42e7cf901edbb996f33aeb"
+        }
+      ]
+    }
+  ]
+}

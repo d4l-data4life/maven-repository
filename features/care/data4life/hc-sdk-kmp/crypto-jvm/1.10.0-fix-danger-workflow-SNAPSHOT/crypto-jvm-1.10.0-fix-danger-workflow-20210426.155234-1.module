@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.10.0-fix-danger-workflow-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "kfsaku6gvzc2vhmy6jovm463ha"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.10.0-fix-danger-workflow-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.10.0-fix-danger-workflow-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.10.0-fix-danger-workflow-SNAPSHOT.jar",
+          "size": 46152,
+          "sha512": "b690af7e4be52b371b62fc7d3264e3ac1d46972fe8351934dbce07f31ebc1f89859b4be089ce0da909ce8045a90952fe1d05f5a15def2df454bce4985b7b9e59",
+          "sha256": "96bb06cd33ac7b750b3bd3ae44bbe6d4063dee6442d6fd38c0540c76cf9b606e",
+          "sha1": "4b217700a83ab3c3accfcae7f3fa40fb7b4e0b17",
+          "md5": "c3f0282d9f9747594cfbe4fa8dd6850f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.10.0-fix-danger-workflow-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.10.0-fix-danger-workflow-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.10.0-fix-danger-workflow-SNAPSHOT.jar",
+          "size": 46152,
+          "sha512": "b690af7e4be52b371b62fc7d3264e3ac1d46972fe8351934dbce07f31ebc1f89859b4be089ce0da909ce8045a90952fe1d05f5a15def2df454bce4985b7b9e59",
+          "sha256": "96bb06cd33ac7b750b3bd3ae44bbe6d4063dee6442d6fd38c0540c76cf9b606e",
+          "sha1": "4b217700a83ab3c3accfcae7f3fa40fb7b4e0b17",
+          "md5": "c3f0282d9f9747594cfbe4fa8dd6850f"
+        }
+      ]
+    }
+  ]
+}

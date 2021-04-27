@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.9.0-change-tagging-encoding-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "d5y5vfqtl5gp5ecerwsgh5sphi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.0-change-tagging-encoding-SNAPSHOT.jar",
+          "url": "auth-common-1.9.0-change-tagging-encoding-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "aa34fa99add455bf91eb202fb7f62d8a5dd38e56fb570216a24f3bd0c39c295405bcf2b88151dbf612f2368420271ee4b1250a7d6a64c266d367c65017a00b62",
+          "sha256": "f1021fa0169e3a5926f01ea2d629f2ae801ede78e58a147967ff102a62e0ce9f",
+          "sha1": "19baed41304aad43bf347d5feda77fb58c8b0587",
+          "md5": "678f4325d8e8d9cc598c7e16224432ed"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.0-change-tagging-encoding-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.0-change-tagging-encoding-SNAPSHOT.jar",
+          "url": "auth-common-1.9.0-change-tagging-encoding-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "aa34fa99add455bf91eb202fb7f62d8a5dd38e56fb570216a24f3bd0c39c295405bcf2b88151dbf612f2368420271ee4b1250a7d6a64c266d367c65017a00b62",
+          "sha256": "f1021fa0169e3a5926f01ea2d629f2ae801ede78e58a147967ff102a62e0ce9f",
+          "sha1": "19baed41304aad43bf347d5feda77fb58c8b0587",
+          "md5": "678f4325d8e8d9cc598c7e16224432ed"
+        }
+      ]
+    }
+  ]
+}

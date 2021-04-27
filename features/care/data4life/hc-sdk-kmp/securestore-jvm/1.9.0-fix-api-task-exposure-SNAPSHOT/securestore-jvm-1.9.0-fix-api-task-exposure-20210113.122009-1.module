@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.9.0-fix-api-task-exposure-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "cn7fqykbvjcrjihqtpnphfsqyi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.0-fix-api-task-exposure-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.0-fix-api-task-exposure-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.0-fix-api-task-exposure-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "f18dc3c042d6897e7052809c982d263f7af020c40801077ffa6a2233eaa5c5d602cea80792de2a90cbd3ca6e9090ae84b59f2a4efcbb652fa78f62419e791c93",
+          "sha256": "8e01bf10fbf6adb5d4ea6c7b0182d24ca7a7e8fa7abe9f5b38e31afdead8e10b",
+          "sha1": "9f6c9a7769ee0f1aa4a932d9c5dd73c9fc1dde39",
+          "md5": "3fb5dd182c921f87e2cd549b0bbe306a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.0-fix-api-task-exposure-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.0-fix-api-task-exposure-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.0-fix-api-task-exposure-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "f18dc3c042d6897e7052809c982d263f7af020c40801077ffa6a2233eaa5c5d602cea80792de2a90cbd3ca6e9090ae84b59f2a4efcbb652fa78f62419e791c93",
+          "sha256": "8e01bf10fbf6adb5d4ea6c7b0182d24ca7a7e8fa7abe9f5b38e31afdead8e10b",
+          "sha1": "9f6c9a7769ee0f1aa4a932d9c5dd73c9fc1dde39",
+          "md5": "3fb5dd182c921f87e2cd549b0bbe306a"
+        }
+      ]
+    }
+  ]
+}

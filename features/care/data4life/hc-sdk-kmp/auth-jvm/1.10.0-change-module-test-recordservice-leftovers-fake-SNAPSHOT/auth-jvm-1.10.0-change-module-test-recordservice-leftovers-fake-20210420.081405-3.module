@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.10.0-change-module-test-recordservice-leftovers-fake-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "ed42tcj7wvazldtj4ajihfe3uu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.10.0-change-module-test-recordservice-leftovers-fake-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.10.0-change-module-test-recordservice-leftovers-fake-SNAPSHOT.jar",
+          "url": "auth-jvm-1.10.0-change-module-test-recordservice-leftovers-fake-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "2635a060a92d9e19068e8d824ce0f08c7943544cef428a5b07a80baea16b604f35e20a4d3dec211727b4862000169d763048643698df62efe1696b1353131e97",
+          "sha256": "dca59770a157e932660152643f1a35a0c7e3f7036bf106a6c2b90e796a0a0cb7",
+          "sha1": "13ba435d992f7d3e03e76f732269b8941541418c",
+          "md5": "2bf21fea4f198b0c31ded4773c330bfa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.10.0-change-module-test-recordservice-leftovers-fake-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.10.0-change-module-test-recordservice-leftovers-fake-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.10.0-change-module-test-recordservice-leftovers-fake-SNAPSHOT.jar",
+          "url": "auth-jvm-1.10.0-change-module-test-recordservice-leftovers-fake-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "2635a060a92d9e19068e8d824ce0f08c7943544cef428a5b07a80baea16b604f35e20a4d3dec211727b4862000169d763048643698df62efe1696b1353131e97",
+          "sha256": "dca59770a157e932660152643f1a35a0c7e3f7036bf106a6c2b90e796a0a0cb7",
+          "sha1": "13ba435d992f7d3e03e76f732269b8941541418c",
+          "md5": "2bf21fea4f198b0c31ded4773c330bfa"
+        }
+      ]
+    }
+  ]
+}

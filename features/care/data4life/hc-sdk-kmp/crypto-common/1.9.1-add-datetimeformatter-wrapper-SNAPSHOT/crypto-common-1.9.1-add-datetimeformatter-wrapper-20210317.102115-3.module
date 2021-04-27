@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.9.1-add-datetimeformatter-wrapper-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "chzn6qecbjbffgrbc333qtrp74"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.9.1-add-datetimeformatter-wrapper-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.1-add-datetimeformatter-wrapper-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "61e2cda5a43d4bb3a6d463a7b90f558198312e6861fa22b316f3d5efe3710158f140793949e5645744b1a5274ca422781b5c18b09abdaf0d3354cd7cc65167a2",
+          "sha256": "7060e56dcadf4b7927b654c749dfcc772e7bcea6e8c91363d38a6035c49a7d76",
+          "sha1": "1ab247ea7dec19b057dc9bdd431c2b0b9d6ad8a8",
+          "md5": "16e0fd6f19506252f913cdecebcb6e98"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.9.1-add-datetimeformatter-wrapper-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.1-add-datetimeformatter-wrapper-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "61e2cda5a43d4bb3a6d463a7b90f558198312e6861fa22b316f3d5efe3710158f140793949e5645744b1a5274ca422781b5c18b09abdaf0d3354cd7cc65167a2",
+          "sha256": "7060e56dcadf4b7927b654c749dfcc772e7bcea6e8c91363d38a6035c49a7d76",
+          "sha1": "1ab247ea7dec19b057dc9bdd431c2b0b9d6ad8a8",
+          "md5": "16e0fd6f19506252f913cdecebcb6e98"
+        }
+      ]
+    }
+  ]
+}

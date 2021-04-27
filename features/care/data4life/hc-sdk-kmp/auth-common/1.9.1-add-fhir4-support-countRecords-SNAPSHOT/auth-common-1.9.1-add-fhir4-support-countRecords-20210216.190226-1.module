@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.9.1-add-fhir4-support-countRecords-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "lekq4a2gvbegjdbbjuo7f4rfey"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.1-add-fhir4-support-countRecords-SNAPSHOT.jar",
+          "url": "auth-common-1.9.1-add-fhir4-support-countRecords-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "a667bcafe96c5d70056e281f353ac9bc5523c85faf260d2b8d62a7cf9c0b19ae54ba61ceb4a9949ae4a7b01503b6fa7ac0cc4d3a1a3ec7beb0848bfc7ae52ca3",
+          "sha256": "8e0c7b8458bf05785771d8cb2e0343ec441f3b37b96da3ceebb1e9e603806fb3",
+          "sha1": "30fb1c755a4fa9c3e8b10ebf86b78f9f06d663eb",
+          "md5": "cb5a4169c6fb4ab73f17bb72ce4eb50d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.1-add-fhir4-support-countRecords-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.1-add-fhir4-support-countRecords-SNAPSHOT.jar",
+          "url": "auth-common-1.9.1-add-fhir4-support-countRecords-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "a667bcafe96c5d70056e281f353ac9bc5523c85faf260d2b8d62a7cf9c0b19ae54ba61ceb4a9949ae4a7b01503b6fa7ac0cc4d3a1a3ec7beb0848bfc7ae52ca3",
+          "sha256": "8e0c7b8458bf05785771d8cb2e0343ec441f3b37b96da3ceebb1e9e603806fb3",
+          "sha1": "30fb1c755a4fa9c3e8b10ebf86b78f9f06d663eb",
+          "md5": "cb5a4169c6fb4ab73f17bb72ce4eb50d"
+        }
+      ]
+    }
+  ]
+}

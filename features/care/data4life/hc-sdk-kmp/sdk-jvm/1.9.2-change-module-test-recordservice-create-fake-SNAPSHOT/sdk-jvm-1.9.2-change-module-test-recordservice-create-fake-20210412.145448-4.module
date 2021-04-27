@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "sdk-jvm",
+    "version": "1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "zkxoh34wznbunau4vjop3pk6dy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-jvm-1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT.jar",
+          "url": "sdk-jvm-1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT.jar",
+          "size": 11324,
+          "sha512": "2e01d70054fc21f80aefaa1542c4b16e629077e3e22befccf7d2bd3482108dc26a2b00ddc40af8962215615d4b4e41e6b5165f333a68aad40a13aaf8e96d291d",
+          "sha256": "db169c4754efa33fbe9cdf86502e019fdf86aa0024a3f78049fb4dd8c42301dd",
+          "sha1": "fbd53d06c104a4ddaaedddba6dde2d5b17b7980b",
+          "md5": "2a73bc4bfef42103abbdc1d4da56a49e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-jvm",
+          "version": {
+            "requires": "1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-jvm",
+          "version": {
+            "requires": "1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.19"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-jvm-1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT.jar",
+          "url": "sdk-jvm-1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT.jar",
+          "size": 11324,
+          "sha512": "2e01d70054fc21f80aefaa1542c4b16e629077e3e22befccf7d2bd3482108dc26a2b00ddc40af8962215615d4b4e41e6b5165f333a68aad40a13aaf8e96d291d",
+          "sha256": "db169c4754efa33fbe9cdf86502e019fdf86aa0024a3f78049fb4dd8c42301dd",
+          "sha1": "fbd53d06c104a4ddaaedddba6dde2d5b17b7980b",
+          "md5": "2a73bc4bfef42103abbdc1d4da56a49e"
+        }
+      ]
+    }
+  ]
+}

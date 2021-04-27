@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.9.1-fix-nullpointer-of-FhirElementFactory-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "or57dccynrfj7i3n64cav5czii"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.1-fix-nullpointer-of-FhirElementFactory-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.9.1-fix-nullpointer-of-FhirElementFactory-SNAPSHOT.jar",
+          "url": "auth-jvm-1.9.1-fix-nullpointer-of-FhirElementFactory-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "eda64cfdef799bb3560f34fb016bf39248b9ea000b33f93a15c06280a4875a8d17e8673ee4b99a7a94972d955fb31e42cb0f2043702c814836a71ee2773c3f40",
+          "sha256": "03a4fe13b5141cb1b752f176521b04ae8bc5ee98cf6a2c37f8c104237181058f",
+          "sha1": "21a4d6a84b33fdb3843b1320fa40682c00197755",
+          "md5": "5bd339182b25aeefb2b15a6c8dfe2aa4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.9.1-fix-nullpointer-of-FhirElementFactory-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.1-fix-nullpointer-of-FhirElementFactory-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.9.1-fix-nullpointer-of-FhirElementFactory-SNAPSHOT.jar",
+          "url": "auth-jvm-1.9.1-fix-nullpointer-of-FhirElementFactory-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "eda64cfdef799bb3560f34fb016bf39248b9ea000b33f93a15c06280a4875a8d17e8673ee4b99a7a94972d955fb31e42cb0f2043702c814836a71ee2773c3f40",
+          "sha256": "03a4fe13b5141cb1b752f176521b04ae8bc5ee98cf6a2c37f8c104237181058f",
+          "sha1": "21a4d6a84b33fdb3843b1320fa40682c00197755",
+          "md5": "5bd339182b25aeefb2b15a6c8dfe2aa4"
+        }
+      ]
+    }
+  ]
+}

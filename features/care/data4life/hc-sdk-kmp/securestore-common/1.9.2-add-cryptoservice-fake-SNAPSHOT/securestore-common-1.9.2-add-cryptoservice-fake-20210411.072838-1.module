@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.9.2-add-cryptoservice-fake-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "eetpy5443zhxbbdp3vczcue5be"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.2-add-cryptoservice-fake-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.2-add-cryptoservice-fake-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "d743c98d9d059d5d5180b504e9fe9dc7c2bf6c22c5c8d3cdc0bfb24670dc8bb802c299f794f8b5983b838ecfe3e9ab59ccdce09117fbbe25a6471a61b524ae87",
+          "sha256": "f3aa99b351a2f1386985b9cd650a986f3252bec3856eeedd7797aca29fb4cf9f",
+          "sha1": "2161cf13af75d72a51f5758fda574eb5465a9ef2",
+          "md5": "ee57c9cef1a3c641ff04a0de203fa500"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.2-add-cryptoservice-fake-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.2-add-cryptoservice-fake-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "d743c98d9d059d5d5180b504e9fe9dc7c2bf6c22c5c8d3cdc0bfb24670dc8bb802c299f794f8b5983b838ecfe3e9ab59ccdce09117fbbe25a6471a61b524ae87",
+          "sha256": "f3aa99b351a2f1386985b9cd650a986f3252bec3856eeedd7797aca29fb4cf9f",
+          "sha1": "2161cf13af75d72a51f5758fda574eb5465a9ef2",
+          "md5": "ee57c9cef1a3c641ff04a0de203fa500"
+        }
+      ]
+    }
+  ]
+}

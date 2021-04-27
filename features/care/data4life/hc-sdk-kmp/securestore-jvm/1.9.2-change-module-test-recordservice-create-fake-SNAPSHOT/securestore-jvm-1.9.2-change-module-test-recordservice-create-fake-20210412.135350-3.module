@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "rptefcjeojgvlof3jq37dzlg6y"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "d32fbae6646a3ed1ad0f4fc8e734a36d8792e76a4ceaf895ddfafb49ea7c3a9f47f3a1eb7170170881556b39d435c0607c996e08f635b2896721a5fcbc40e9e1",
+          "sha256": "55ae99928ba58a26338bbd93eb6e113a6ba768367cbaa264e5631ac73dfb702b",
+          "sha1": "0d46eaa80a230a48d5c3023600ebcd4114b689ef",
+          "md5": "a57dbd63d443c9ed5af52831f79ac2fe"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "d32fbae6646a3ed1ad0f4fc8e734a36d8792e76a4ceaf895ddfafb49ea7c3a9f47f3a1eb7170170881556b39d435c0607c996e08f635b2896721a5fcbc40e9e1",
+          "sha256": "55ae99928ba58a26338bbd93eb6e113a6ba768367cbaa264e5631ac73dfb702b",
+          "sha1": "0d46eaa80a230a48d5c3023600ebcd4114b689ef",
+          "md5": "a57dbd63d443c9ed5af52831f79ac2fe"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir-helper/1.5.0-bump-fhir-sdk-SNAPSHOT/fhir-helper-1.5.0-bump-fhir-sdk-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+    "module": "fhir-helper",
+    "version": "1.5.0-bump-fhir-sdk-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "kexf3wcqtbcopobcnrey2lrnky"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-helper-release.aar",
+          "url": "fhir-helper-android-1.5.0-bump-fhir-sdk-SNAPSHOT.aar",
+          "size": 106678,
+          "sha512": "1a6dcccbc208c946c8fc1a5fb779bee62f61b562d76df7b1d60feac5f5d809fca45b0b77f417a9417e14a343beda303122e9ee0e15d0105b4c89fcd8dd044420",
+          "sha256": "3571488e4e71bfc4cb98a6025c5b0228c47278f1a586b3b3ad28bfc1cf7e13cc",
+          "sha1": "111542b5b8bf64d8a9f5c7d3c16e586b90fba50f",
+          "md5": "161f5f0a8049e02d546237c04a934f72"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-helper-release.aar",
+          "url": "fhir-helper-android-1.5.0-bump-fhir-sdk-SNAPSHOT.aar",
+          "size": 106678,
+          "sha512": "1a6dcccbc208c946c8fc1a5fb779bee62f61b562d76df7b1d60feac5f5d809fca45b0b77f417a9417e14a343beda303122e9ee0e15d0105b4c89fcd8dd044420",
+          "sha256": "3571488e4e71bfc4cb98a6025c5b0228c47278f1a586b3b3ad28bfc1cf7e13cc",
+          "sha1": "111542b5b8bf64d8a9f5c7d3c16e586b90fba50f",
+          "md5": "161f5f0a8049e02d546237c04a934f72"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../fhir-helper-metadata/1.5.0-bump-fhir-sdk-SNAPSHOT/fhir-helper-metadata-1.5.0-bump-fhir-sdk-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+        "module": "fhir-helper-metadata",
+        "version": "1.5.0-bump-fhir-sdk-SNAPSHOT"
+      }
+    }
+  ]
+}

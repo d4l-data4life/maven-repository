@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.9.2-add-crypto-service-interface-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "7vdoo7el4nhrhlao4geitoadoy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.2-add-crypto-service-interface-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.9.2-add-crypto-service-interface-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.9.2-add-crypto-service-interface-SNAPSHOT.jar",
+          "size": 46060,
+          "sha512": "17a2db858b5643f38fbf0d9c5499caac982f9c66dcbdca0581d0de7c56c6fcd86cccce34db659d241410c5270c165e785bfabf26894a70d007732eef4dbd84c8",
+          "sha256": "650c0113e95c7408d5561e77225e55f3c1105fbd2364a392385e564ccc269a5d",
+          "sha1": "fc4fcdcaa14b5c6fe4ae97f82ccedd4a30af2cfe",
+          "md5": "7904652039d8af01f28ff6e547e8d5ab"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.2-add-crypto-service-interface-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.9.2-add-crypto-service-interface-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.9.2-add-crypto-service-interface-SNAPSHOT.jar",
+          "size": 46060,
+          "sha512": "17a2db858b5643f38fbf0d9c5499caac982f9c66dcbdca0581d0de7c56c6fcd86cccce34db659d241410c5270c165e785bfabf26894a70d007732eef4dbd84c8",
+          "sha256": "650c0113e95c7408d5561e77225e55f3c1105fbd2364a392385e564ccc269a5d",
+          "sha1": "fc4fcdcaa14b5c6fe4ae97f82ccedd4a30af2cfe",
+          "md5": "7904652039d8af01f28ff6e547e8d5ab"
+        }
+      ]
+    }
+  ]
+}

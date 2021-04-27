@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.9.1-add-datetimeformatter-wrapper-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "jy4ndyx24fhzvigbhmmt2ndrty"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.1-add-datetimeformatter-wrapper-SNAPSHOT.jar",
+          "url": "auth-common-1.9.1-add-datetimeformatter-wrapper-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "d0d3a3bfd448101bfdd4bc40ced4d8bcd95bf8cc11cbc9bbb0d53d8d64bb9b603b1bb1b78a2ab82b18b8a65a80740298fcb58e2dbb1e950c833eff89fc340c56",
+          "sha256": "2e773df07728c0f632b6fd2db1817a402be54ca4acc2948004153b7f85429222",
+          "sha1": "361c0cd8d5edef4ceacd7baab7dcd9d6089431a7",
+          "md5": "6a68fc638c2749e24c5a00d5da4742bc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.1-add-datetimeformatter-wrapper-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.1-add-datetimeformatter-wrapper-SNAPSHOT.jar",
+          "url": "auth-common-1.9.1-add-datetimeformatter-wrapper-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "d0d3a3bfd448101bfdd4bc40ced4d8bcd95bf8cc11cbc9bbb0d53d8d64bb9b603b1bb1b78a2ab82b18b8a65a80740298fcb58e2dbb1e950c833eff89fc340c56",
+          "sha256": "2e773df07728c0f632b6fd2db1817a402be54ca4acc2948004153b7f85429222",
+          "sha1": "361c0cd8d5edef4ceacd7baab7dcd9d6089431a7",
+          "md5": "6a68fc638c2749e24c5a00d5da4742bc"
+        }
+      ]
+    }
+  ]
+}

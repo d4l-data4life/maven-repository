@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.7.0-add-gradle-dependency-locking-SNAPSHOT/util-1.7.0-add-gradle-dependency-locking-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.7.0-add-gradle-dependency-locking-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "lqbtxk5jajearp4xmrhpzcxdiy"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-jvm-1.7.0-add-gradle-dependency-locking-SNAPSHOT.jar",
+          "url": "util-jvm-1.7.0-add-gradle-dependency-locking-SNAPSHOT.jar",
+          "size": 20014,
+          "sha512": "36d64cb2c0bac5a38990d382eaec1d0f1ef6788b6b5abc3fde49ef337435ebd5c8bb7d7a48f244e47410984f9d77aaea81ee3c7a1a8b5e6523065efafc79cddb",
+          "sha256": "ef9a0fdef6e10cf5ea8f0047da9cacdd617805d4321880ba37258450b32fbef1",
+          "sha1": "f96c14233cde80710220e95217feb47552a333a1",
+          "md5": "23bba0ad56ca73d711a2dceb69f52a19"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-jvm-1.7.0-add-gradle-dependency-locking-SNAPSHOT.jar",
+          "url": "util-jvm-1.7.0-add-gradle-dependency-locking-SNAPSHOT.jar",
+          "size": 20014,
+          "sha512": "36d64cb2c0bac5a38990d382eaec1d0f1ef6788b6b5abc3fde49ef337435ebd5c8bb7d7a48f244e47410984f9d77aaea81ee3c7a1a8b5e6523065efafc79cddb",
+          "sha256": "ef9a0fdef6e10cf5ea8f0047da9cacdd617805d4321880ba37258450b32fbef1",
+          "sha1": "f96c14233cde80710220e95217feb47552a333a1",
+          "md5": "23bba0ad56ca73d711a2dceb69f52a19"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-metadata/1.7.0-add-gradle-dependency-locking-SNAPSHOT/util-metadata-1.7.0-add-gradle-dependency-locking-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-metadata",
+        "version": "1.7.0-add-gradle-dependency-locking-SNAPSHOT"
+      }
+    }
+  ]
+}

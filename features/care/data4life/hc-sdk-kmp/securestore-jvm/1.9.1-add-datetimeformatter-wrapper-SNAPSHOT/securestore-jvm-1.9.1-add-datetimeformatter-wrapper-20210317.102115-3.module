@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.9.1-add-datetimeformatter-wrapper-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "chzn6qecbjbffgrbc333qtrp74"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.1-add-datetimeformatter-wrapper-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.1-add-datetimeformatter-wrapper-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.1-add-datetimeformatter-wrapper-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "646ec1667d3fa1faecb4340525ef6449f8577fcd13dd2c746b3955f464ffe3aaf3c2c8a18a3e2777d5831813fde68ef5d91a3d64af2726a17947f2524746bde4",
+          "sha256": "c0baeecfca0f67c475e5df37cb651b092d1dd848b5fb0e0e644e9dc527705cee",
+          "sha1": "78e2105694ff9c274cbb4026ae9474ffbccae5a5",
+          "md5": "a602ea6b41d1e25e8c348d92180b2a93"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.1-add-datetimeformatter-wrapper-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.1-add-datetimeformatter-wrapper-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.1-add-datetimeformatter-wrapper-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "646ec1667d3fa1faecb4340525ef6449f8577fcd13dd2c746b3955f464ffe3aaf3c2c8a18a3e2777d5831813fde68ef5d91a3d64af2726a17947f2524746bde4",
+          "sha256": "c0baeecfca0f67c475e5df37cb651b092d1dd848b5fb0e0e644e9dc527705cee",
+          "sha1": "78e2105694ff9c274cbb4026ae9474ffbccae5a5",
+          "md5": "a602ea6b41d1e25e8c348d92180b2a93"
+        }
+      ]
+    }
+  ]
+}

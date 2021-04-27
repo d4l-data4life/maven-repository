@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-android",
+    "version": "1.9.1-change-EncryptedRecord-and-EncryptedKey-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "tgoacre5dre7zktx7r4f7zjxcm"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.1-change-EncryptedRecord-and-EncryptedKey-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.9.1-change-EncryptedRecord-and-EncryptedKey-SNAPSHOT.aar",
+          "url": "crypto-android-1.9.1-change-EncryptedRecord-and-EncryptedKey-SNAPSHOT.aar",
+          "size": 51840,
+          "sha512": "b032785ad4b7bdc21ce0faafc6c4c6558143cfd993cd9881fa46aacaba825d6ade66605e52e0d53895f43db43d2e53a564cc1475a4d0a991c492dd3a6f5bcb6c",
+          "sha256": "900e5fc434ddc36be7ffc1b1a1ffa1eac80ba245b0985fac86a07e22f5cc3474",
+          "sha1": "f623091c76b33e0a3d0cf142697142aeb1940e08",
+          "md5": "e5a51e490990faf4021e63b2efd79b31"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.1-change-EncryptedRecord-and-EncryptedKey-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.9.1-change-EncryptedRecord-and-EncryptedKey-SNAPSHOT.aar",
+          "url": "crypto-android-1.9.1-change-EncryptedRecord-and-EncryptedKey-SNAPSHOT.aar",
+          "size": 51840,
+          "sha512": "b032785ad4b7bdc21ce0faafc6c4c6558143cfd993cd9881fa46aacaba825d6ade66605e52e0d53895f43db43d2e53a564cc1475a4d0a991c492dd3a6f5bcb6c",
+          "sha256": "900e5fc434ddc36be7ffc1b1a1ffa1eac80ba245b0985fac86a07e22f5cc3474",
+          "sha1": "f623091c76b33e0a3d0cf142697142aeb1940e08",
+          "md5": "e5a51e490990faf4021e63b2efd79b31"
+        }
+      ]
+    }
+  ]
+}

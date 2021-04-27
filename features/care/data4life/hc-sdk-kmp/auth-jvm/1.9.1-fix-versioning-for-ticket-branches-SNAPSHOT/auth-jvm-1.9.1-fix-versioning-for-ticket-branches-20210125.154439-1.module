@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "6oau6ptl7va6rdgaejx6j2j2um"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT.jar",
+          "url": "auth-jvm-1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "ee344c29749905c3eff9c6c9e41f66aa7734d129827b2bd711640539e81ed92c6550cc665623202c1449d122120750ba2819e27d3e9f1bf60b90a9ba57a38a27",
+          "sha256": "2ac10fc395cb347f9c58fdd957c45be2400e16a73b8000b4a1ac57e8d42981ca",
+          "sha1": "7d01dbba5ea6d81479466c480345043b4f62a22e",
+          "md5": "aedd83ecbd0ef91ab8a0a7c655266e77"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT.jar",
+          "url": "auth-jvm-1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "ee344c29749905c3eff9c6c9e41f66aa7734d129827b2bd711640539e81ed92c6550cc665623202c1449d122120750ba2819e27d3e9f1bf60b90a9ba57a38a27",
+          "sha256": "2ac10fc395cb347f9c58fdd957c45be2400e16a73b8000b4a1ac57e8d42981ca",
+          "sha1": "7d01dbba5ea6d81479466c480345043b4f62a22e",
+          "md5": "aedd83ecbd0ef91ab8a0a7c655266e77"
+        }
+      ]
+    }
+  ]
+}

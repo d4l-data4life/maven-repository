@@ -1,0 +1,167 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "sdk-core",
+    "version": "1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "6oau6ptl7va6rdgaejx6j2j2um"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-core-1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT.jar",
+          "url": "sdk-core-1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT.jar",
+          "size": 451637,
+          "sha512": "f2a042e0583b8685c1d24d178b12ddf2d89e5c9674868c6fcecad88eb16fefbc7a61af24987c3b0ef0032310c97f6f20a62a9f38de7a4c48e067d4ffb53fe654",
+          "sha256": "fe737e220561b27e19193624d480ed704febad804f22b72052499b8f982714d1",
+          "sha1": "67f5c2cdb1bd9c8b11852276f2b2b7cd7e59651a",
+          "md5": "eaf02ad3c2637a730c45a9b30da12d05"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-jvm",
+          "version": {
+            "requires": "1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-jvm",
+          "version": {
+            "requires": "1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.19"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.7.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.7.2"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-moshi",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava2",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-core-1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT.jar",
+          "url": "sdk-core-1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT.jar",
+          "size": 451637,
+          "sha512": "f2a042e0583b8685c1d24d178b12ddf2d89e5c9674868c6fcecad88eb16fefbc7a61af24987c3b0ef0032310c97f6f20a62a9f38de7a4c48e067d4ffb53fe654",
+          "sha256": "fe737e220561b27e19193624d480ed704febad804f22b72052499b8f982714d1",
+          "sha1": "67f5c2cdb1bd9c8b11852276f2b2b7cd7e59651a",
+          "md5": "eaf02ad3c2637a730c45a9b30da12d05"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "sdk-jvm",
+    "version": "1.9.1-add-datetimeformatter-wrapper-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "ebllkv5sr5c7bmsh4whon2uqa4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.9.1-add-datetimeformatter-wrapper-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-jvm-1.9.1-add-datetimeformatter-wrapper-SNAPSHOT.jar",
+          "url": "sdk-jvm-1.9.1-add-datetimeformatter-wrapper-SNAPSHOT.jar",
+          "size": 11300,
+          "sha512": "59cd9c7af1dbed8c6be873462431959ee773b35e2a09151f255b78ed6f20a3bd600c4162e49325484563bdf4bd0e43e9825db439683dbaaf692b910869e0a903",
+          "sha256": "bed0a3ff94113ede7f3e4a96c2027ace2b7917e63bec8c52016f5cdf8b8e51d1",
+          "sha1": "52b6d446441da6a0fbf2e9f19d31811ff15b3480",
+          "md5": "197ab94beb2c7474b1e0754209c1cfcc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.9.1-add-datetimeformatter-wrapper-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-jvm",
+          "version": {
+            "requires": "1.9.1-add-datetimeformatter-wrapper-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-jvm",
+          "version": {
+            "requires": "1.9.1-add-datetimeformatter-wrapper-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.19"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.9.1-add-datetimeformatter-wrapper-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-jvm-1.9.1-add-datetimeformatter-wrapper-SNAPSHOT.jar",
+          "url": "sdk-jvm-1.9.1-add-datetimeformatter-wrapper-SNAPSHOT.jar",
+          "size": 11300,
+          "sha512": "59cd9c7af1dbed8c6be873462431959ee773b35e2a09151f255b78ed6f20a3bd600c4162e49325484563bdf4bd0e43e9825db439683dbaaf692b910869e0a903",
+          "sha256": "bed0a3ff94113ede7f3e4a96c2027ace2b7917e63bec8c52016f5cdf8b8e51d1",
+          "sha1": "52b6d446441da6a0fbf2e9f19d31811ff15b3480",
+          "md5": "197ab94beb2c7474b1e0754209c1cfcc"
+        }
+      ]
+    }
+  ]
+}

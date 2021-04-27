@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "sdk-jvm",
+    "version": "1.9.2-change-recordservice-fetch-record-test-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "sgpkt5oz6rdojn6ojfll3aqlii"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.9.2-change-recordservice-fetch-record-test-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-jvm-1.9.2-change-recordservice-fetch-record-test-SNAPSHOT.jar",
+          "url": "sdk-jvm-1.9.2-change-recordservice-fetch-record-test-SNAPSHOT.jar",
+          "size": 11300,
+          "sha512": "f6441ccdb212d312a6f3a0dc7298db4da5decc27d6052c89c9b4b1ef8b0923a958309e948bac9b836d5d546f0280d481ba56a6d2b18b03aa5fc5e184b35a2b32",
+          "sha256": "92cb232ad1fc888fe9670e0359946e24d862fe7451cf5d0c98ff8c0458e9d447",
+          "sha1": "84db33a5160bded7c9c69542c0aba8301e573222",
+          "md5": "83cf1c471b98e682249b911ee2e4e516"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.9.2-change-recordservice-fetch-record-test-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-jvm",
+          "version": {
+            "requires": "1.9.2-change-recordservice-fetch-record-test-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-jvm",
+          "version": {
+            "requires": "1.9.2-change-recordservice-fetch-record-test-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.19"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.9.2-change-recordservice-fetch-record-test-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-jvm-1.9.2-change-recordservice-fetch-record-test-SNAPSHOT.jar",
+          "url": "sdk-jvm-1.9.2-change-recordservice-fetch-record-test-SNAPSHOT.jar",
+          "size": 11300,
+          "sha512": "f6441ccdb212d312a6f3a0dc7298db4da5decc27d6052c89c9b4b1ef8b0923a958309e948bac9b836d5d546f0280d481ba56a6d2b18b03aa5fc5e184b35a2b32",
+          "sha256": "92cb232ad1fc888fe9670e0359946e24d862fe7451cf5d0c98ff8c0458e9d447",
+          "sha1": "84db33a5160bded7c9c69542c0aba8301e573222",
+          "md5": "83cf1c471b98e682249b911ee2e4e516"
+        }
+      ]
+    }
+  ]
+}

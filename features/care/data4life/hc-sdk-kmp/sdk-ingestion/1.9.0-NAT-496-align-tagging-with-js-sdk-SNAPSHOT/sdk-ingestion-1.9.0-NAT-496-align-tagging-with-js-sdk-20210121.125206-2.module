@@ -1,0 +1,182 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "sdk-ingestion",
+    "version": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "vfqva2c7evbi7isa5xterb7xia"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-ingestion-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.jar",
+          "url": "sdk-ingestion-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.jar",
+          "size": 13405,
+          "sha512": "672802dd003c5ae29ba51c4463a0c715f79a60ec977a0f92a0173454afed0b60a84ca2f1b1cb45795a044cc7d1bdb40140942139676c7dda3b59aa0a3bad7fa9",
+          "sha256": "5ec4bcff071762db49877a4318d36c2cc9fb8af5357657c2ea72c479654a1b2c",
+          "sha1": "b11fa902e87e20fcae439816fd2af5d15829edec",
+          "md5": "7f26fb3a7cfdb3372f6b2b033365fe69"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-jvm",
+          "version": {
+            "requires": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-jvm",
+          "version": {
+            "requires": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "hc-fhir-sdk-java",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.19"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-ingestion-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.jar",
+          "url": "sdk-ingestion-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.jar",
+          "size": 13405,
+          "sha512": "672802dd003c5ae29ba51c4463a0c715f79a60ec977a0f92a0173454afed0b60a84ca2f1b1cb45795a044cc7d1bdb40140942139676c7dda3b59aa0a3bad7fa9",
+          "sha256": "5ec4bcff071762db49877a4318d36c2cc9fb8af5357657c2ea72c479654a1b2c",
+          "sha1": "b11fa902e87e20fcae439816fd2af5d15829edec",
+          "md5": "7f26fb3a7cfdb3372f6b2b033365fe69"
+        }
+      ]
+    }
+  ]
+}

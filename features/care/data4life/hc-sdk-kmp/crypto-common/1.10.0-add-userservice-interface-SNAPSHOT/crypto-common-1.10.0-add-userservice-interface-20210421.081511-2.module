@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.10.0-add-userservice-interface-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "u77onyw6dbefffjvhumstfmfiy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.10.0-add-userservice-interface-SNAPSHOT.jar",
+          "url": "crypto-common-1.10.0-add-userservice-interface-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "f2336d5a9778c9872f7e76d5afa7fce8f8c4fa893da0e1da41f7c862ae22648351c4bbbc3f38ceccc633c15cde325fb49d82d3b0d869e828348a3a00feb78eb4",
+          "sha256": "630af1246a443c990780fcec8e87c86d7ec0c66cfadecb3bfe7f268cb8543c85",
+          "sha1": "7d26f34d53534ca154bc3bff51bda904508898f1",
+          "md5": "39332529d51d39f8f3ce41640aff3621"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.10.0-add-userservice-interface-SNAPSHOT.jar",
+          "url": "crypto-common-1.10.0-add-userservice-interface-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "f2336d5a9778c9872f7e76d5afa7fce8f8c4fa893da0e1da41f7c862ae22648351c4bbbc3f38ceccc633c15cde325fb49d82d3b0d869e828348a3a00feb78eb4",
+          "sha256": "630af1246a443c990780fcec8e87c86d7ec0c66cfadecb3bfe7f268cb8543c85",
+          "sha1": "7d26f34d53534ca154bc3bff51bda904508898f1",
+          "md5": "39332529d51d39f8f3ce41640aff3621"
+        }
+      ]
+    }
+  ]
+}

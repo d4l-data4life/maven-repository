@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>care.data4life.hc-sdk-kmp</groupId>
+  <artifactId>sdk-android</artifactId>
+  <version>1.10.0-add-public-userid-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210421.094756</timestamp>
+      <buildNumber>3</buildNumber>
+    </snapshot>
+    <lastUpdated>20210421094756</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.10.0-add-public-userid-20210421.094756-3</value>
+        <updated>20210421094756</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.10.0-add-public-userid-20210421.094756-3</value>
+        <updated>20210421094756</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>1.10.0-add-public-userid-20210421.094756-3</value>
+        <updated>20210421094756</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

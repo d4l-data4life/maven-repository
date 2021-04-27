@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.9.1-fix-date-formatting-on-search-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "6xcmg72gknbmln5zn4duvnj2b4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.1-fix-date-formatting-on-search-SNAPSHOT.jar",
+          "url": "auth-common-1.9.1-fix-date-formatting-on-search-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "53462ef803bbec5a19a0d27405d2abb7aa20938feb4822e64cae2cec2c36b0950941b1b638a2c61abef9ebe6ca02cccdb106eca2903d4506e756425d41b95ea0",
+          "sha256": "77991e4dd4a65549bf1f08848cde3b195db0bc7e1b27f6483a9d1a9dd7d1ed39",
+          "sha1": "cdf59fea6da5d0540e3f8acb27c7337b196d297e",
+          "md5": "e7b83e0f4e38f16a7362e96be3d0ba2c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.1-fix-date-formatting-on-search-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.1-fix-date-formatting-on-search-SNAPSHOT.jar",
+          "url": "auth-common-1.9.1-fix-date-formatting-on-search-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "53462ef803bbec5a19a0d27405d2abb7aa20938feb4822e64cae2cec2c36b0950941b1b638a2c61abef9ebe6ca02cccdb106eca2903d4506e756425d41b95ea0",
+          "sha256": "77991e4dd4a65549bf1f08848cde3b195db0bc7e1b27f6483a9d1a9dd7d1ed39",
+          "sha1": "cdf59fea6da5d0540e3f8acb27c7337b196d297e",
+          "md5": "e7b83e0f4e38f16a7362e96be3d0ba2c"
+        }
+      ]
+    }
+  ]
+}

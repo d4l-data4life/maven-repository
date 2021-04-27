@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.9.1-change-readme-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "gq43aegte5fsjkx5s4p5dw7vzi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.9.1-change-readme-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.1-change-readme-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "34e58e8f3fff93730920716e4e1a1bcf3bc2a0534b49b0dac8d1c0bfdf0d2dfbcb4a6b2071d3ca879c69e5fa0ac3d0329c600c4ddb4c9ebe5053cf6a008701f4",
+          "sha256": "bfd27f02ca14cfbe8fc950a5c5e39da6d28c82096dbc3b54f0877557764a7d19",
+          "sha1": "5ccfb679396a199d868b9fc30526ebbd2eef1ecd",
+          "md5": "f1c843054a712392f15333aa551f54ef"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.9.1-change-readme-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.1-change-readme-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "34e58e8f3fff93730920716e4e1a1bcf3bc2a0534b49b0dac8d1c0bfdf0d2dfbcb4a6b2071d3ca879c69e5fa0ac3d0329c600c4ddb4c9ebe5053cf6a008701f4",
+          "sha256": "bfd27f02ca14cfbe8fc950a5c5e39da6d28c82096dbc3b54f0877557764a7d19",
+          "sha1": "5ccfb679396a199d868b9fc30526ebbd2eef1ecd",
+          "md5": "f1c843054a712392f15333aa551f54ef"
+        }
+      ]
+    }
+  ]
+}

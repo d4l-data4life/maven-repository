@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.9.1-change-record-creation-tests-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "v37laglxpzal5ob2etcg5wfkry"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.9.1-change-record-creation-tests-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.1-change-record-creation-tests-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "0cc909663d8d351868c00ee776e62891d3071653ccda2fbd070c2c9f592845c28a6315fd627eede3fd6c502f7c124971efa169003e8c91c745b03769aca7100d",
+          "sha256": "e7cc8d264cce6d45b3276bc7b2908efcdef132a4cc695a8dd194e2a2e38af93e",
+          "sha1": "719fcfe25e3c6ac2d4a40d74ef736a96ba51ef6b",
+          "md5": "f3b1113c195f942e0beaa37164bac5aa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.9.1-change-record-creation-tests-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.1-change-record-creation-tests-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "0cc909663d8d351868c00ee776e62891d3071653ccda2fbd070c2c9f592845c28a6315fd627eede3fd6c502f7c124971efa169003e8c91c745b03769aca7100d",
+          "sha256": "e7cc8d264cce6d45b3276bc7b2908efcdef132a4cc695a8dd194e2a2e38af93e",
+          "sha1": "719fcfe25e3c6ac2d4a40d74ef736a96ba51ef6b",
+          "md5": "f3b1113c195f942e0beaa37164bac5aa"
+        }
+      ]
+    }
+  ]
+}

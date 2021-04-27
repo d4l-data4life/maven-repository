@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "sdk-jvm",
+    "version": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "z3hehjzzprcmbdgrr3n6axcn6e"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-jvm-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.jar",
+          "url": "sdk-jvm-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.jar",
+          "size": 11235,
+          "sha512": "0be9839bf8c0834af440910349a9e82cda424c026ddf4948b7a2378d2bd3bb93b574d5fb6d54c9153294c424bc267a1fbfee8d9c833e2c5b05f24b9ebaab91bc",
+          "sha256": "d7b3e4ea9ceb25cef9c634fbd758923a4271023705e603243ef9fc938fdfbdfe",
+          "sha1": "d74f9e737b4a889a7a10b181dea80cf0452e586a",
+          "md5": "fe53cf341bb46925993c47437404a522"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-jvm",
+          "version": {
+            "requires": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-jvm",
+          "version": {
+            "requires": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.19"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-jvm-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.jar",
+          "url": "sdk-jvm-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.jar",
+          "size": 11235,
+          "sha512": "0be9839bf8c0834af440910349a9e82cda424c026ddf4948b7a2378d2bd3bb93b574d5fb6d54c9153294c424bc267a1fbfee8d9c833e2c5b05f24b9ebaab91bc",
+          "sha256": "d7b3e4ea9ceb25cef9c634fbd758923a4271023705e603243ef9fc938fdfbdfe",
+          "sha1": "d74f9e737b4a889a7a10b181dea80cf0452e586a",
+          "md5": "fe53cf341bb46925993c47437404a522"
+        }
+      ]
+    }
+  ]
+}

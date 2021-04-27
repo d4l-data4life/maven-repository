@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>care.data4life.hc-sdk-kmp</groupId>
+  <artifactId>auth-android</artifactId>
+  <version>1.10.0-change-module-tests-ignore-tag-order-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210427.074122</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20210427074122</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.10.0-change-module-tests-ignore-tag-order-20210427.074122-1</value>
+        <updated>20210427074122</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>1.10.0-change-module-tests-ignore-tag-order-20210427.074122-1</value>
+        <updated>20210427074122</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.10.0-change-module-tests-ignore-tag-order-20210427.074122-1</value>
+        <updated>20210427074122</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.10.0-change-module-tests-ignore-tag-order-20210427.074122-1</value>
+        <updated>20210427074122</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

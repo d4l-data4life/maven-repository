@@ -1,0 +1,95 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.7.0-remove-jcenter-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "73f5cetn6baprjasbucvt4zojm"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "util-metadata-1.7.0-remove-jcenter-SNAPSHOT.jar",
+          "url": "util-1.7.0-remove-jcenter-SNAPSHOT.jar",
+          "size": 6584,
+          "sha512": "d2d7dee22982764ff0a0e391b2260a24eb8bae1edee35d631b628b559f071510068a4c23c358a1fd31f4e8738b52414ccf01752ca9620b40e27d5f20bbb29f4f",
+          "sha256": "58a233ef223195b99690c6fb2cd190a65db82958d81250d345bfe0c767ce94ab",
+          "sha1": "b52d21363e7c802d39d61d26cbbc51a1633d5f38",
+          "md5": "f0cac5e273998d06d2193343a9531918"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-android/1.7.0-remove-jcenter-SNAPSHOT/util-android-1.7.0-remove-jcenter-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-android",
+        "version": "1.7.0-remove-jcenter-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-android/1.7.0-remove-jcenter-SNAPSHOT/util-android-1.7.0-remove-jcenter-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-android",
+        "version": "1.7.0-remove-jcenter-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-jvm/1.7.0-remove-jcenter-SNAPSHOT/util-jvm-1.7.0-remove-jcenter-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-jvm",
+        "version": "1.7.0-remove-jcenter-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-jvm/1.7.0-remove-jcenter-SNAPSHOT/util-jvm-1.7.0-remove-jcenter-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-jvm",
+        "version": "1.7.0-remove-jcenter-SNAPSHOT"
+      }
+    }
+  ]
+}

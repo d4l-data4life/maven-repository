@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.9.1-fix-date-formatting-on-search-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "6xcmg72gknbmln5zn4duvnj2b4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.1-fix-date-formatting-on-search-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.9.1-fix-date-formatting-on-search-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.9.1-fix-date-formatting-on-search-SNAPSHOT.jar",
+          "size": 46078,
+          "sha512": "c7f7d8696ec5c5a722479fd871be26b96fa6856c2e6f6dc90351fa3a075f73ce0e63e1e7ec7a77742628712fc44cb6b6fffde5973946c71ed89712f6e18e5c64",
+          "sha256": "998f52756fe94dbe6742ad500cc5a974349f1072b6cb583b9b4dba83c3909c6e",
+          "sha1": "91927862dc80e535ce846be19838935dc6a8fbf1",
+          "md5": "f980a2f3fba9956238b09a6b72ce94c5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.1-fix-date-formatting-on-search-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.9.1-fix-date-formatting-on-search-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.9.1-fix-date-formatting-on-search-SNAPSHOT.jar",
+          "size": 46078,
+          "sha512": "c7f7d8696ec5c5a722479fd871be26b96fa6856c2e6f6dc90351fa3a075f73ce0e63e1e7ec7a77742628712fc44cb6b6fffde5973946c71ed89712f6e18e5c64",
+          "sha256": "998f52756fe94dbe6742ad500cc5a974349f1072b6cb583b9b4dba83c3909c6e",
+          "sha1": "91927862dc80e535ce846be19838935dc6a8fbf1",
+          "md5": "f980a2f3fba9956238b09a6b72ce94c5"
+        }
+      ]
+    }
+  ]
+}

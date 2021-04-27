@@ -1,0 +1,89 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.7.0-fix-dependency-resolution-and-lock-SNAPSHOT/util-1.7.0-fix-dependency-resolution-and-lock-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.7.0-fix-dependency-resolution-and-lock-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "5umchb4mpbexrdfm44s2bpga7i"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "util-release.aar",
+          "url": "util-android-1.7.0-fix-dependency-resolution-and-lock-SNAPSHOT.aar",
+          "size": 18195,
+          "sha512": "462d80436705fea51f3047b9a26e2bc35799d07a0c98ae34a39a4344470bb85ff8b397f6cb3edbeb8d62052a79f5e7c5e96c71ae7f22ed6372efaa59816973d4",
+          "sha256": "b98e94c5c2fdfe8f50a1576e610017eced956990e23ea7049573d047739fe748",
+          "sha1": "580d97edc27095a231d6b3f72c0ecf6fa11877d4",
+          "md5": "32b46bf4f26f06e9455d366eaf5e67ea"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-release.aar",
+          "url": "util-android-1.7.0-fix-dependency-resolution-and-lock-SNAPSHOT.aar",
+          "size": 18195,
+          "sha512": "462d80436705fea51f3047b9a26e2bc35799d07a0c98ae34a39a4344470bb85ff8b397f6cb3edbeb8d62052a79f5e7c5e96c71ae7f22ed6372efaa59816973d4",
+          "sha256": "b98e94c5c2fdfe8f50a1576e610017eced956990e23ea7049573d047739fe748",
+          "sha1": "580d97edc27095a231d6b3f72c0ecf6fa11877d4",
+          "md5": "32b46bf4f26f06e9455d366eaf5e67ea"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-metadata/1.7.0-fix-dependency-resolution-and-lock-SNAPSHOT/util-metadata-1.7.0-fix-dependency-resolution-and-lock-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-metadata",
+        "version": "1.7.0-fix-dependency-resolution-and-lock-SNAPSHOT"
+      }
+    }
+  ]
+}

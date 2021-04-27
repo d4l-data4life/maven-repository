@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.10.0-fix-danger-workflow-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "kfsaku6gvzc2vhmy6jovm463ha"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.10.0-fix-danger-workflow-SNAPSHOT.jar",
+          "url": "securestore-common-1.10.0-fix-danger-workflow-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "562df29de6a08ac760adae77207dd644dce65ff1eb80cf8687f2bbef83a2c45ae55542321175b5d61a563dab613b11868ced4cd4c76e876655553f6a8a48d630",
+          "sha256": "a98c06ef62154c5e03befae33983d370f3aaa9ca5dd102b4a10b31ec0f7b0b9b",
+          "sha1": "786cc84f43e21722f170d402e540293f17588e63",
+          "md5": "f2a0e9b2fa7a19561e46f9b4fccea8be"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.10.0-fix-danger-workflow-SNAPSHOT.jar",
+          "url": "securestore-common-1.10.0-fix-danger-workflow-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "562df29de6a08ac760adae77207dd644dce65ff1eb80cf8687f2bbef83a2c45ae55542321175b5d61a563dab613b11868ced4cd4c76e876655553f6a8a48d630",
+          "sha256": "a98c06ef62154c5e03befae33983d370f3aaa9ca5dd102b4a10b31ec0f7b0b9b",
+          "sha1": "786cc84f43e21722f170d402e540293f17588e63",
+          "md5": "f2a0e9b2fa7a19561e46f9b4fccea8be"
+        }
+      ]
+    }
+  ]
+}

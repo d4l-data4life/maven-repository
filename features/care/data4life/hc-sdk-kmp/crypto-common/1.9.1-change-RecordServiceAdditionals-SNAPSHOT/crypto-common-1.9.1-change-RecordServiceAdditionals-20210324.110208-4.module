@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.9.1-change-RecordServiceAdditionals-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "6d4fohjin5bthckban4ygjphc4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.9.1-change-RecordServiceAdditionals-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.1-change-RecordServiceAdditionals-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "a5a0939ab27803e63765019673ffe46444ee558dd170290590125cdab2cfd6f506aa42a7ca8e5fab656aeafe2c07d3851e39bccca5197e34f195b0789dd6c87b",
+          "sha256": "62c7a935999253516db5530b01e4bc97af28b6e8e72dd34125375296ef2bf132",
+          "sha1": "632d40b8597d8d965cedf262acc6e89200cb9353",
+          "md5": "7d1e16707ccb1675edd70a6a39e1710b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.9.1-change-RecordServiceAdditionals-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.1-change-RecordServiceAdditionals-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "a5a0939ab27803e63765019673ffe46444ee558dd170290590125cdab2cfd6f506aa42a7ca8e5fab656aeafe2c07d3851e39bccca5197e34f195b0789dd6c87b",
+          "sha256": "62c7a935999253516db5530b01e4bc97af28b6e8e72dd34125375296ef2bf132",
+          "sha1": "632d40b8597d8d965cedf262acc6e89200cb9353",
+          "md5": "7d1e16707ccb1675edd70a6a39e1710b"
+        }
+      ]
+    }
+  ]
+}

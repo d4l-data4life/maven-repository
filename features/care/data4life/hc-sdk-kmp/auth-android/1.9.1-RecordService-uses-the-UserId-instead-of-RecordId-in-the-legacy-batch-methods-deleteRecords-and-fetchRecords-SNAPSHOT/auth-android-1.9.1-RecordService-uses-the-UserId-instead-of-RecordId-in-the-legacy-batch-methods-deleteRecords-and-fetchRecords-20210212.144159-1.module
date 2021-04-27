@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-android",
+    "version": "1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "rcxffq6mmvecnovyph2o3337tq"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-android-1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT.aar",
+          "url": "auth-android-1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT.aar",
+          "size": 44938,
+          "sha512": "10ed613e36f5b91b33ba9db7401f4ea8a76cb45890912464eac1abd8701f6b49ae2bee2cd8256dcf1a8f13a7ac79b5b81a306264be4f1ada74102ca184164213",
+          "sha256": "94e6a160509126b9d03ec6d858d9c617d1b1df89b9830219671bc43fe09a41d6",
+          "sha1": "f1513cc63c1377fc3d429c495fd633b4604d6d21",
+          "md5": "ac460c200a8676ecf7a10fc368f2ce1a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-android",
+          "version": {
+            "requires": "1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-jvm"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.3.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.github.gesundheitscloud",
+          "module": "AppAuth-Android",
+          "version": {
+            "requires": "9e3cc033ff"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-android-1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT.aar",
+          "url": "auth-android-1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT.aar",
+          "size": 44938,
+          "sha512": "10ed613e36f5b91b33ba9db7401f4ea8a76cb45890912464eac1abd8701f6b49ae2bee2cd8256dcf1a8f13a7ac79b5b81a306264be4f1ada74102ca184164213",
+          "sha256": "94e6a160509126b9d03ec6d858d9c617d1b1df89b9830219671bc43fe09a41d6",
+          "sha1": "f1513cc63c1377fc3d429c495fd633b4604d6d21",
+          "md5": "ac460c200a8676ecf7a10fc368f2ce1a"
+        }
+      ]
+    }
+  ]
+}

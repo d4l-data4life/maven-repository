@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.9.2-change-user-info-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "u5bxpdwerngenmfclkic4dxq6u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.9.2-change-user-info-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.2-change-user-info-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "16c348a8180c88aff8cfd91af0798aa09ba50dbce29962d1704c371b8fd9ca4ad919fa910479ae6e78df2375433b7011aaf1783968db62d15997e19603faf160",
+          "sha256": "ead312532ab301dc9a228ebd27f99d9e7c1c61ce5b81fbcd2cc05fbcb1961a7d",
+          "sha1": "8c013db65709da407c21ed4bb6289838ec21efdf",
+          "md5": "7f15e8f3c079d9beb44ed22a7f414ed1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.9.2-change-user-info-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.2-change-user-info-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "16c348a8180c88aff8cfd91af0798aa09ba50dbce29962d1704c371b8fd9ca4ad919fa910479ae6e78df2375433b7011aaf1783968db62d15997e19603faf160",
+          "sha256": "ead312532ab301dc9a228ebd27f99d9e7c1c61ce5b81fbcd2cc05fbcb1961a7d",
+          "sha1": "8c013db65709da407c21ed4bb6289838ec21efdf",
+          "md5": "7f15e8f3c079d9beb44ed22a7f414ed1"
+        }
+      ]
+    }
+  ]
+}

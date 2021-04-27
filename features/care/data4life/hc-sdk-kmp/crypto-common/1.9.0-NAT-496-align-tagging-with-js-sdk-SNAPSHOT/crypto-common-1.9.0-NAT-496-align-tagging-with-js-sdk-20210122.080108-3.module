@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "q4os6rn5dndqjnkodtw27f724m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "11ecfd492f287b472b1b3ea7951bcf5262294f3c28d13c4997312cab35bc6f1740ced5f49dcb670c0688a7f95d20de584f70afbd13f144642bc0e5ab32b19900",
+          "sha256": "330f54f961750f6f50c8b23fd047243e1244a057c9610718a541832c84072cd9",
+          "sha1": "4615ec5e18e949a871f64b82af5743b0676868e4",
+          "md5": "9f95615088aeff2c7f124c5bb116b4b5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "11ecfd492f287b472b1b3ea7951bcf5262294f3c28d13c4997312cab35bc6f1740ced5f49dcb670c0688a7f95d20de584f70afbd13f144642bc0e5ab32b19900",
+          "sha256": "330f54f961750f6f50c8b23fd047243e1244a057c9610718a541832c84072cd9",
+          "sha1": "4615ec5e18e949a871f64b82af5743b0676868e4",
+          "md5": "9f95615088aeff2c7f124c5bb116b4b5"
+        }
+      ]
+    }
+  ]
+}

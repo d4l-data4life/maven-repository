@@ -1,0 +1,167 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "sdk-core",
+    "version": "1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "rcxffq6mmvecnovyph2o3337tq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-core-1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT.jar",
+          "url": "sdk-core-1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT.jar",
+          "size": 447580,
+          "sha512": "ba9e3ab7feb09eabd7e082d248e2f652795bad2e72a7d1ed3f9ea1e42d6253a4621431cc7ba4ec75566abd6f4c45b322a8ea2ab79e8ba6651d343d3081303953",
+          "sha256": "f40a2b7b70c4fccf6d1b28207b286e64fcaa3f42ce2522ca60da02079474723f",
+          "sha1": "187720d4b4a41f5eb0545613cc537b19d56fda88",
+          "md5": "4d57b996592e97f1109e6f1912996037"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-jvm",
+          "version": {
+            "requires": "1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-jvm",
+          "version": {
+            "requires": "1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.19"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.7.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.7.2"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-moshi",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava2",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-core-1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT.jar",
+          "url": "sdk-core-1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT.jar",
+          "size": 447580,
+          "sha512": "ba9e3ab7feb09eabd7e082d248e2f652795bad2e72a7d1ed3f9ea1e42d6253a4621431cc7ba4ec75566abd6f4c45b322a8ea2ab79e8ba6651d343d3081303953",
+          "sha256": "f40a2b7b70c4fccf6d1b28207b286e64fcaa3f42ce2522ca60da02079474723f",
+          "sha1": "187720d4b4a41f5eb0545613cc537b19d56fda88",
+          "md5": "4d57b996592e97f1109e6f1912996037"
+        }
+      ]
+    }
+  ]
+}

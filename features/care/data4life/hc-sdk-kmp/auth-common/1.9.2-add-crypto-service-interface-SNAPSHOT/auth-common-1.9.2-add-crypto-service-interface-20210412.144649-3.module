@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.9.2-add-crypto-service-interface-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "zibhshthxfcwbmwhejrsgvmla4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.2-add-crypto-service-interface-SNAPSHOT.jar",
+          "url": "auth-common-1.9.2-add-crypto-service-interface-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "81a57a458b8720d23b5c44749ef9f820059c10d843a3a157a9f833f8b27c4028a0b51ce8a4af9c0a050f384dd8d30690c869c248950ce08487bef9006b7d7a52",
+          "sha256": "1104e2fd49e0b31fbcafaf05831ae987de25ec1f9590e1e454e2b9e7474ffd1a",
+          "sha1": "a2832826e8c03b20a19126533ea371e20f7a4262",
+          "md5": "5fea6302cc8c1759bde77e0f756d4518"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.2-add-crypto-service-interface-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.2-add-crypto-service-interface-SNAPSHOT.jar",
+          "url": "auth-common-1.9.2-add-crypto-service-interface-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "81a57a458b8720d23b5c44749ef9f820059c10d843a3a157a9f833f8b27c4028a0b51ce8a4af9c0a050f384dd8d30690c869c248950ce08487bef9006b7d7a52",
+          "sha256": "1104e2fd49e0b31fbcafaf05831ae987de25ec1f9590e1e454e2b9e7474ffd1a",
+          "sha1": "a2832826e8c03b20a19126533ea371e20f7a4262",
+          "md5": "5fea6302cc8c1759bde77e0f756d4518"
+        }
+      ]
+    }
+  ]
+}

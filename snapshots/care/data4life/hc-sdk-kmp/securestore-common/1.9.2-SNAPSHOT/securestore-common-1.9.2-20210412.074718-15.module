@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.9.2-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "4ovpvallwnajbnnvoyewo5bhyq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.2-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.2-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "97b103a4b9f6b875a4c58d50f5fb1d99fb09ba32acd3a3dc07746a53c2cb9cff0de25ba2c985142761e417bf0ddd72ccbf0dbd1d6313fc6685f8d1f6f4c0e83c",
+          "sha256": "2959cd036930540941faf98fe235203f133be98e1e85de6a4d97da2ae2f2103f",
+          "sha1": "77694db8ebf2931f7ab602cebd731b819f46ad5f",
+          "md5": "58655589c0b130f571257fe851f0b2ab"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.2-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.2-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "97b103a4b9f6b875a4c58d50f5fb1d99fb09ba32acd3a3dc07746a53c2cb9cff0de25ba2c985142761e417bf0ddd72ccbf0dbd1d6313fc6685f8d1f6f4c0e83c",
+          "sha256": "2959cd036930540941faf98fe235203f133be98e1e85de6a4d97da2ae2f2103f",
+          "sha1": "77694db8ebf2931f7ab602cebd731b819f46ad5f",
+          "md5": "58655589c0b130f571257fe851f0b2ab"
+        }
+      ]
+    }
+  ]
+}

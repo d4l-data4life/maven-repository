@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.9.1-fix-RecordService-fetchRecords-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "xud6ebqvlzh5ndholrtj75amoq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.1-fix-RecordService-fetchRecords-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.9.1-fix-RecordService-fetchRecords-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.9.1-fix-RecordService-fetchRecords-SNAPSHOT.jar",
+          "size": 46078,
+          "sha512": "3c63263a08be538964e0cedcf7e5ca800dc07e4b38417b6554ed657845b84628edcf18f97a81fb356313d2ac5da31f3fffedf7bb59df6842197ce6442cfbbffa",
+          "sha256": "aa1c474b356e792c5d54042342acc3ed5fb2d35d132cbe703de3b2160651b3ab",
+          "sha1": "7521c3e383ace0884950254756d703afa0a95734",
+          "md5": "a233fe350413d191442486efb5b40f6e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.1-fix-RecordService-fetchRecords-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.9.1-fix-RecordService-fetchRecords-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.9.1-fix-RecordService-fetchRecords-SNAPSHOT.jar",
+          "size": 46078,
+          "sha512": "3c63263a08be538964e0cedcf7e5ca800dc07e4b38417b6554ed657845b84628edcf18f97a81fb356313d2ac5da31f3fffedf7bb59df6842197ce6442cfbbffa",
+          "sha256": "aa1c474b356e792c5d54042342acc3ed5fb2d35d132cbe703de3b2160651b3ab",
+          "sha1": "7521c3e383ace0884950254756d703afa0a95734",
+          "md5": "a233fe350413d191442486efb5b40f6e"
+        }
+      ]
+    }
+  ]
+}

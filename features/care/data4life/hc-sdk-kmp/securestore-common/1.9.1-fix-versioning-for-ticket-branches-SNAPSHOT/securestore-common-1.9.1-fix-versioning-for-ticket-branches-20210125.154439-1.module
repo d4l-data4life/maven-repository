@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "6oau6ptl7va6rdgaejx6j2j2um"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "0f8450dacc498c259ec484f5474582a842097a0a8c83cdd3eddef7e29c6d9f8f754abeb4ac6cfa262092ad7148ac9b7c65881be8620bfb12679383f2f7988e49",
+          "sha256": "9322361034c7f08a1cd73766b418d94e7cdec79f577f82ba511932487cafefbc",
+          "sha1": "2677a7f61f2d04256e980b623dffd4b26492b28f",
+          "md5": "99ee7b445bffd9042cf3ecab6bfed116"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "0f8450dacc498c259ec484f5474582a842097a0a8c83cdd3eddef7e29c6d9f8f754abeb4ac6cfa262092ad7148ac9b7c65881be8620bfb12679383f2f7988e49",
+          "sha256": "9322361034c7f08a1cd73766b418d94e7cdec79f577f82ba511932487cafefbc",
+          "sha1": "2677a7f61f2d04256e980b623dffd4b26492b28f",
+          "md5": "99ee7b445bffd9042cf3ecab6bfed116"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir/0.0.1-add-fhir-primitives-number-support-SNAPSHOT/fhir-0.0.1-add-fhir-primitives-number-support-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.0.1-add-fhir-primitives-number-support-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.1",
+      "buildId": "46eewpn5urfmtapjmxdw77em64"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir.klib",
+          "url": "fhir-iosarm64-0.0.1-add-fhir-primitives-number-support-SNAPSHOT.klib",
+          "size": 1319870,
+          "sha512": "4ebf162190e8f282741a33acf8d3d4e8f096136fd38ee3cca261b8afb544836f17b452005fbf846d108235cab245a8312757a8affd538217bc734dad1fbb7a99",
+          "sha256": "d14a411542bb2410e7e6a335b38035ed4e60ead431079cc4f8a9def2836be614",
+          "sha1": "ee8aca643ca987d6cd7c6823da3ef01875ffd8a6",
+          "md5": "880da926af847b635495299c568e1c6f"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../fhir-metadata/0.0.1-add-fhir-primitives-number-support-SNAPSHOT/fhir-metadata-0.0.1-add-fhir-primitives-number-support-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-metadata",
+        "version": "0.0.1-add-fhir-primitives-number-support-SNAPSHOT"
+      }
+    }
+  ]
+}

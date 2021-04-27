@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir/0.0.1-add-fhir-primitives-number-support-SNAPSHOT/fhir-0.0.1-add-fhir-primitives-number-support-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.0.1-add-fhir-primitives-number-support-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.1",
+      "buildId": "lobn4juwjzagdogwbbrairyky4"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "fhir-jvm-0.0.1-add-fhir-primitives-number-support-SNAPSHOT.jar",
+          "url": "fhir-jvm-0.0.1-add-fhir-primitives-number-support-SNAPSHOT.jar",
+          "size": 2364521,
+          "sha512": "ce03768e4d5ad40a5881c4006691798809307da9ef9a41e1fb30bb302e68169b6b7a63e584fa0456b9268cb5f5fb4373d0ef9667a7d5c418288f5d32ed265886",
+          "sha256": "ccea8adf5368ea125ad4a5c4dd3938748c7efc496b77b8a518f00b91c2d54235",
+          "sha1": "a6b89ddef3bff45011cd90598f323992f4d85eef",
+          "md5": "102dda37d6e3db59385250bdbc1ffac7"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-jvm-0.0.1-add-fhir-primitives-number-support-SNAPSHOT.jar",
+          "url": "fhir-jvm-0.0.1-add-fhir-primitives-number-support-SNAPSHOT.jar",
+          "size": 2364521,
+          "sha512": "ce03768e4d5ad40a5881c4006691798809307da9ef9a41e1fb30bb302e68169b6b7a63e584fa0456b9268cb5f5fb4373d0ef9667a7d5c418288f5d32ed265886",
+          "sha256": "ccea8adf5368ea125ad4a5c4dd3938748c7efc496b77b8a518f00b91c2d54235",
+          "sha1": "a6b89ddef3bff45011cd90598f323992f4d85eef",
+          "md5": "102dda37d6e3db59385250bdbc1ffac7"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../fhir-metadata/0.0.1-add-fhir-primitives-number-support-SNAPSHOT/fhir-metadata-0.0.1-add-fhir-primitives-number-support-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-metadata",
+        "version": "0.0.1-add-fhir-primitives-number-support-SNAPSHOT"
+      }
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.9.1-add-compatibility-layer-for-encording-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "xbilk6juhrfbdbz5fapthpzuhm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "url": "auth-common-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "72021a0a328b81760723b1eccb6c40a4acc265a51a7ce865c363c290e89a65e530d3c29a04eba7b0a6403b447e58e8e80aec8170a82657bf4afb452fcfa0fe10",
+          "sha256": "10473846276c714ec8193a2826aa41d8f0e6ce94ad66d74ceafbd681798e355e",
+          "sha1": "2dea05d5b21ffbd94ca89f65b379963cc3025fa2",
+          "md5": "edfc5572a63c8ee3d898aab592fadb90"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.1-add-compatibility-layer-for-encording-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "url": "auth-common-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "72021a0a328b81760723b1eccb6c40a4acc265a51a7ce865c363c290e89a65e530d3c29a04eba7b0a6403b447e58e8e80aec8170a82657bf4afb452fcfa0fe10",
+          "sha256": "10473846276c714ec8193a2826aa41d8f0e6ce94ad66d74ceafbd681798e355e",
+          "sha1": "2dea05d5b21ffbd94ca89f65b379963cc3025fa2",
+          "md5": "edfc5572a63c8ee3d898aab592fadb90"
+        }
+      ]
+    }
+  ]
+}

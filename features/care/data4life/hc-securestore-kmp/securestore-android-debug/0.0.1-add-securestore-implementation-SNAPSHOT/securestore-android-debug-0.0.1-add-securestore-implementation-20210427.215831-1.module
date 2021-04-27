@@ -1,0 +1,119 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../securestore/0.0.1-add-securestore-implementation-SNAPSHOT/securestore-0.0.1-add-securestore-implementation-SNAPSHOT.module",
+    "group": "care.data4life.hc-securestore-kmp",
+    "module": "securestore",
+    "version": "0.0.1-add-securestore-implementation-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "vu4mr2u4drb55iujg6aid5jyku"
+    }
+  },
+  "variants": [
+    {
+      "name": "debugApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-debug.aar",
+          "url": "securestore-android-debug-0.0.1-add-securestore-implementation-SNAPSHOT.aar",
+          "size": 32678,
+          "sha512": "4c15ceb82e80602b0a3f935aebeee4b8c3903620ef7fd28e3df8ad833df7dc2e15dd88f2ba539c8754c0f73f27f7856ec92eb37f8a8e7905e90b4f8fc59f4af3",
+          "sha256": "b1e02216e1964618a1a192081b50c8b32c306be09bcd257bdf1179fc4dcbc774",
+          "sha1": "7e86f9d9b1adb4fa333209349a1d72cff21ec9ce",
+          "md5": "b92e113717ad2652d0fcad8d48008cf2"
+        }
+      ]
+    },
+    {
+      "name": "debugRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "debug",
+        "com.android.build.api.attributes.VariantAttr": "debug",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "com.google.crypto.tink",
+          "module": "tink-android",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.7.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-debug.aar",
+          "url": "securestore-android-debug-0.0.1-add-securestore-implementation-SNAPSHOT.aar",
+          "size": 32678,
+          "sha512": "4c15ceb82e80602b0a3f935aebeee4b8c3903620ef7fd28e3df8ad833df7dc2e15dd88f2ba539c8754c0f73f27f7856ec92eb37f8a8e7905e90b4f8fc59f4af3",
+          "sha256": "b1e02216e1964618a1a192081b50c8b32c306be09bcd257bdf1179fc4dcbc774",
+          "sha1": "7e86f9d9b1adb4fa333209349a1d72cff21ec9ce",
+          "md5": "b92e113717ad2652d0fcad8d48008cf2"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../securestore-metadata/0.0.1-add-securestore-implementation-SNAPSHOT/securestore-metadata-0.0.1-add-securestore-implementation-SNAPSHOT.module",
+        "group": "care.data4life.hc-securestore-kmp",
+        "module": "securestore-metadata",
+        "version": "0.0.1-add-securestore-implementation-SNAPSHOT"
+      }
+    }
+  ]
+}

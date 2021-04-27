@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.9.0-fix-ImageResizer-visibility-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "yl7niwsknrfxzkt2l6kfb3fq6e"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.0-fix-ImageResizer-visibility-SNAPSHOT.jar",
+          "url": "auth-common-1.9.0-fix-ImageResizer-visibility-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "82a1a093040409b39708029e628c0ec81ab51a4d77c48acfa71e56d06215b1b434c0343a2d1aac18de63ce4a5e77755e1549df5254e9d1d83e14eca84426b6f1",
+          "sha256": "49b3346ad13c2e5b1788c7534a0458ab4a0086a55bea9379aa7c4596499c176c",
+          "sha1": "3cc3d03ba287f634c4b0d798b128b4cab7f9131d",
+          "md5": "3a31d6e4f32a217c1376c99358e4381d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.0-fix-ImageResizer-visibility-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.0-fix-ImageResizer-visibility-SNAPSHOT.jar",
+          "url": "auth-common-1.9.0-fix-ImageResizer-visibility-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "82a1a093040409b39708029e628c0ec81ab51a4d77c48acfa71e56d06215b1b434c0343a2d1aac18de63ce4a5e77755e1549df5254e9d1d83e14eca84426b6f1",
+          "sha256": "49b3346ad13c2e5b1788c7534a0458ab4a0086a55bea9379aa7c4596499c176c",
+          "sha1": "3cc3d03ba287f634c4b0d798b128b4cab7f9131d",
+          "md5": "3a31d6e4f32a217c1376c99358e4381d"
+        }
+      ]
+    }
+  ]
+}

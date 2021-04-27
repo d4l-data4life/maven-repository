@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-android",
+    "version": "1.9.2-add-cryptoservice-fake-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "aazr5moqkbbyfcrojkj4zbj3fy"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.2-add-cryptoservice-fake-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.9.2-add-cryptoservice-fake-SNAPSHOT.aar",
+          "url": "crypto-android-1.9.2-add-cryptoservice-fake-SNAPSHOT.aar",
+          "size": 51832,
+          "sha512": "42f7b9fe9c631e438c689ddc59bca0d5ffb63b974bd303f1a872b2b20c02db8d1db814f273f8c12fe8509f7d4b1118c5dad68822cda37d875d96b63d561cbba8",
+          "sha256": "51f92b3549f9c39febb48cecf530e15ff3965705e96be702838af67ab23c9ec7",
+          "sha1": "b41ca2baaaa5c93e1d7135fcd05c3fdc30e1ac4d",
+          "md5": "9ef60f4d7fc96d848d373a7cc378e2d8"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.2-add-cryptoservice-fake-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.9.2-add-cryptoservice-fake-SNAPSHOT.aar",
+          "url": "crypto-android-1.9.2-add-cryptoservice-fake-SNAPSHOT.aar",
+          "size": 51832,
+          "sha512": "42f7b9fe9c631e438c689ddc59bca0d5ffb63b974bd303f1a872b2b20c02db8d1db814f273f8c12fe8509f7d4b1118c5dad68822cda37d875d96b63d561cbba8",
+          "sha256": "51f92b3549f9c39febb48cecf530e15ff3965705e96be702838af67ab23c9ec7",
+          "sha1": "b41ca2baaaa5c93e1d7135fcd05c3fdc30e1ac4d",
+          "md5": "9ef60f4d7fc96d848d373a7cc378e2d8"
+        }
+      ]
+    }
+  ]
+}

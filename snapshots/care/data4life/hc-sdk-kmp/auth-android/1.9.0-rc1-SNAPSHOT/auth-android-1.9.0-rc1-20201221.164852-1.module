@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-android",
+    "version": "1.9.0-rc1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "rjsjddkq7jedtpp5e4mwmjlrii"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.0-rc1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-android-1.9.0-rc1-SNAPSHOT.aar",
+          "url": "auth-android-1.9.0-rc1-SNAPSHOT.aar",
+          "size": 44883,
+          "sha512": "8d971e6a5dda9fa536c5c6bbaab5df4d8e2515ea9d8d53dd9861dfa9e9f0a4c82e8ea57fe0fd606dc73762f861869a8eaba99cad2558bba03a68b0945d5812aa",
+          "sha256": "e61992f65a83862714cc50c9db176afd7afba3531a6172885bae79efde86f716",
+          "sha1": "bb1488216ec5763bd636dc99bdcecc05a83c54c2",
+          "md5": "143fa0025b040b616e4d26e0cc0dedaf"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.0-rc1-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-android",
+          "version": {
+            "requires": "1.9.0-rc1-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-jvm"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.3.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.github.gesundheitscloud",
+          "module": "AppAuth-Android",
+          "version": {
+            "requires": "9e3cc033ff"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-android-1.9.0-rc1-SNAPSHOT.aar",
+          "url": "auth-android-1.9.0-rc1-SNAPSHOT.aar",
+          "size": 44883,
+          "sha512": "8d971e6a5dda9fa536c5c6bbaab5df4d8e2515ea9d8d53dd9861dfa9e9f0a4c82e8ea57fe0fd606dc73762f861869a8eaba99cad2558bba03a68b0945d5812aa",
+          "sha256": "e61992f65a83862714cc50c9db176afd7afba3531a6172885bae79efde86f716",
+          "sha1": "bb1488216ec5763bd636dc99bdcecc05a83c54c2",
+          "md5": "143fa0025b040b616e4d26e0cc0dedaf"
+        }
+      ]
+    }
+  ]
+}

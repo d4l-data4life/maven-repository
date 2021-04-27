@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-android",
+    "version": "1.9.2-change-recordservice-upload-attachment-test-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "tmdbyggbhbaopkxsrpsr5y5ikm"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.2-change-recordservice-upload-attachment-test-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.9.2-change-recordservice-upload-attachment-test-SNAPSHOT.aar",
+          "url": "securestore-android-1.9.2-change-recordservice-upload-attachment-test-SNAPSHOT.aar",
+          "size": 41929,
+          "sha512": "cc77fecc44548401672e2d8c3645b249329a8b741ca681ee16cbad7f12672e7ff724fc4cd60f927a026b7b41640727f5f5e796c77df3d9f28e513735f0c79254",
+          "sha256": "6423e8d33aa8a074770ba70a487240c642aef940ef69179b38188392f2a5429c",
+          "sha1": "035d9c1070788391f193e79e90d58abab909dfa1",
+          "md5": "06453f9579501bb37c06d1ca8f457c2c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.2-change-recordservice-upload-attachment-test-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.crypto.tink",
+          "module": "tink-android",
+          "version": {
+            "requires": "1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.9.2-change-recordservice-upload-attachment-test-SNAPSHOT.aar",
+          "url": "securestore-android-1.9.2-change-recordservice-upload-attachment-test-SNAPSHOT.aar",
+          "size": 41929,
+          "sha512": "cc77fecc44548401672e2d8c3645b249329a8b741ca681ee16cbad7f12672e7ff724fc4cd60f927a026b7b41640727f5f5e796c77df3d9f28e513735f0c79254",
+          "sha256": "6423e8d33aa8a074770ba70a487240c642aef940ef69179b38188392f2a5429c",
+          "sha1": "035d9c1070788391f193e79e90d58abab909dfa1",
+          "md5": "06453f9579501bb37c06d1ca8f457c2c"
+        }
+      ]
+    }
+  ]
+}

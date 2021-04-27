@@ -1,0 +1,94 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir/0.0.1-update-ci-label-configuration-SNAPSHOT/fhir-0.0.1-update-ci-label-configuration-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.0.1-update-ci-label-configuration-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.1",
+      "buildId": "u6fmybakpvbrpijiiwffvyabo4"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "fhir-jvm-0.0.1-update-ci-label-configuration-SNAPSHOT.jar",
+          "url": "fhir-jvm-0.0.1-update-ci-label-configuration-SNAPSHOT.jar",
+          "size": 2382574,
+          "sha512": "bf38b14810df022cb751090931ebbf714921427d13ea9ce06296bf8b5e3849913fb69b3e58e4baeea0a9732916c8a1c31a691061b95db235f6d1a4c79761e284",
+          "sha256": "e2f1cb634f34e7dddf598907eebd9ff0684f64c0cd44feff586e3e3fa7887d91",
+          "sha1": "473094472b3c1a7b64a5fe2179e2a45189947cff",
+          "md5": "3a9889b8d0274509593c621eff216ed0"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-jvm-0.0.1-update-ci-label-configuration-SNAPSHOT.jar",
+          "url": "fhir-jvm-0.0.1-update-ci-label-configuration-SNAPSHOT.jar",
+          "size": 2382574,
+          "sha512": "bf38b14810df022cb751090931ebbf714921427d13ea9ce06296bf8b5e3849913fb69b3e58e4baeea0a9732916c8a1c31a691061b95db235f6d1a4c79761e284",
+          "sha256": "e2f1cb634f34e7dddf598907eebd9ff0684f64c0cd44feff586e3e3fa7887d91",
+          "sha1": "473094472b3c1a7b64a5fe2179e2a45189947cff",
+          "md5": "3a9889b8d0274509593c621eff216ed0"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../fhir-metadata/0.0.1-update-ci-label-configuration-SNAPSHOT/fhir-metadata-0.0.1-update-ci-label-configuration-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-metadata",
+        "version": "0.0.1-update-ci-label-configuration-SNAPSHOT"
+      }
+    }
+  ]
+}

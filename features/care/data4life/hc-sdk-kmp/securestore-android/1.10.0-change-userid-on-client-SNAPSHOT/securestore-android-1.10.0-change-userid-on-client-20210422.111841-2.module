@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-android",
+    "version": "1.10.0-change-userid-on-client-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "jkhz7u6mdncozc5bphjfihznqq"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.10.0-change-userid-on-client-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.10.0-change-userid-on-client-SNAPSHOT.aar",
+          "url": "securestore-android-1.10.0-change-userid-on-client-SNAPSHOT.aar",
+          "size": 41918,
+          "sha512": "e1fcca7c8f8e61b16aa103b025939187db339344616539d217fbea412c6eee32580a70b495553b144a46984242a8183b0db1108d06f473b428b750bdd7335282",
+          "sha256": "525301286237ccdba35975bacb6b629dd4e2da7dbcfc45cd68ce9a362bbbc03c",
+          "sha1": "80085839da0b22203c34029e854ceea73e244046",
+          "md5": "5e59ddb998fdaebc4f829bbd30ea6e74"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.10.0-change-userid-on-client-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.crypto.tink",
+          "module": "tink-android",
+          "version": {
+            "requires": "1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.10.0-change-userid-on-client-SNAPSHOT.aar",
+          "url": "securestore-android-1.10.0-change-userid-on-client-SNAPSHOT.aar",
+          "size": 41918,
+          "sha512": "e1fcca7c8f8e61b16aa103b025939187db339344616539d217fbea412c6eee32580a70b495553b144a46984242a8183b0db1108d06f473b428b750bdd7335282",
+          "sha256": "525301286237ccdba35975bacb6b629dd4e2da7dbcfc45cd68ce9a362bbbc03c",
+          "sha1": "80085839da0b22203c34029e854ceea73e244046",
+          "md5": "5e59ddb998fdaebc4f829bbd30ea6e74"
+        }
+      ]
+    }
+  ]
+}

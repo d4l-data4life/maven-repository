@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-android",
+    "version": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "5ioeabvh65edhkyshovmfqfz5u"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-android-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.aar",
+          "url": "auth-android-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.aar",
+          "size": 44905,
+          "sha512": "c4b1c8a3b4153878af88b729fc969b48f5c99360e045e413a5a0e160a783c8b9795ba501f63d53fbe3029d776e6766a6a9fdfb84ebf7c2c64f97a304db153b60",
+          "sha256": "319f492ec525401152cf6fb5c6d4dcd5b77b99eaa9f3f27c85dd0e94f1b033d2",
+          "sha1": "31b91d3dc1cd9d019a59991793b6145c45614086",
+          "md5": "9a661cbd38c9e95370e70d399743b671"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-android",
+          "version": {
+            "requires": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-jvm"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.3.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.github.gesundheitscloud",
+          "module": "AppAuth-Android",
+          "version": {
+            "requires": "9e3cc033ff"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-android-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.aar",
+          "url": "auth-android-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.aar",
+          "size": 44905,
+          "sha512": "c4b1c8a3b4153878af88b729fc969b48f5c99360e045e413a5a0e160a783c8b9795ba501f63d53fbe3029d776e6766a6a9fdfb84ebf7c2c64f97a304db153b60",
+          "sha256": "319f492ec525401152cf6fb5c6d4dcd5b77b99eaa9f3f27c85dd0e94f1b033d2",
+          "sha1": "31b91d3dc1cd9d019a59991793b6145c45614086",
+          "md5": "9a661cbd38c9e95370e70d399743b671"
+        }
+      ]
+    }
+  ]
+}

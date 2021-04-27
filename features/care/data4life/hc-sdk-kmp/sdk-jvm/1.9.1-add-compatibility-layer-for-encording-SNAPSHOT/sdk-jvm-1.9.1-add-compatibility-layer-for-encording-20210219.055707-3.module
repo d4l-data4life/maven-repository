@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "sdk-jvm",
+    "version": "1.9.1-add-compatibility-layer-for-encording-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "rvovbq3pwvbtnj5kvmy6irbkf4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.9.1-add-compatibility-layer-for-encording-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-jvm-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "url": "sdk-jvm-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "size": 11300,
+          "sha512": "c7ec2c3946a87b17c21e311a29a5b50a3eaea3c575c0d0918b33f1cd6b2ae379cefe52211438fc6f9fcc09d11332e7674830e688fd284a4cc402808d2afc8e8a",
+          "sha256": "327149337152751674d7b2ba88c62203965499fe0f0ebbaab51f62eb0a34dbeb",
+          "sha1": "d84943b3d9c5b8dd777f53b0f59ed7d059d16e3e",
+          "md5": "bccd4a4ff540dca33976f0ffdb7cb06e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.9.1-add-compatibility-layer-for-encording-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-jvm",
+          "version": {
+            "requires": "1.9.1-add-compatibility-layer-for-encording-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-jvm",
+          "version": {
+            "requires": "1.9.1-add-compatibility-layer-for-encording-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.19"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.9.1-add-compatibility-layer-for-encording-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-jvm-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "url": "sdk-jvm-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "size": 11300,
+          "sha512": "c7ec2c3946a87b17c21e311a29a5b50a3eaea3c575c0d0918b33f1cd6b2ae379cefe52211438fc6f9fcc09d11332e7674830e688fd284a4cc402808d2afc8e8a",
+          "sha256": "327149337152751674d7b2ba88c62203965499fe0f0ebbaab51f62eb0a34dbeb",
+          "sha1": "d84943b3d9c5b8dd777f53b0f59ed7d059d16e3e",
+          "md5": "bccd4a4ff540dca33976f0ffdb7cb06e"
+        }
+      ]
+    }
+  ]
+}

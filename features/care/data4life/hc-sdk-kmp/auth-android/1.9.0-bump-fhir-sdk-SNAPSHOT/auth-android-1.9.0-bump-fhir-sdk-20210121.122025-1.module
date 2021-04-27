@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-android",
+    "version": "1.9.0-bump-fhir-sdk-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "4576llu3avb23d2tof26t2wwcq"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.0-bump-fhir-sdk-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-android-1.9.0-bump-fhir-sdk-SNAPSHOT.aar",
+          "url": "auth-android-1.9.0-bump-fhir-sdk-SNAPSHOT.aar",
+          "size": 44889,
+          "sha512": "6f2ed672c039fdcee95820f2a5a9b3c74c6c3d393779a6979ee47b4c98be17d479f04b6a4aceb31a19e2ea43346a81f8a612f99dc9f0a24353ad9978283019fd",
+          "sha256": "f05f7fcdadb62c208cfaead04b41689f6b52ee2bfbf06b9d47c23d47fd0e65bc",
+          "sha1": "10496036e095d132231f9a6fd1d32aa279dfd212",
+          "md5": "6a14c819f04828a537cdf9a715df3a44"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.0-bump-fhir-sdk-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-android",
+          "version": {
+            "requires": "1.9.0-bump-fhir-sdk-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-jvm"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.3.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.github.gesundheitscloud",
+          "module": "AppAuth-Android",
+          "version": {
+            "requires": "9e3cc033ff"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-android-1.9.0-bump-fhir-sdk-SNAPSHOT.aar",
+          "url": "auth-android-1.9.0-bump-fhir-sdk-SNAPSHOT.aar",
+          "size": 44889,
+          "sha512": "6f2ed672c039fdcee95820f2a5a9b3c74c6c3d393779a6979ee47b4c98be17d479f04b6a4aceb31a19e2ea43346a81f8a612f99dc9f0a24353ad9978283019fd",
+          "sha256": "f05f7fcdadb62c208cfaead04b41689f6b52ee2bfbf06b9d47c23d47fd0e65bc",
+          "sha1": "10496036e095d132231f9a6fd1d32aa279dfd212",
+          "md5": "6a14c819f04828a537cdf9a715df3a44"
+        }
+      ]
+    }
+  ]
+}

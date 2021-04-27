@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.9.0-fix-release-ci-job-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "wk2qiqpmkbc5nlsh3lu5ln7ujy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.9.0-fix-release-ci-job-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.0-fix-release-ci-job-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "516fd867c906b6e22151b5b7fd72df1f03e167ee7f0c506098c9cf0f11f5b61c42e75ba92887fac38b2aeab79239b54f71f955539495b4351ab33644d1655163",
+          "sha256": "3d9be6ae4fd34efbe8c04c9aad17b278e7b92930f75be47fa9660a2dcb68e731",
+          "sha1": "eef100234ee6115de250267ee88cf179d0f47bf1",
+          "md5": "11f3bc32ecda9991a3a0cdd1fdb825d2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.9.0-fix-release-ci-job-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.0-fix-release-ci-job-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "516fd867c906b6e22151b5b7fd72df1f03e167ee7f0c506098c9cf0f11f5b61c42e75ba92887fac38b2aeab79239b54f71f955539495b4351ab33644d1655163",
+          "sha256": "3d9be6ae4fd34efbe8c04c9aad17b278e7b92930f75be47fa9660a2dcb68e731",
+          "sha1": "eef100234ee6115de250267ee88cf179d0f47bf1",
+          "md5": "11f3bc32ecda9991a3a0cdd1fdb825d2"
+        }
+      ]
+    }
+  ]
+}

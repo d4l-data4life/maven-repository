@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.7.0-change-script-download-script-SNAPSHOT/util-1.7.0-change-script-download-script-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.7.0-change-script-download-script-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "fuojadvyvfdrngnogcauc7f4g4"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-jvm-1.7.0-change-script-download-script-SNAPSHOT.jar",
+          "url": "util-jvm-1.7.0-change-script-download-script-SNAPSHOT.jar",
+          "size": 20014,
+          "sha512": "bb5a6bead4175ddabee46739dabb754180c58e4eb2d0643e1c62a401251337168ba68beafda54a892aac2a413f44af1424513b0b58ff830fc0af615f3fc36ea5",
+          "sha256": "e0f1ea81ab3e86854ee10b7b818761c41c83da9266cf66c34f48c3bf51643423",
+          "sha1": "fa9e29f72828be110dea305e983d43e4dc610fc4",
+          "md5": "c82a0d899ba4226f9cb9b44d2ea6d795"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-jvm-1.7.0-change-script-download-script-SNAPSHOT.jar",
+          "url": "util-jvm-1.7.0-change-script-download-script-SNAPSHOT.jar",
+          "size": 20014,
+          "sha512": "bb5a6bead4175ddabee46739dabb754180c58e4eb2d0643e1c62a401251337168ba68beafda54a892aac2a413f44af1424513b0b58ff830fc0af615f3fc36ea5",
+          "sha256": "e0f1ea81ab3e86854ee10b7b818761c41c83da9266cf66c34f48c3bf51643423",
+          "sha1": "fa9e29f72828be110dea305e983d43e4dc610fc4",
+          "md5": "c82a0d899ba4226f9cb9b44d2ea6d795"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-metadata/1.7.0-change-script-download-script-SNAPSHOT/util-metadata-1.7.0-change-script-download-script-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-metadata",
+        "version": "1.7.0-change-script-download-script-SNAPSHOT"
+      }
+    }
+  ]
+}

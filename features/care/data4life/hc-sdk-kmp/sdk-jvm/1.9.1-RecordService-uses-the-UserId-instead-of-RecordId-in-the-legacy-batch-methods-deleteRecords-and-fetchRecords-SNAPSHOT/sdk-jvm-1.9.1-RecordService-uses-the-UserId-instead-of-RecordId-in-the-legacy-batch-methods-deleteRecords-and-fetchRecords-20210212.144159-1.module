@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "sdk-jvm",
+    "version": "1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "rcxffq6mmvecnovyph2o3337tq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-jvm-1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT.jar",
+          "url": "sdk-jvm-1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT.jar",
+          "size": 11300,
+          "sha512": "e2e04c9c67f4219242297aeba3a5a3c236efe18fcc1be8c5912ba56d5839739ad08f50747f79077e33b227a4599f127f7e3315efba4689189da111ee59a66768",
+          "sha256": "23ac89f360840ecf6ccd6546557547681c5ea44e4ba4843476a2b2811e9d04e7",
+          "sha1": "ff51932c28bd1b03959f1412130cbdef5c06fb13",
+          "md5": "cfff70593b013af6ad0dd14ef4878f81"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-jvm",
+          "version": {
+            "requires": "1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-jvm",
+          "version": {
+            "requires": "1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.19"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-jvm-1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT.jar",
+          "url": "sdk-jvm-1.9.1-RecordService-uses-the-UserId-instead-of-RecordId-in-the-legacy-batch-methods-deleteRecords-and-fetchRecords-SNAPSHOT.jar",
+          "size": 11300,
+          "sha512": "e2e04c9c67f4219242297aeba3a5a3c236efe18fcc1be8c5912ba56d5839739ad08f50747f79077e33b227a4599f127f7e3315efba4689189da111ee59a66768",
+          "sha256": "23ac89f360840ecf6ccd6546557547681c5ea44e4ba4843476a2b2811e9d04e7",
+          "sha1": "ff51932c28bd1b03959f1412130cbdef5c06fb13",
+          "md5": "cfff70593b013af6ad0dd14ef4878f81"
+        }
+      ]
+    }
+  ]
+}

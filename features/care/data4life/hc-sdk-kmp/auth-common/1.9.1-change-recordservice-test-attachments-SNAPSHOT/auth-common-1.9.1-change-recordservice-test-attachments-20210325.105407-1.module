@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.9.1-change-recordservice-test-attachments-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "dg4sg4dhcreyhomzkf7vlsvj2a"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.1-change-recordservice-test-attachments-SNAPSHOT.jar",
+          "url": "auth-common-1.9.1-change-recordservice-test-attachments-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "884d4e07f12ec21090334d5f91934caee76b291e312712c33a1bc20e98aa3c403e308835c9b5b9abd6613b7c0e3f545b8d90c603a4e61df11e6bfcda1441d861",
+          "sha256": "8af807e56f4bd91b15393624dbc9d2034fb3b907296758a7d5705309935ee3e3",
+          "sha1": "a9407f5056afc136e40b7cf06e157f9dde42349b",
+          "md5": "31993be99402a35055c88d9a0b13ad1e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.1-change-recordservice-test-attachments-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.1-change-recordservice-test-attachments-SNAPSHOT.jar",
+          "url": "auth-common-1.9.1-change-recordservice-test-attachments-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "884d4e07f12ec21090334d5f91934caee76b291e312712c33a1bc20e98aa3c403e308835c9b5b9abd6613b7c0e3f545b8d90c603a4e61df11e6bfcda1441d861",
+          "sha256": "8af807e56f4bd91b15393624dbc9d2034fb3b907296758a7d5705309935ee3e3",
+          "sha1": "a9407f5056afc136e40b7cf06e157f9dde42349b",
+          "md5": "31993be99402a35055c88d9a0b13ad1e"
+        }
+      ]
+    }
+  ]
+}

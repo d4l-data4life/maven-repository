@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.9.2-change-module-test-recordservice-update-fake-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "qpj2yhlstbbb7i7lrnp3i42ggy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.9.2-change-module-test-recordservice-update-fake-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.2-change-module-test-recordservice-update-fake-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "8af18455847ebcb600db87cc3140548af1560ebcf5a56dec7ac58127a786d50dd953f1929228c8a3830336726171a10d7e5b8bfaf605ca6f5bd7fbaf94a5ee5c",
+          "sha256": "090fa9679220d0bc3a3972a04fe0f90d6cdd70c647ab2d1ce92ba2e81694ff0f",
+          "sha1": "3c4d2c4c85f0c4c7da2bfd083077da0dd8563e13",
+          "md5": "730c2284a28085c8aa664bcca7a8e118"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.9.2-change-module-test-recordservice-update-fake-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.2-change-module-test-recordservice-update-fake-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "8af18455847ebcb600db87cc3140548af1560ebcf5a56dec7ac58127a786d50dd953f1929228c8a3830336726171a10d7e5b8bfaf605ca6f5bd7fbaf94a5ee5c",
+          "sha256": "090fa9679220d0bc3a3972a04fe0f90d6cdd70c647ab2d1ce92ba2e81694ff0f",
+          "sha1": "3c4d2c4c85f0c4c7da2bfd083077da0dd8563e13",
+          "md5": "730c2284a28085c8aa664bcca7a8e118"
+        }
+      ]
+    }
+  ]
+}

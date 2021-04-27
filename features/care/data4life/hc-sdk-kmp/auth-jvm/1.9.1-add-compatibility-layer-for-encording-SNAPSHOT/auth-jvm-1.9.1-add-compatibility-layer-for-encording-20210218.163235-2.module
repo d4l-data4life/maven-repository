@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.9.1-add-compatibility-layer-for-encording-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "v6tmrlsvm5fgfonutxcd6ypucu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.1-add-compatibility-layer-for-encording-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "url": "auth-jvm-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "265a084d6ddeb150358d8b0bc9a3c6482f7fbafc28807e3a7d6afc8da3feb22bd3c0c762c8bf9a53dfef0e0475de79cfb330d3b34f9b7b3177740b02108d9520",
+          "sha256": "0fdf4a5531d25d9874660185bc3254d61eefe0c2b3b3590e8e9a4d803436803b",
+          "sha1": "ec72c7b2d52337a8130dd65a0fc0e6c52228a8a7",
+          "md5": "5b3d1b7d5ebea3a356b9b5761577affb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.9.1-add-compatibility-layer-for-encording-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.1-add-compatibility-layer-for-encording-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "url": "auth-jvm-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "265a084d6ddeb150358d8b0bc9a3c6482f7fbafc28807e3a7d6afc8da3feb22bd3c0c762c8bf9a53dfef0e0475de79cfb330d3b34f9b7b3177740b02108d9520",
+          "sha256": "0fdf4a5531d25d9874660185bc3254d61eefe0c2b3b3590e8e9a4d803436803b",
+          "sha1": "ec72c7b2d52337a8130dd65a0fc0e6c52228a8a7",
+          "md5": "5b3d1b7d5ebea3a356b9b5761577affb"
+        }
+      ]
+    }
+  ]
+}

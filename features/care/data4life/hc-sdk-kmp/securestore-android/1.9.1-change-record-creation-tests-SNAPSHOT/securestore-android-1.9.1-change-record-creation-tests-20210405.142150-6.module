@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-android",
+    "version": "1.9.1-change-record-creation-tests-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "4ji23phdcnhzpa3kqzxrm27uia"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.1-change-record-creation-tests-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.9.1-change-record-creation-tests-SNAPSHOT.aar",
+          "url": "securestore-android-1.9.1-change-record-creation-tests-SNAPSHOT.aar",
+          "size": 41919,
+          "sha512": "68913f142d641c07192ee02e9950e9ede65f1d2a8be05b2338a5ae5c984401e19d41514cd1d4ffee0c2141ce6ecbf1ad021ed11914f77e5d4691632b5df40096",
+          "sha256": "c293e6431c8a6bc5617c43c232b5769b9798da5212ca27d53b27b02f7e9fb4b9",
+          "sha1": "d153dc8f35a6cbff8d8b2a42cb7c18002f3ef2bc",
+          "md5": "c659009b5c840d7154aae693fc5f2eca"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.1-change-record-creation-tests-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.crypto.tink",
+          "module": "tink-android",
+          "version": {
+            "requires": "1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.9.1-change-record-creation-tests-SNAPSHOT.aar",
+          "url": "securestore-android-1.9.1-change-record-creation-tests-SNAPSHOT.aar",
+          "size": 41919,
+          "sha512": "68913f142d641c07192ee02e9950e9ede65f1d2a8be05b2338a5ae5c984401e19d41514cd1d4ffee0c2141ce6ecbf1ad021ed11914f77e5d4691632b5df40096",
+          "sha256": "c293e6431c8a6bc5617c43c232b5769b9798da5212ca27d53b27b02f7e9fb4b9",
+          "sha1": "d153dc8f35a6cbff8d8b2a42cb7c18002f3ef2bc",
+          "md5": "c659009b5c840d7154aae693fc5f2eca"
+        }
+      ]
+    }
+  ]
+}

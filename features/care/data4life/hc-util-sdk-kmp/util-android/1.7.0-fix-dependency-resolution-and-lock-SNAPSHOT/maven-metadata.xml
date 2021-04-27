@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>care.data4life.hc-util-sdk-kmp</groupId>
+  <artifactId>util-android</artifactId>
+  <version>1.7.0-fix-dependency-resolution-and-lock-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210408.130608</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20210408130608</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.7.0-fix-dependency-resolution-and-lock-20210408.130608-1</value>
+        <updated>20210408130608</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.7.0-fix-dependency-resolution-and-lock-20210408.130608-1</value>
+        <updated>20210408130608</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.7.0-fix-dependency-resolution-and-lock-20210408.130608-1</value>
+        <updated>20210408130608</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>1.7.0-fix-dependency-resolution-and-lock-20210408.130608-1</value>
+        <updated>20210408130608</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

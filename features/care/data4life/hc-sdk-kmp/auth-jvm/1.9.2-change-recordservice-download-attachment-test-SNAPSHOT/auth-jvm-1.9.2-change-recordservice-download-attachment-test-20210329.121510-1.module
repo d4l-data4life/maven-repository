@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.9.2-change-recordservice-download-attachment-test-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "dfqbqnnpgng5deyx5nnh2urune"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.2-change-recordservice-download-attachment-test-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.9.2-change-recordservice-download-attachment-test-SNAPSHOT.jar",
+          "url": "auth-jvm-1.9.2-change-recordservice-download-attachment-test-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "a3f524bdf017757ab331ed6ecd8c7d41e6a0c165ee41296f9d609d39a34cb86d0395f6534cc120baca4e2e530ac2420381473db332c7fb2181a07d09ca96cba4",
+          "sha256": "de4342ab36031e9ab0730427cf4a55e01dd0fdab776c620aed3c219aea8e9204",
+          "sha1": "3fc28d0091244268f5e6ef60b4c21a68b7f9d3f7",
+          "md5": "0803480af6be3ed9f2c7321d17904a7c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.9.2-change-recordservice-download-attachment-test-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.2-change-recordservice-download-attachment-test-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.9.2-change-recordservice-download-attachment-test-SNAPSHOT.jar",
+          "url": "auth-jvm-1.9.2-change-recordservice-download-attachment-test-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "a3f524bdf017757ab331ed6ecd8c7d41e6a0c165ee41296f9d609d39a34cb86d0395f6534cc120baca4e2e530ac2420381473db332c7fb2181a07d09ca96cba4",
+          "sha256": "de4342ab36031e9ab0730427cf4a55e01dd0fdab776c620aed3c219aea8e9204",
+          "sha1": "3fc28d0091244268f5e6ef60b4c21a68b7f9d3f7",
+          "md5": "0803480af6be3ed9f2c7321d17904a7c"
+        }
+      ]
+    }
+  ]
+}

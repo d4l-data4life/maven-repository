@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>care.data4life.hc-sdk-kmp</groupId>
+  <artifactId>auth-android</artifactId>
+  <version>1.10.0-add-fhir4-download-record-support-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210426.143606</timestamp>
+      <buildNumber>2</buildNumber>
+    </snapshot>
+    <lastUpdated>20210426143606</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>1.10.0-add-fhir4-download-record-support-20210426.143606-2</value>
+        <updated>20210426143606</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.10.0-add-fhir4-download-record-support-20210426.143606-2</value>
+        <updated>20210426143606</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.10.0-add-fhir4-download-record-support-20210426.143606-2</value>
+        <updated>20210426143606</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.10.0-add-fhir4-download-record-support-20210426.143606-2</value>
+        <updated>20210426143606</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

@@ -1,0 +1,69 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir/0.0.1-SNAPSHOT/fhir-0.0.1-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "xftr3eusrba3tdotiwyvczzg3a"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64-api",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.0.0-RC2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir.klib",
+          "url": "fhir-iosarm64-0.0.1-SNAPSHOT.klib",
+          "size": 1350752,
+          "sha512": "ede2a616979810f193a0ce1063015618076064d749094509072c94cd27edf0f69eea6069755332de24f68ea58758166917eba343303a4e3f4c13ee8d13476dcb",
+          "sha256": "0661c58b0258d5ae1275dd4f81b411596a8768effc1d47f2245f568b8f97c3d5",
+          "sha1": "11c418385ab51610d707422e0cb0777dfa68d85e",
+          "md5": "baa06d4193dbaa6953d4c5a8b48d31cd"
+        }
+      ]
+    },
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../fhir-metadata/0.0.1-SNAPSHOT/fhir-metadata-0.0.1-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-sdk-kmp",
+        "module": "fhir-metadata",
+        "version": "0.0.1-SNAPSHOT"
+      }
+    }
+  ]
+}

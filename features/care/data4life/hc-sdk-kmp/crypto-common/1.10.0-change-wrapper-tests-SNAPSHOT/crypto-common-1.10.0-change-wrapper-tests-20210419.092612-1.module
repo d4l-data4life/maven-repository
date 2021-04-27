@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.10.0-change-wrapper-tests-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "llvbuumicfclxl6bekytqeiury"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.10.0-change-wrapper-tests-SNAPSHOT.jar",
+          "url": "crypto-common-1.10.0-change-wrapper-tests-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "d3e848f7f086a928852af8c415a81f173f7c88c95793c4a0965009572788f7c0596ce4f01762c8e82b6d6f771e038bc62efde96baea19f034bcc1d3384d11411",
+          "sha256": "1520a63f0e6366319572562e32fb4b864bfb4033b781b20fd8e603af0649f6a8",
+          "sha1": "4cea9d364a74eddadc194df9193cafdc49300597",
+          "md5": "7b4d9a75db452410bedb15cab7adbf82"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.10.0-change-wrapper-tests-SNAPSHOT.jar",
+          "url": "crypto-common-1.10.0-change-wrapper-tests-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "d3e848f7f086a928852af8c415a81f173f7c88c95793c4a0965009572788f7c0596ce4f01762c8e82b6d6f771e038bc62efde96baea19f034bcc1d3384d11411",
+          "sha256": "1520a63f0e6366319572562e32fb4b864bfb4033b781b20fd8e603af0649f6a8",
+          "sha1": "4cea9d364a74eddadc194df9193cafdc49300597",
+          "md5": "7b4d9a75db452410bedb15cab7adbf82"
+        }
+      ]
+    }
+  ]
+}

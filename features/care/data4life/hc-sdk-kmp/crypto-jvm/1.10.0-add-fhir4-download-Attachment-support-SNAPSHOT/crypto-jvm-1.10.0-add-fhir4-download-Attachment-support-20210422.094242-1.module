@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.10.0-add-fhir4-download-Attachment-support-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "q2g3yzjccfc6johl5yjgyfsrta"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.10.0-add-fhir4-download-Attachment-support-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.10.0-add-fhir4-download-Attachment-support-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.10.0-add-fhir4-download-Attachment-support-SNAPSHOT.jar",
+          "size": 46060,
+          "sha512": "ea8a0bde2686dc1edc179288b43d3396157df347ae494da27327e4a72648a7a2de1eb86b29bda745bd2ca3fe929f446621a0e83f9f9b464487e20cc135a050c4",
+          "sha256": "becc9993857e8e7604f28c36d4999aed983eade852da7f39bd2d9869a135c6f1",
+          "sha1": "bd7cad60012c74a342b4f0e7d00ce8bbca3cecbd",
+          "md5": "eaa2a145dfcbde1ca8e91f4e6beece80"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.10.0-add-fhir4-download-Attachment-support-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.10.0-add-fhir4-download-Attachment-support-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.10.0-add-fhir4-download-Attachment-support-SNAPSHOT.jar",
+          "size": 46060,
+          "sha512": "ea8a0bde2686dc1edc179288b43d3396157df347ae494da27327e4a72648a7a2de1eb86b29bda745bd2ca3fe929f446621a0e83f9f9b464487e20cc135a050c4",
+          "sha256": "becc9993857e8e7604f28c36d4999aed983eade852da7f39bd2d9869a135c6f1",
+          "sha1": "bd7cad60012c74a342b4f0e7d00ce8bbca3cecbd",
+          "md5": "eaa2a145dfcbde1ca8e91f4e6beece80"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-android",
+    "version": "1.10.0-add-fhir4-download-attachment-support-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "rwszed26yrcmfggg4ln3iezvbu"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.10.0-add-fhir4-download-attachment-support-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.10.0-add-fhir4-download-attachment-support-SNAPSHOT.aar",
+          "url": "securestore-android-1.10.0-add-fhir4-download-attachment-support-SNAPSHOT.aar",
+          "size": 42012,
+          "sha512": "4d728d91e5333cce5ac1b0657ec08c01910ac855ace7b0c4a13a5fcbe015e8ce8ee7d6ebd0aa40fc217d2c82cf67f93f8cd62c96090bec5ce7d40cf18313ad14",
+          "sha256": "c9884ef454b2509c8abb5cc322569cacaf6506d079a4125c00746767c6115b31",
+          "sha1": "8c5eb276e66f6695dde800fcc8243a3974e49fd1",
+          "md5": "4d35b14b5d443872102a13eb7a79588e"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.10.0-add-fhir4-download-attachment-support-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.crypto.tink",
+          "module": "tink-android",
+          "version": {
+            "requires": "1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.10.0-add-fhir4-download-attachment-support-SNAPSHOT.aar",
+          "url": "securestore-android-1.10.0-add-fhir4-download-attachment-support-SNAPSHOT.aar",
+          "size": 42012,
+          "sha512": "4d728d91e5333cce5ac1b0657ec08c01910ac855ace7b0c4a13a5fcbe015e8ce8ee7d6ebd0aa40fc217d2c82cf67f93f8cd62c96090bec5ce7d40cf18313ad14",
+          "sha256": "c9884ef454b2509c8abb5cc322569cacaf6506d079a4125c00746767c6115b31",
+          "sha1": "8c5eb276e66f6695dde800fcc8243a3974e49fd1",
+          "md5": "4d35b14b5d443872102a13eb7a79588e"
+        }
+      ]
+    }
+  ]
+}

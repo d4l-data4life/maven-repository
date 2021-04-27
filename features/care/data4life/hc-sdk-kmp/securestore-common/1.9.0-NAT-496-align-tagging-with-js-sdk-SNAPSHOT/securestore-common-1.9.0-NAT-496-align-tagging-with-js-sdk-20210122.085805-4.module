@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "5ioeabvh65edhkyshovmfqfz5u"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "490b7527a153e32ab2958613a0a737b7c5300ad150591cc0981f68377ba406b4ea6ff34960fa6cdbb9cb36a2d9248458b85ae3bc67c7a49309bb24182462b4a2",
+          "sha256": "6e16af32b90e5025744ed93e70ea1d0710f3dfcddf09586050eb9c3d4e51bc4c",
+          "sha1": "f770552d1508dfde410888f31c10b991680c0980",
+          "md5": "587a3f3b9b6b5128ae33cf02827f0be6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "490b7527a153e32ab2958613a0a737b7c5300ad150591cc0981f68377ba406b4ea6ff34960fa6cdbb9cb36a2d9248458b85ae3bc67c7a49309bb24182462b4a2",
+          "sha256": "6e16af32b90e5025744ed93e70ea1d0710f3dfcddf09586050eb9c3d4e51bc4c",
+          "sha1": "f770552d1508dfde410888f31c10b991680c0980",
+          "md5": "587a3f3b9b6b5128ae33cf02827f0be6"
+        }
+      ]
+    }
+  ]
+}

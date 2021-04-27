@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.9.1-change-recordservice-test-identifiers-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "hqezsfxogzctdfzn6snxh6dfmq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.1-change-recordservice-test-identifiers-SNAPSHOT.jar",
+          "url": "auth-common-1.9.1-change-recordservice-test-identifiers-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "29399fc2790077371a238a96bfd8cdb473374a8c6730209ef6366513c25293ce5e51c6d6ead55a25a3e45531b7c217c55e0e8bbbfa906b68f32576d55369a52b",
+          "sha256": "7cbcd1d80bf34e1f6041d5204ef65289a4f6b97c2de74f1e52cb4a5d4571e4b0",
+          "sha1": "5505a4e4c971c075b92ea325dc3f52496d0f7967",
+          "md5": "6c4f694fcc7ac3b5b35437392a56ec9a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.1-change-recordservice-test-identifiers-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.1-change-recordservice-test-identifiers-SNAPSHOT.jar",
+          "url": "auth-common-1.9.1-change-recordservice-test-identifiers-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "29399fc2790077371a238a96bfd8cdb473374a8c6730209ef6366513c25293ce5e51c6d6ead55a25a3e45531b7c217c55e0e8bbbfa906b68f32576d55369a52b",
+          "sha256": "7cbcd1d80bf34e1f6041d5204ef65289a4f6b97c2de74f1e52cb4a5d4571e4b0",
+          "sha1": "5505a4e4c971c075b92ea325dc3f52496d0f7967",
+          "md5": "6c4f694fcc7ac3b5b35437392a56ec9a"
+        }
+      ]
+    }
+  ]
+}

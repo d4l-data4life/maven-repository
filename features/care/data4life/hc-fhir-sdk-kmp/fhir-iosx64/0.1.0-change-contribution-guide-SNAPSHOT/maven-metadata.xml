@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>care.data4life.hc-fhir-sdk-kmp</groupId>
+  <artifactId>fhir-iosx64</artifactId>
+  <version>0.1.0-change-contribution-guide-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210215.104624</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20210215104624</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.1.0-change-contribution-guide-20210215.104624-1</value>
+        <updated>20210215104624</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.1.0-change-contribution-guide-20210215.104624-1</value>
+        <updated>20210215104624</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.1.0-change-contribution-guide-20210215.104624-1</value>
+        <updated>20210215104624</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>klib</extension>
+        <value>0.1.0-change-contribution-guide-20210215.104624-1</value>
+        <updated>20210215104624</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "mznpa5qfq5a7hjujrnazuwiv3e"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT.jar",
+          "url": "crypto-common-1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "dbdc54eba14e447a288d874eadfa54b92fad9ddf79a98df8613a603c8ace5517983d6dda7edd30e7ffa0e6963153bc06b1c6065f5c9062fa2c2e5c0011318b3c",
+          "sha256": "3f753cbb53194269d19395a84aef2f0cef0bb2eca6716e46c9277ff35c9a16ad",
+          "sha1": "49231c393b707488577a1ea53a320b45ced3e487",
+          "md5": "7c87a2d65ca6be2e247533fc497a1de6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT.jar",
+          "url": "crypto-common-1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "dbdc54eba14e447a288d874eadfa54b92fad9ddf79a98df8613a603c8ace5517983d6dda7edd30e7ffa0e6963153bc06b1c6065f5c9062fa2c2e5c0011318b3c",
+          "sha256": "3f753cbb53194269d19395a84aef2f0cef0bb2eca6716e46c9277ff35c9a16ad",
+          "sha1": "49231c393b707488577a1ea53a320b45ced3e487",
+          "md5": "7c87a2d65ca6be2e247533fc497a1de6"
+        }
+      ]
+    }
+  ]
+}

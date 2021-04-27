@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>care.data4life.hc-fhir-helper-sdk-kmp</groupId>
+  <artifactId>fhir-helper-android</artifactId>
+  <versioning>
+    <latest>1.5.0-add-danger-SNAPSHOT</latest>
+    <versions>
+      <version>1.5.0-fix-versioning-with-github-action-SNAPSHOT</version>
+      <version>1.5.0-bump-fhir-sdk-SNAPSHOT</version>
+      <version>1.5.0-add-danger-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210415140713</lastUpdated>
+  </versioning>
+</metadata>

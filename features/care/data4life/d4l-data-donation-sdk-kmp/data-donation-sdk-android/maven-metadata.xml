@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>care.data4life.d4l-data-donation-sdk-kmp</groupId>
+  <artifactId>data-donation-sdk-android</artifactId>
+  <versioning>
+    <latest>0.0.1-fix-danger-SNAPSHOT</latest>
+    <versions>
+      <version>0.0.1-add-danger-and-ci-flows-SNAPSHOT</version>
+      <version>0.0.1-fix-danger-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210427140149</lastUpdated>
+  </versioning>
+</metadata>

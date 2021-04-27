@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.6.1-change-project-to-kotlin-script-SNAPSHOT/util-1.6.1-change-project-to-kotlin-script-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.6.1-change-project-to-kotlin-script-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7",
+      "buildId": "etpg5fok4bcnho64igevpkhk6e"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadata-api",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "util-metadata-1.6.1-change-project-to-kotlin-script-SNAPSHOT.jar",
+          "url": "util-metadata-1.6.1-change-project-to-kotlin-script-SNAPSHOT.jar",
+          "size": 6584,
+          "sha512": "854c6d457cba87327e1cd1100b37d10abd2789f3119fba0ef494d633f0292178df7865df21853065e3ae1bee09d86f6dbffbb7b74fe7c57565a07c53dd316653",
+          "sha256": "9ec1da288e12bb5c0072b039abd1e8d8b979420ad348d5f9951fdc75a3018d37",
+          "sha1": "e3bd107bc862cdcef7e56a2c6627b952c7ecd8b9",
+          "md5": "8bd0c0feca168fabc160cfafa33d6c8b"
+        }
+      ]
+    }
+  ]
+}

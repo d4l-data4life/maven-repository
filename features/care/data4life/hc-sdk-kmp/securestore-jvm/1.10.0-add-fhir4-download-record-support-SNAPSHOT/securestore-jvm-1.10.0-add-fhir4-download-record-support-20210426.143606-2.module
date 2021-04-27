@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.10.0-add-fhir4-download-record-support-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "jiojqrhmqbdhnjtuxfazcumjni"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.10.0-add-fhir4-download-record-support-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.10.0-add-fhir4-download-record-support-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.10.0-add-fhir4-download-record-support-SNAPSHOT.jar",
+          "size": 16425,
+          "sha512": "08a3d598a417773a369a589d9058dbb0874b6be3b9b47280bc9beb727f45ed1e7771dc6c7ce908029738a054d44c4d519e6754fa572a5d998d549b83cacb1828",
+          "sha256": "1eab944602dd1ca9f54ebb7d3bdaa1ebd24f224a619f6ae600dbed1dc14b5566",
+          "sha1": "464f2f3c86c06cf15ce58e2bee03a62a742640e1",
+          "md5": "6484327318740dad3b08f2c2b29961c5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.10.0-add-fhir4-download-record-support-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.10.0-add-fhir4-download-record-support-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.10.0-add-fhir4-download-record-support-SNAPSHOT.jar",
+          "size": 16425,
+          "sha512": "08a3d598a417773a369a589d9058dbb0874b6be3b9b47280bc9beb727f45ed1e7771dc6c7ce908029738a054d44c4d519e6754fa572a5d998d549b83cacb1828",
+          "sha256": "1eab944602dd1ca9f54ebb7d3bdaa1ebd24f224a619f6ae600dbed1dc14b5566",
+          "sha1": "464f2f3c86c06cf15ce58e2bee03a62a742640e1",
+          "md5": "6484327318740dad3b08f2c2b29961c5"
+        }
+      ]
+    }
+  ]
+}

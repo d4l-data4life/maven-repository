@@ -1,0 +1,95 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.6.1-pepare-release-1.7.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "eet6wspomjhk3k4bfa3axlhkwe"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "util-metadata-1.6.1-pepare-release-1.7.0-SNAPSHOT.jar",
+          "url": "util-1.6.1-pepare-release-1.7.0-SNAPSHOT.jar",
+          "size": 6584,
+          "sha512": "c186048ba9d2bd9a37dd0afce21a72a39ffa831d9e9b384ec911f82604ee23d15f9281bbaba3f7872f1e1f40cfb10bb19d5acf6aebab3d65302b8ff07f8c37d5",
+          "sha256": "d87be2f0c723f13b908cddb8ea6139a7b5fe4e2be5a447cc3d894be41bac0820",
+          "sha1": "5b40eb4ede9af5ad1e05ca129609877844eed547",
+          "md5": "a78605fe48487ee35466e4d7a190f936"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-android/1.6.1-pepare-release-1.7.0-SNAPSHOT/util-android-1.6.1-pepare-release-1.7.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-android",
+        "version": "1.6.1-pepare-release-1.7.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-android/1.6.1-pepare-release-1.7.0-SNAPSHOT/util-android-1.6.1-pepare-release-1.7.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-android",
+        "version": "1.6.1-pepare-release-1.7.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-jvm/1.6.1-pepare-release-1.7.0-SNAPSHOT/util-jvm-1.6.1-pepare-release-1.7.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-jvm",
+        "version": "1.6.1-pepare-release-1.7.0-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-jvm/1.6.1-pepare-release-1.7.0-SNAPSHOT/util-jvm-1.6.1-pepare-release-1.7.0-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-jvm",
+        "version": "1.6.1-pepare-release-1.7.0-SNAPSHOT"
+      }
+    }
+  ]
+}

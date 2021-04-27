@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.9.2-change-recordservice-crypto-test-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "kzpv3c55nndrvkxkru5okcofte"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.2-change-recordservice-crypto-test-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.9.2-change-recordservice-crypto-test-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.9.2-change-recordservice-crypto-test-SNAPSHOT.jar",
+          "size": 46078,
+          "sha512": "a20672850349469b787602c862d0a29d7fc72fee6313a3efa239b2cc2afe41c9fab1f5a29b9aeb3218547cfd1705dc76ff7b2b2b8d5de5814ab827cb6e854bab",
+          "sha256": "39f0055bdca67f6a7f94564ea730b479bca70db3a20b53f528220d4f57d55c3d",
+          "sha1": "e492012c545a164e34fe2b16ae39048158c25f16",
+          "md5": "2904795449f40fa61c7ed310acbfd784"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.2-change-recordservice-crypto-test-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.9.2-change-recordservice-crypto-test-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.9.2-change-recordservice-crypto-test-SNAPSHOT.jar",
+          "size": 46078,
+          "sha512": "a20672850349469b787602c862d0a29d7fc72fee6313a3efa239b2cc2afe41c9fab1f5a29b9aeb3218547cfd1705dc76ff7b2b2b8d5de5814ab827cb6e854bab",
+          "sha256": "39f0055bdca67f6a7f94564ea730b479bca70db3a20b53f528220d4f57d55c3d",
+          "sha1": "e492012c545a164e34fe2b16ae39048158c25f16",
+          "md5": "2904795449f40fa61c7ed310acbfd784"
+        }
+      ]
+    }
+  ]
+}

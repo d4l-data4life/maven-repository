@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.10.0-change-module-tests-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "5ra3tyqeafcl5cwiigzp2kmum4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.10.0-change-module-tests-SNAPSHOT.jar",
+          "url": "crypto-common-1.10.0-change-module-tests-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "5a530833a054fa3ca52909df8f4994883ea06cfac605f7a92a5fbbd9de0420c5a204d9f4bf221b45478730fb7bdff33a260c1256164cae81fa92dcd160518fd2",
+          "sha256": "a17f8f271b434fce42e777ed15348b5b53d57382559098601510a4dbe835a33a",
+          "sha1": "7ec1e94362b504f29dbd72ff8d013eb1bcbf7b93",
+          "md5": "317a799fa5467967db67fe1824ee82c3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.10.0-change-module-tests-SNAPSHOT.jar",
+          "url": "crypto-common-1.10.0-change-module-tests-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "5a530833a054fa3ca52909df8f4994883ea06cfac605f7a92a5fbbd9de0420c5a204d9f4bf221b45478730fb7bdff33a260c1256164cae81fa92dcd160518fd2",
+          "sha256": "a17f8f271b434fce42e777ed15348b5b53d57382559098601510a4dbe835a33a",
+          "sha1": "7ec1e94362b504f29dbd72ff8d013eb1bcbf7b93",
+          "md5": "317a799fa5467967db67fe1824ee82c3"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.10.0-fix-danger-workflow-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "kfsaku6gvzc2vhmy6jovm463ha"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.10.0-fix-danger-workflow-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.10.0-fix-danger-workflow-SNAPSHOT.jar",
+          "url": "auth-jvm-1.10.0-fix-danger-workflow-SNAPSHOT.jar",
+          "size": 27862,
+          "sha512": "8e8b30f5a02152180a5b7570fb24fc5f8d0a21c34270c3ca19b670873d5a0de674e2971145437bf496525efe887661152b7bd4f334683745c439db05adbcf4ae",
+          "sha256": "de68bf32ebbd28b6605d3a8b898b8e25a376ddf671d17ff6968e071e934515ca",
+          "sha1": "83cfd601a0f15b347f1d434e44847c3a867d9e13",
+          "md5": "56fea65d62330c0c432daaa776e66427"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.10.0-fix-danger-workflow-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.10.0-fix-danger-workflow-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.10.0-fix-danger-workflow-SNAPSHOT.jar",
+          "url": "auth-jvm-1.10.0-fix-danger-workflow-SNAPSHOT.jar",
+          "size": 27862,
+          "sha512": "8e8b30f5a02152180a5b7570fb24fc5f8d0a21c34270c3ca19b670873d5a0de674e2971145437bf496525efe887661152b7bd4f334683745c439db05adbcf4ae",
+          "sha256": "de68bf32ebbd28b6605d3a8b898b8e25a376ddf671d17ff6968e071e934515ca",
+          "sha1": "83cfd601a0f15b347f1d434e44847c3a867d9e13",
+          "md5": "56fea65d62330c0c432daaa776e66427"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.9.1-fix-date-formatting-on-search-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "6xcmg72gknbmln5zn4duvnj2b4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.9.1-fix-date-formatting-on-search-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.1-fix-date-formatting-on-search-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "9d3fade415fd362b3d9c1605e354c2234717e60a5246ad16f74466fd500d022e1ca02573e53a22f4b5b61cfa00cc082b6ded1a6cad1015e9a75e12b73035e020",
+          "sha256": "e8a356b0b5a7ab6dc1bb0ff73285f0fddcf826f67b252cff84d6382bcb26673d",
+          "sha1": "d33fe1eaf801b58a397b9c72ea8d55670eebb926",
+          "md5": "da03e3e7c675f92b5afe249eed11fdbf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.9.1-fix-date-formatting-on-search-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.1-fix-date-formatting-on-search-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "9d3fade415fd362b3d9c1605e354c2234717e60a5246ad16f74466fd500d022e1ca02573e53a22f4b5b61cfa00cc082b6ded1a6cad1015e9a75e12b73035e020",
+          "sha256": "e8a356b0b5a7ab6dc1bb0ff73285f0fddcf826f67b252cff84d6382bcb26673d",
+          "sha1": "d33fe1eaf801b58a397b9c72ea8d55670eebb926",
+          "md5": "da03e3e7c675f92b5afe249eed11fdbf"
+        }
+      ]
+    }
+  ]
+}

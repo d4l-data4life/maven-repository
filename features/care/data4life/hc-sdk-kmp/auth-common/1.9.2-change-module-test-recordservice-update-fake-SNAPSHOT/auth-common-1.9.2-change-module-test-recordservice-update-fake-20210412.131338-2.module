@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.9.2-change-module-test-recordservice-update-fake-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "t4jodykw2rbzdbdheazrnp2kwu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.2-change-module-test-recordservice-update-fake-SNAPSHOT.jar",
+          "url": "auth-common-1.9.2-change-module-test-recordservice-update-fake-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "3315b575ffaa7b4fdf7a714424ca2cfb4bd6a66a6f5e1f74b3243d3d64e1de8a678c5c1e7bbae56f4e4b4efcc406f3af4e273847bc5651e6fa3f301f6e1ea8df",
+          "sha256": "2abb415b337b1fc7c5aa42036857d7f115ea9f7e667adb75ed45450f5f20269f",
+          "sha1": "9072155b9582d8b8e2dd0d8100507d96dced7656",
+          "md5": "a71f71f58f0469db2e5580337163d609"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.2-change-module-test-recordservice-update-fake-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.2-change-module-test-recordservice-update-fake-SNAPSHOT.jar",
+          "url": "auth-common-1.9.2-change-module-test-recordservice-update-fake-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "3315b575ffaa7b4fdf7a714424ca2cfb4bd6a66a6f5e1f74b3243d3d64e1de8a678c5c1e7bbae56f4e4b4efcc406f3af4e273847bc5651e6fa3f301f6e1ea8df",
+          "sha256": "2abb415b337b1fc7c5aa42036857d7f115ea9f7e667adb75ed45450f5f20269f",
+          "sha1": "9072155b9582d8b8e2dd0d8100507d96dced7656",
+          "md5": "a71f71f58f0469db2e5580337163d609"
+        }
+      ]
+    }
+  ]
+}

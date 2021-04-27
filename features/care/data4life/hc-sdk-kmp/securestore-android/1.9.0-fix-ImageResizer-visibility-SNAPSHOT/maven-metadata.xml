@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>care.data4life.hc-sdk-kmp</groupId>
+  <artifactId>securestore-android</artifactId>
+  <version>1.9.0-fix-ImageResizer-visibility-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210120.091959</timestamp>
+      <buildNumber>2</buildNumber>
+    </snapshot>
+    <lastUpdated>20210120091959</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.9.0-fix-ImageResizer-visibility-20210120.091959-2</value>
+        <updated>20210120091959</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>1.9.0-fix-ImageResizer-visibility-20210120.091959-2</value>
+        <updated>20210120091959</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.9.0-fix-ImageResizer-visibility-20210120.091959-2</value>
+        <updated>20210120091959</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.9.0-fix-ImageResizer-visibility-20210120.091959-2</value>
+        <updated>20210120091959</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

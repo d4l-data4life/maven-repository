@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.9.1-change-TaggingService-getTagFromType-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "4l73c3bqrza5dgzs5aamnxtud4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.1-change-TaggingService-getTagFromType-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.1-change-TaggingService-getTagFromType-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.1-change-TaggingService-getTagFromType-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "65210160398d09abf2b094378af47a0a0895d384b9eaee1b8e5e5acae7d77d3e1708ba6970f1a2a644ef7b6f4e4e4b8a0bf143f82fa01ae673655a658d66f500",
+          "sha256": "d2ccdfffa3fc8172899a4dfba7d05f2292780b0b4422938ca8f1cbe2cce2c137",
+          "sha1": "ae88d3c345e0060df034fdac25edf1da2ed4ff09",
+          "md5": "b5b485b39ea3df9f5aebae06cc15fbfb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.1-change-TaggingService-getTagFromType-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.1-change-TaggingService-getTagFromType-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.1-change-TaggingService-getTagFromType-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "65210160398d09abf2b094378af47a0a0895d384b9eaee1b8e5e5acae7d77d3e1708ba6970f1a2a644ef7b6f4e4e4b8a0bf143f82fa01ae673655a658d66f500",
+          "sha256": "d2ccdfffa3fc8172899a4dfba7d05f2292780b0b4422938ca8f1cbe2cce2c137",
+          "sha1": "ae88d3c345e0060df034fdac25edf1da2ed4ff09",
+          "md5": "b5b485b39ea3df9f5aebae06cc15fbfb"
+        }
+      ]
+    }
+  ]
+}

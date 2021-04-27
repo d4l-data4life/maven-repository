@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.9.0-change-tagging-encoding-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "ghokhajelbektfor33nz5ulrpm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.0-change-tagging-encoding-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.9.0-change-tagging-encoding-SNAPSHOT.jar",
+          "url": "auth-jvm-1.9.0-change-tagging-encoding-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "6370046683d2324a409feb4bdf8d617753615a859b3d6c7d3462a6a3783604ce3d8b2b957a2a16afdf92a98a272b58e9bae36f4d2a65db34804c65e60cd5f00e",
+          "sha256": "ec46e61ff2b4ca50ea2e1d01a2d0a7a4182f778a9e7bfd9217092a0888707b70",
+          "sha1": "f19b47ffa5fb8544aea3c1fea6767df7d99b69d2",
+          "md5": "201523fc1d7f58f9045bd92b18770c18"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.9.0-change-tagging-encoding-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.0-change-tagging-encoding-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.9.0-change-tagging-encoding-SNAPSHOT.jar",
+          "url": "auth-jvm-1.9.0-change-tagging-encoding-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "6370046683d2324a409feb4bdf8d617753615a859b3d6c7d3462a6a3783604ce3d8b2b957a2a16afdf92a98a272b58e9bae36f4d2a65db34804c65e60cd5f00e",
+          "sha256": "ec46e61ff2b4ca50ea2e1d01a2d0a7a4182f778a9e7bfd9217092a0888707b70",
+          "sha1": "f19b47ffa5fb8544aea3c1fea6767df7d99b69d2",
+          "md5": "201523fc1d7f58f9045bd92b18770c18"
+        }
+      ]
+    }
+  ]
+}

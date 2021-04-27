@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.9.0-change-tagging-encoding-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "5tshejskb5hqjgwhqusnarwxda"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.0-change-tagging-encoding-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.0-change-tagging-encoding-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.0-change-tagging-encoding-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "c0cbaf97a5044859b1127c809bf18de0f66baec030c68133263e2f6c3127831fb4af55ec50513fcce9852de0cbd6d576661d5af9f9a27a4967c185c5071e9a79",
+          "sha256": "e4ed8857d2e4f69f9bdff452e7c820f724a700c6ac694b9548a66418942a08bf",
+          "sha1": "48be931cbb591626f852c0c566bcef1e80c91f0c",
+          "md5": "699ef5db5146223020233925986f56d1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.0-change-tagging-encoding-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.0-change-tagging-encoding-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.0-change-tagging-encoding-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "c0cbaf97a5044859b1127c809bf18de0f66baec030c68133263e2f6c3127831fb4af55ec50513fcce9852de0cbd6d576661d5af9f9a27a4967c185c5071e9a79",
+          "sha256": "e4ed8857d2e4f69f9bdff452e7c820f724a700c6ac694b9548a66418942a08bf",
+          "sha1": "48be931cbb591626f852c0c566bcef1e80c91f0c",
+          "md5": "699ef5db5146223020233925986f56d1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-android",
+    "version": "1.10.0-add-fhir4-download-support-in-clients-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "xn4cqacczvasvh6dqh5ii2fshm"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.10.0-add-fhir4-download-support-in-clients-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-android-1.10.0-add-fhir4-download-support-in-clients-SNAPSHOT.aar",
+          "url": "auth-android-1.10.0-add-fhir4-download-support-in-clients-SNAPSHOT.aar",
+          "size": 44906,
+          "sha512": "777106f3330534bae1992a37edba7ff7dead22b793b8d98c7d4ca1e8bd4c6ca6b8c75e626a929d446e0e22814d640e1839fa28f1049f7f94c717418d34d0565b",
+          "sha256": "6502c6d8d40bf35a57d5989845c45311b35805b87f361d1050a306ab7cbb6dca",
+          "sha1": "f8239def933fff7f3f2213892a01b04ca43349a3",
+          "md5": "0273a840687bc748e44d00b2cc5c567e"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.10.0-add-fhir4-download-support-in-clients-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-android",
+          "version": {
+            "requires": "1.10.0-add-fhir4-download-support-in-clients-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-jvm"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.3.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.github.gesundheitscloud",
+          "module": "AppAuth-Android",
+          "version": {
+            "requires": "9e3cc033ff"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-android-1.10.0-add-fhir4-download-support-in-clients-SNAPSHOT.aar",
+          "url": "auth-android-1.10.0-add-fhir4-download-support-in-clients-SNAPSHOT.aar",
+          "size": 44906,
+          "sha512": "777106f3330534bae1992a37edba7ff7dead22b793b8d98c7d4ca1e8bd4c6ca6b8c75e626a929d446e0e22814d640e1839fa28f1049f7f94c717418d34d0565b",
+          "sha256": "6502c6d8d40bf35a57d5989845c45311b35805b87f361d1050a306ab7cbb6dca",
+          "sha1": "f8239def933fff7f3f2213892a01b04ca43349a3",
+          "md5": "0273a840687bc748e44d00b2cc5c567e"
+        }
+      ]
+    }
+  ]
+}

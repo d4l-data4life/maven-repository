@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.9.0-fix-ImageResizer-visibility-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "jaamjrhupffsli7sw5hz2qu3ka"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.0-fix-ImageResizer-visibility-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.0-fix-ImageResizer-visibility-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.0-fix-ImageResizer-visibility-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "06eff24f1f5d6c828698c93d0fb92b8051c88af4a2399288137b3a14869e9aa7ad2c92803e589701dcf6d72303462d6b5f2133b8d6ed2b81da0f18cb76bb28b2",
+          "sha256": "22674d6e4519504060d94a2756fbf88c34ba1632ac43d0e4afa40195b97fdd43",
+          "sha1": "97f2639669d300955dbb9dfca9642e20100598c2",
+          "md5": "38405ac8e71252611553d58856b39f7c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.0-fix-ImageResizer-visibility-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.0-fix-ImageResizer-visibility-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.0-fix-ImageResizer-visibility-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "06eff24f1f5d6c828698c93d0fb92b8051c88af4a2399288137b3a14869e9aa7ad2c92803e589701dcf6d72303462d6b5f2133b8d6ed2b81da0f18cb76bb28b2",
+          "sha256": "22674d6e4519504060d94a2756fbf88c34ba1632ac43d0e4afa40195b97fdd43",
+          "sha1": "97f2639669d300955dbb9dfca9642e20100598c2",
+          "md5": "38405ac8e71252611553d58856b39f7c"
+        }
+      ]
+    }
+  ]
+}

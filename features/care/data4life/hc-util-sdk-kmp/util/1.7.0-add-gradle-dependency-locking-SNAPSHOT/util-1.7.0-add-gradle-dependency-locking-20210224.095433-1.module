@@ -1,0 +1,95 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.7.0-add-gradle-dependency-locking-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "5ye223qlv5b4pbwbk74rmv6cve"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "util-metadata-1.7.0-add-gradle-dependency-locking-SNAPSHOT.jar",
+          "url": "util-1.7.0-add-gradle-dependency-locking-SNAPSHOT.jar",
+          "size": 6584,
+          "sha512": "d3f47b4851569caf336db491c2059f38fa03b4320d046868a5d568140a85418fcd2a84451f2282a59957d8378fbed3fb4369fa307f9576d020bb240af731835c",
+          "sha256": "d27f57a0a7ee07134cbe6cc56929a330f4958b68a80798228c7dd6c87263a95e",
+          "sha1": "6f174cee8495e237e00ec8760ba7e5922a308213",
+          "md5": "48c4f7031a97353614e599d147e54d98"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-android/1.7.0-add-gradle-dependency-locking-SNAPSHOT/util-android-1.7.0-add-gradle-dependency-locking-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-android",
+        "version": "1.7.0-add-gradle-dependency-locking-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-android/1.7.0-add-gradle-dependency-locking-SNAPSHOT/util-android-1.7.0-add-gradle-dependency-locking-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-android",
+        "version": "1.7.0-add-gradle-dependency-locking-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-jvm/1.7.0-add-gradle-dependency-locking-SNAPSHOT/util-jvm-1.7.0-add-gradle-dependency-locking-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-jvm",
+        "version": "1.7.0-add-gradle-dependency-locking-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-jvm/1.7.0-add-gradle-dependency-locking-SNAPSHOT/util-jvm-1.7.0-add-gradle-dependency-locking-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-jvm",
+        "version": "1.7.0-add-gradle-dependency-locking-SNAPSHOT"
+      }
+    }
+  ]
+}

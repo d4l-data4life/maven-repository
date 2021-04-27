@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "vfqva2c7evbi7isa5xterb7xia"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.jar",
+          "url": "auth-common-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "c378f2b894403b2c90d2826a6eb8dbc40bdf1b78f574c4e1169b22bdb2eb327432a019d9ac1571daf8add7d81d03f291df8d1199c66dbc512e4d2eb8088a2a24",
+          "sha256": "ab16b7064a1707a489141850bb81a395ce30d221bb72f6fc35abdf36617dbaf0",
+          "sha1": "0e5a7ef6f6c912455a3308cdb6eb273778392e0f",
+          "md5": "687927fddf5095effe1efc889e8cb676"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.jar",
+          "url": "auth-common-1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "c378f2b894403b2c90d2826a6eb8dbc40bdf1b78f574c4e1169b22bdb2eb327432a019d9ac1571daf8add7d81d03f291df8d1199c66dbc512e4d2eb8088a2a24",
+          "sha256": "ab16b7064a1707a489141850bb81a395ce30d221bb72f6fc35abdf36617dbaf0",
+          "sha1": "0e5a7ef6f6c912455a3308cdb6eb273778392e0f",
+          "md5": "687927fddf5095effe1efc889e8cb676"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.9.1-change-record-creation-tests-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "v37laglxpzal5ob2etcg5wfkry"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.1-change-record-creation-tests-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.9.1-change-record-creation-tests-SNAPSHOT.jar",
+          "url": "auth-jvm-1.9.1-change-record-creation-tests-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "9476b57d97aa38b525e9d63dbbfc809cbf2d55f72424081809c58bebfbc80e5b79d1264666b5726102e36293cd3577f3e0a56e83b12830260bda1d2ef42bd937",
+          "sha256": "7849d441b1c86466356552f910ff0228b2b3968ddf54e781975136265227e5fd",
+          "sha1": "7fb57972970cbeb11ce24e02f7570151a18e309f",
+          "md5": "8644c635ef68c85b51c50b194649d186"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.9.1-change-record-creation-tests-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.1-change-record-creation-tests-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.9.1-change-record-creation-tests-SNAPSHOT.jar",
+          "url": "auth-jvm-1.9.1-change-record-creation-tests-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "9476b57d97aa38b525e9d63dbbfc809cbf2d55f72424081809c58bebfbc80e5b79d1264666b5726102e36293cd3577f3e0a56e83b12830260bda1d2ef42bd937",
+          "sha256": "7849d441b1c86466356552f910ff0228b2b3968ddf54e781975136265227e5fd",
+          "sha1": "7fb57972970cbeb11ce24e02f7570151a18e309f",
+          "md5": "8644c635ef68c85b51c50b194649d186"
+        }
+      ]
+    }
+  ]
+}

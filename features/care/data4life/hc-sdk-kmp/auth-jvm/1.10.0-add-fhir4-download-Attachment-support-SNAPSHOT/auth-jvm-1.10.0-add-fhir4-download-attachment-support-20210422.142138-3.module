@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.10.0-add-fhir4-download-attachment-support-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "rwszed26yrcmfggg4ln3iezvbu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.10.0-add-fhir4-download-attachment-support-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.10.0-add-fhir4-download-attachment-support-SNAPSHOT.jar",
+          "url": "auth-jvm-1.10.0-add-fhir4-download-attachment-support-SNAPSHOT.jar",
+          "size": 27862,
+          "sha512": "b77dc7735ebaf9d9f3afd2b97d3acfdd73d50377062d1d1838157bbe9ad3f8e0fbb39ace6e8cc53a0618cce40887201b542bdf320f447359fc3855708fd21cb4",
+          "sha256": "7f3c9c1cc5611d538e235d632dccae334af1552eb99ce67108be9e3fc6bef304",
+          "sha1": "853061b453788779f8d4aa277d522a4774c12360",
+          "md5": "51da62216600b3f97d458a4e6032a4db"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.10.0-add-fhir4-download-attachment-support-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.10.0-add-fhir4-download-attachment-support-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.10.0-add-fhir4-download-attachment-support-SNAPSHOT.jar",
+          "url": "auth-jvm-1.10.0-add-fhir4-download-attachment-support-SNAPSHOT.jar",
+          "size": 27862,
+          "sha512": "b77dc7735ebaf9d9f3afd2b97d3acfdd73d50377062d1d1838157bbe9ad3f8e0fbb39ace6e8cc53a0618cce40887201b542bdf320f447359fc3855708fd21cb4",
+          "sha256": "7f3c9c1cc5611d538e235d632dccae334af1552eb99ce67108be9e3fc6bef304",
+          "sha1": "853061b453788779f8d4aa277d522a4774c12360",
+          "md5": "51da62216600b3f97d458a4e6032a4db"
+        }
+      ]
+    }
+  ]
+}

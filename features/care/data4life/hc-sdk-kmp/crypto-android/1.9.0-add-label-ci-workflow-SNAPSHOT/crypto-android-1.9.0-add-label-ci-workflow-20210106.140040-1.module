@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-android",
+    "version": "1.9.0-add-label-ci-workflow-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "npror4vrubhehb2jhf4kh7fm7q"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.0-add-label-ci-workflow-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.9.0-add-label-ci-workflow-SNAPSHOT.aar",
+          "url": "crypto-android-1.9.0-add-label-ci-workflow-SNAPSHOT.aar",
+          "size": 51834,
+          "sha512": "c1b487185f6e8c01e759638283f2bce5c8b2c466a5ca201b4c68f2945c60d1fe1851c57c4c87564da519326286999ad920ec1b1f48734735196a1e03e881336d",
+          "sha256": "8284051759cbd106447c8274e4142531deff702143b203d7313e686a0e12c614",
+          "sha1": "9a1f61cb74ff6a3f5887d292bd476710303ef9e0",
+          "md5": "499ba06ca8e51a620a689a7c2c030132"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.0-add-label-ci-workflow-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.9.0-add-label-ci-workflow-SNAPSHOT.aar",
+          "url": "crypto-android-1.9.0-add-label-ci-workflow-SNAPSHOT.aar",
+          "size": 51834,
+          "sha512": "c1b487185f6e8c01e759638283f2bce5c8b2c466a5ca201b4c68f2945c60d1fe1851c57c4c87564da519326286999ad920ec1b1f48734735196a1e03e881336d",
+          "sha256": "8284051759cbd106447c8274e4142531deff702143b203d7313e686a0e12c614",
+          "sha1": "9a1f61cb74ff6a3f5887d292bd476710303ef9e0",
+          "md5": "499ba06ca8e51a620a689a7c2c030132"
+        }
+      ]
+    }
+  ]
+}

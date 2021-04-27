@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-android",
+    "version": "1.10.0-change-userid-on-client-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "eptpqmjav5etlc7bx5xdgdb6ce"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.10.0-change-userid-on-client-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-android-1.10.0-change-userid-on-client-SNAPSHOT.aar",
+          "url": "auth-android-1.10.0-change-userid-on-client-SNAPSHOT.aar",
+          "size": 44961,
+          "sha512": "2fe531bc5a1d77ee661f5af6971a749c7cdc000dbeaf2cf310e21a95e1ae84b727b2698fa2e10380e570334e8208ad1a833a0e5e1afdcc7874d8880875365528",
+          "sha256": "3a4313cbbf42f68b781174a3c1ff2f45b6b4eb3e538099517dd6268742bb62d7",
+          "sha1": "4b0fd936fa9c82b64a031c8995bf69214119eb21",
+          "md5": "3c7f2772f117a655c60024269d038409"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.10.0-change-userid-on-client-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-android",
+          "version": {
+            "requires": "1.10.0-change-userid-on-client-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-jvm"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.3.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.github.gesundheitscloud",
+          "module": "AppAuth-Android",
+          "version": {
+            "requires": "9e3cc033ff"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-android-1.10.0-change-userid-on-client-SNAPSHOT.aar",
+          "url": "auth-android-1.10.0-change-userid-on-client-SNAPSHOT.aar",
+          "size": 44961,
+          "sha512": "2fe531bc5a1d77ee661f5af6971a749c7cdc000dbeaf2cf310e21a95e1ae84b727b2698fa2e10380e570334e8208ad1a833a0e5e1afdcc7874d8880875365528",
+          "sha256": "3a4313cbbf42f68b781174a3c1ff2f45b6b4eb3e538099517dd6268742bb62d7",
+          "sha1": "4b0fd936fa9c82b64a031c8995bf69214119eb21",
+          "md5": "3c7f2772f117a655c60024269d038409"
+        }
+      ]
+    }
+  ]
+}

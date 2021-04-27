@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.9.2-add-cryptoservice-fake-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "nuxs453ps5ftpgmnxgnfx2f2ce"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.9.2-add-cryptoservice-fake-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.2-add-cryptoservice-fake-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "2783dd4fe712b8b2b3b6afdafbe56f4b381dd5d7df1c8fabde1dcc437e7154672e26110df2a96ee1a6823b6ff51e1980266957c8e922564980f2d6a10d7f7dc9",
+          "sha256": "71c2367cd3130ad36cf401ce02a428a08342693eae86274d213c4a3b9479a06f",
+          "sha1": "1331ec288d2b36ca59424e7cdf14abc4f2b0304a",
+          "md5": "4f2bf8eef76b79045b6f6b2d532d32fa"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.9.2-add-cryptoservice-fake-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.2-add-cryptoservice-fake-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "2783dd4fe712b8b2b3b6afdafbe56f4b381dd5d7df1c8fabde1dcc437e7154672e26110df2a96ee1a6823b6ff51e1980266957c8e922564980f2d6a10d7f7dc9",
+          "sha256": "71c2367cd3130ad36cf401ce02a428a08342693eae86274d213c4a3b9479a06f",
+          "sha1": "1331ec288d2b36ca59424e7cdf14abc4f2b0304a",
+          "md5": "4f2bf8eef76b79045b6f6b2d532d32fa"
+        }
+      ]
+    }
+  ]
+}

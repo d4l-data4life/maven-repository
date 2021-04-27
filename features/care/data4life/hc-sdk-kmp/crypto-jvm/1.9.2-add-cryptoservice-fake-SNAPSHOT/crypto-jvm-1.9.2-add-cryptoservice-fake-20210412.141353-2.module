@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.9.2-add-cryptoservice-fake-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "mbjfbzhpvbfxpnbkilce3pxfzy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.2-add-cryptoservice-fake-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.9.2-add-cryptoservice-fake-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.9.2-add-cryptoservice-fake-SNAPSHOT.jar",
+          "size": 46060,
+          "sha512": "c540da394bab138cd7243395336a705dc1f8cec7b55a4c64b919c5f2e9555e8eaac2945d8bce91ec0c989088008eb205f60de98c974336f54ea4bdbeb93d1f4f",
+          "sha256": "54b6258602c3674ba7e3d21b2e7a8436f4ad472fd78a59c5ec228166dbac7c94",
+          "sha1": "6406ddc97ed4b389e8fce2ff128a6264e2754de8",
+          "md5": "99ac6a1b38ec086d06f4bdbaf61d258f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.2-add-cryptoservice-fake-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.9.2-add-cryptoservice-fake-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.9.2-add-cryptoservice-fake-SNAPSHOT.jar",
+          "size": 46060,
+          "sha512": "c540da394bab138cd7243395336a705dc1f8cec7b55a4c64b919c5f2e9555e8eaac2945d8bce91ec0c989088008eb205f60de98c974336f54ea4bdbeb93d1f4f",
+          "sha256": "54b6258602c3674ba7e3d21b2e7a8436f4ad472fd78a59c5ec228166dbac7c94",
+          "sha1": "6406ddc97ed4b389e8fce2ff128a6264e2754de8",
+          "md5": "99ac6a1b38ec086d06f4bdbaf61d258f"
+        }
+      ]
+    }
+  ]
+}

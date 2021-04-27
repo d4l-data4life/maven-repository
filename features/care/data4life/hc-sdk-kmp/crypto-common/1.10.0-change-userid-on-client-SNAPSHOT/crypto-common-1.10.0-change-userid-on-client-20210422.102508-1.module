@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.10.0-change-userid-on-client-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "67pv5qmtinegdfj5xdsl5wvkru"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.10.0-change-userid-on-client-SNAPSHOT.jar",
+          "url": "crypto-common-1.10.0-change-userid-on-client-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "5efbe29fb5738b925b14140a080961aec8cb9971b243300da4bbeb8f37a1ac91a6b06c03dd10be9240e3570becabf5538399df790e0619f812d2f3cfe15078cb",
+          "sha256": "e982e516fa7d6097a3175630d7a6e5b6f7bb47e7e05b26f5b1d4d57a0fd91078",
+          "sha1": "ea280b1f728528cff240f312397dc5e9161bedc0",
+          "md5": "f7578027d4acb1416d210a6146d846f8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.10.0-change-userid-on-client-SNAPSHOT.jar",
+          "url": "crypto-common-1.10.0-change-userid-on-client-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "5efbe29fb5738b925b14140a080961aec8cb9971b243300da4bbeb8f37a1ac91a6b06c03dd10be9240e3570becabf5538399df790e0619f812d2f3cfe15078cb",
+          "sha256": "e982e516fa7d6097a3175630d7a6e5b6f7bb47e7e05b26f5b1d4d57a0fd91078",
+          "sha1": "ea280b1f728528cff240f312397dc5e9161bedc0",
+          "md5": "f7578027d4acb1416d210a6146d846f8"
+        }
+      ]
+    }
+  ]
+}

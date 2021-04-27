@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-android",
+    "version": "1.9.2-add-cryptoservice-fake-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "aazr5moqkbbyfcrojkj4zbj3fy"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.2-add-cryptoservice-fake-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.9.2-add-cryptoservice-fake-SNAPSHOT.aar",
+          "url": "securestore-android-1.9.2-add-cryptoservice-fake-SNAPSHOT.aar",
+          "size": 41917,
+          "sha512": "6a005632f0ce111d53f1e3e1957175f9145e8bd38fbe2c32629b2165c02743231f9a3e517d8726192032b049ecdf24917baa5bb64a8cb594399bc80819010b5e",
+          "sha256": "3e36fc82d63d590cdda4b394d0e7608db895e8921562d2f70f4cad97ba61508c",
+          "sha1": "d84d4531107a06f09921b883d7b400bd0d81e827",
+          "md5": "884898d97543722b145393a201587874"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.2-add-cryptoservice-fake-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.crypto.tink",
+          "module": "tink-android",
+          "version": {
+            "requires": "1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.9.2-add-cryptoservice-fake-SNAPSHOT.aar",
+          "url": "securestore-android-1.9.2-add-cryptoservice-fake-SNAPSHOT.aar",
+          "size": 41917,
+          "sha512": "6a005632f0ce111d53f1e3e1957175f9145e8bd38fbe2c32629b2165c02743231f9a3e517d8726192032b049ecdf24917baa5bb64a8cb594399bc80819010b5e",
+          "sha256": "3e36fc82d63d590cdda4b394d0e7608db895e8921562d2f70f4cad97ba61508c",
+          "sha1": "d84d4531107a06f09921b883d7b400bd0d81e827",
+          "md5": "884898d97543722b145393a201587874"
+        }
+      ]
+    }
+  ]
+}

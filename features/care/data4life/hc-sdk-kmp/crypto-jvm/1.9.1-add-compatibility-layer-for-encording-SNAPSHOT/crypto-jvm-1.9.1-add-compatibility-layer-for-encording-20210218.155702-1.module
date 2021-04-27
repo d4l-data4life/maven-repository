@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.9.1-add-compatibility-layer-for-encording-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "chojjztcwngxvnyz6vvkqrwrzq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.1-add-compatibility-layer-for-encording-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "size": 46078,
+          "sha512": "4343285f31a841b07a0fe9762d0dec2a2df0f18215d4c6f612450ceeb4550a16679e3849327923472a2bdbff35deaeb1e2b62ff0b96a411d8cfe60023d17347d",
+          "sha256": "45e80e1d7d29f0f4072defae111c49a9c1c538cf6f45a721d4346ef345896f74",
+          "sha1": "c56987cacf4798b1adb9876966285a0bbfe430af",
+          "md5": "917ad3d6b1be36cd97c41db365364a85"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.1-add-compatibility-layer-for-encording-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "size": 46078,
+          "sha512": "4343285f31a841b07a0fe9762d0dec2a2df0f18215d4c6f612450ceeb4550a16679e3849327923472a2bdbff35deaeb1e2b62ff0b96a411d8cfe60023d17347d",
+          "sha256": "45e80e1d7d29f0f4072defae111c49a9c1c538cf6f45a721d4346ef345896f74",
+          "sha1": "c56987cacf4798b1adb9876966285a0bbfe430af",
+          "md5": "917ad3d6b1be36cd97c41db365364a85"
+        }
+      ]
+    }
+  ]
+}

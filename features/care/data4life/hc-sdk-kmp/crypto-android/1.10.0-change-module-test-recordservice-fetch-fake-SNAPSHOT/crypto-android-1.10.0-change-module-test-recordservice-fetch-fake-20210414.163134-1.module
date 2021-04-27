@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-android",
+    "version": "1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "mznpa5qfq5a7hjujrnazuwiv3e"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT.aar",
+          "url": "crypto-android-1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT.aar",
+          "size": 51848,
+          "sha512": "0a95d67f6e4d3857e71044591636c1a715a37efd5f324bad8a646242b1d7daa42094cea873b5b6ccb3c1499d3a66cd3c4816461e69f77e0cc6739ce6e148eb80",
+          "sha256": "2c0aa5cbe71fbf1787e49cdf76f56da834cb7ca1267cee9bf75606ebfa5ec73f",
+          "sha1": "2ba9957587ccbb17473577ebdf48ed42f9eb82df",
+          "md5": "cf965124c6c09a970651578eab1f91ee"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT.aar",
+          "url": "crypto-android-1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT.aar",
+          "size": 51848,
+          "sha512": "0a95d67f6e4d3857e71044591636c1a715a37efd5f324bad8a646242b1d7daa42094cea873b5b6ccb3c1499d3a66cd3c4816461e69f77e0cc6739ce6e148eb80",
+          "sha256": "2c0aa5cbe71fbf1787e49cdf76f56da834cb7ca1267cee9bf75606ebfa5ec73f",
+          "sha1": "2ba9957587ccbb17473577ebdf48ed42f9eb82df",
+          "md5": "cf965124c6c09a970651578eab1f91ee"
+        }
+      ]
+    }
+  ]
+}

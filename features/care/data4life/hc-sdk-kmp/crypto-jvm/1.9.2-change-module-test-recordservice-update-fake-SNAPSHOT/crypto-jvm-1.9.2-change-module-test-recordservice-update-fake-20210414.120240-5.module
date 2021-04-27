@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.9.2-change-module-test-recordservice-update-fake-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "qpj2yhlstbbb7i7lrnp3i42ggy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.2-change-module-test-recordservice-update-fake-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.9.2-change-module-test-recordservice-update-fake-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.9.2-change-module-test-recordservice-update-fake-SNAPSHOT.jar",
+          "size": 46060,
+          "sha512": "f3fb43720004a71145d7ccc8d0e0f84563dd1990abb28843d582d693e016079ec7ad5b4778b21bc15d0089fce525618007e23d8002b85a6eb7531947b26165e1",
+          "sha256": "7dfed3d49e22ec80154ef6bf10daece2db423ae561defd0f42a47bc4b344ada7",
+          "sha1": "12c2dc068328806fb2e3399c1e8a3e7b127da4ed",
+          "md5": "70376ed13d8312a30316251f30724200"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.2-change-module-test-recordservice-update-fake-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.9.2-change-module-test-recordservice-update-fake-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.9.2-change-module-test-recordservice-update-fake-SNAPSHOT.jar",
+          "size": 46060,
+          "sha512": "f3fb43720004a71145d7ccc8d0e0f84563dd1990abb28843d582d693e016079ec7ad5b4778b21bc15d0089fce525618007e23d8002b85a6eb7531947b26165e1",
+          "sha256": "7dfed3d49e22ec80154ef6bf10daece2db423ae561defd0f42a47bc4b344ada7",
+          "sha1": "12c2dc068328806fb2e3399c1e8a3e7b127da4ed",
+          "md5": "70376ed13d8312a30316251f30724200"
+        }
+      ]
+    }
+  ]
+}

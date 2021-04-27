@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.10.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "qn2temi5sbc7nbiuu63cd3yfmq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.10.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.10.0-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.10.0-SNAPSHOT.jar",
+          "size": 46060,
+          "sha512": "81f50a3e22c424f0793b45808908e168b50197d31ba71a3362f701ed9e375b7a1777b0f61ee1bb9b34ecfd89e82db1987d781be0a8414014f807d664d218c4d3",
+          "sha256": "851b7eb76b77acb8e3e3a3a2db271575d59cb4e05e964562ec1a8193b2b10d8d",
+          "sha1": "dfb016c984dadae1c235f85998091db030be0955",
+          "md5": "4840c8fe59050c8a925583add0086473"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.10.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.10.0-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.10.0-SNAPSHOT.jar",
+          "size": 46060,
+          "sha512": "81f50a3e22c424f0793b45808908e168b50197d31ba71a3362f701ed9e375b7a1777b0f61ee1bb9b34ecfd89e82db1987d781be0a8414014f807d664d218c4d3",
+          "sha256": "851b7eb76b77acb8e3e3a3a2db271575d59cb4e05e964562ec1a8193b2b10d8d",
+          "sha1": "dfb016c984dadae1c235f85998091db030be0955",
+          "md5": "4840c8fe59050c8a925583add0086473"
+        }
+      ]
+    }
+  ]
+}

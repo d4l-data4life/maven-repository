@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.9.1-add-datetimeformatter-wrapper-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "chzn6qecbjbffgrbc333qtrp74"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.1-add-datetimeformatter-wrapper-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.1-add-datetimeformatter-wrapper-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "ef255f2511b94b52f899ab7e380ae2bbda137a174c57ecc669647987ea9506f1379654da53da645c61620d5f8fd0442747a63e2d5eb481be53d02efd8ce0f8b9",
+          "sha256": "81905e04c9187ea464016b177429e970c7f61e61c1763e6afbd25bfe8c9451c0",
+          "sha1": "898d3bb008b3051531b362244bef9e62c93a8eee",
+          "md5": "e87b9754d897311d773b0dbdc06d6ab6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.1-add-datetimeformatter-wrapper-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.1-add-datetimeformatter-wrapper-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "ef255f2511b94b52f899ab7e380ae2bbda137a174c57ecc669647987ea9506f1379654da53da645c61620d5f8fd0442747a63e2d5eb481be53d02efd8ce0f8b9",
+          "sha256": "81905e04c9187ea464016b177429e970c7f61e61c1763e6afbd25bfe8c9451c0",
+          "sha1": "898d3bb008b3051531b362244bef9e62c93a8eee",
+          "md5": "e87b9754d897311d773b0dbdc06d6ab6"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.9.1-change-EncryptedRecord-and-EncryptedKey-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "l2ybysrhkzbpbl6dccawjm2vum"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.1-change-EncryptedRecord-and-EncryptedKey-SNAPSHOT.jar",
+          "url": "auth-common-1.9.1-change-EncryptedRecord-and-EncryptedKey-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "17f7fcb7d7e12b86fe80a9cf36f327650ee8e6685fa52880fedc78256a046285ef83384f3e7467406949f1f77f7f686c0631e2e5e619bd3844d3234736376e88",
+          "sha256": "7bf63dbc4730c131518bf20b0c1c620a6aa580e19a5d58a90a7cef135585a52f",
+          "sha1": "5cf8e65b124a6a37dc8aa6dbdacb7b2b919729ba",
+          "md5": "bde4f37227e4d397fb886664d4eaf47a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.1-change-EncryptedRecord-and-EncryptedKey-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.1-change-EncryptedRecord-and-EncryptedKey-SNAPSHOT.jar",
+          "url": "auth-common-1.9.1-change-EncryptedRecord-and-EncryptedKey-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "17f7fcb7d7e12b86fe80a9cf36f327650ee8e6685fa52880fedc78256a046285ef83384f3e7467406949f1f77f7f686c0631e2e5e619bd3844d3234736376e88",
+          "sha256": "7bf63dbc4730c131518bf20b0c1c620a6aa580e19a5d58a90a7cef135585a52f",
+          "sha1": "5cf8e65b124a6a37dc8aa6dbdacb7b2b919729ba",
+          "md5": "bde4f37227e4d397fb886664d4eaf47a"
+        }
+      ]
+    }
+  ]
+}

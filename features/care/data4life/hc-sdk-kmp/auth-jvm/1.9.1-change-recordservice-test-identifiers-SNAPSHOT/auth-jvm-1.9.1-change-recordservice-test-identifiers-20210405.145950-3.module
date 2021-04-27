@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.9.1-change-recordservice-test-identifiers-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "hqezsfxogzctdfzn6snxh6dfmq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.1-change-recordservice-test-identifiers-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.9.1-change-recordservice-test-identifiers-SNAPSHOT.jar",
+          "url": "auth-jvm-1.9.1-change-recordservice-test-identifiers-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "3f36b0d4513b78448938a12f055f33fd200c1d2856e3f582b0872cf428081d51753fd4ba06ba2528afc56eb1d993f487392e98b86be645870e1511549cc014ab",
+          "sha256": "e58d28e3b9ac47d970e424b6709941d530b057472cfed72898aa43dcc26e6b4e",
+          "sha1": "020deb9276a3dc416c45372162ed153d5e2463b1",
+          "md5": "02e9f880169d0da327380b8b5e1d6a9b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.9.1-change-recordservice-test-identifiers-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.1-change-recordservice-test-identifiers-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.9.1-change-recordservice-test-identifiers-SNAPSHOT.jar",
+          "url": "auth-jvm-1.9.1-change-recordservice-test-identifiers-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "3f36b0d4513b78448938a12f055f33fd200c1d2856e3f582b0872cf428081d51753fd4ba06ba2528afc56eb1d993f487392e98b86be645870e1511549cc014ab",
+          "sha256": "e58d28e3b9ac47d970e424b6709941d530b057472cfed72898aa43dcc26e6b4e",
+          "sha1": "020deb9276a3dc416c45372162ed153d5e2463b1",
+          "md5": "02e9f880169d0da327380b8b5e1d6a9b"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.9.1-change-TaggingService-getTagFromType-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "gkmhx7mo2bebtctx6q3hzt6ypq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.1-change-TaggingService-getTagFromType-SNAPSHOT.jar",
+          "url": "auth-common-1.9.1-change-TaggingService-getTagFromType-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "8788d8263a059a782b12dbda4e8c8fcfdc388d5c956aa1a539fa04a16114f3f3cd72d00bf66568eecc295157baa3325011ae6076fc634e2f7ab7ea887dd1a0a9",
+          "sha256": "8c97a1432d9f43773c16f8046fd2f49de5ba903aaa5289163c06703415093ea6",
+          "sha1": "2161360964b74e4ec682f5f4dfed05c3ef79f637",
+          "md5": "8185b607d2e623f5bf4b6c6015206d5b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.1-change-TaggingService-getTagFromType-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.1-change-TaggingService-getTagFromType-SNAPSHOT.jar",
+          "url": "auth-common-1.9.1-change-TaggingService-getTagFromType-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "8788d8263a059a782b12dbda4e8c8fcfdc388d5c956aa1a539fa04a16114f3f3cd72d00bf66568eecc295157baa3325011ae6076fc634e2f7ab7ea887dd1a0a9",
+          "sha256": "8c97a1432d9f43773c16f8046fd2f49de5ba903aaa5289163c06703415093ea6",
+          "sha1": "2161360964b74e4ec682f5f4dfed05c3ef79f637",
+          "md5": "8185b607d2e623f5bf4b6c6015206d5b"
+        }
+      ]
+    }
+  ]
+}

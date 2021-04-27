@@ -1,0 +1,44 @@
+= D4L Maven Repository
+
+This is an internal repository to distribute and archive maven dependencies.
+
+== Structure
+
+=== Releases
+
+This is used for archiving our releases.
+
+[source, gradle]
+----
+// build.gradle.kts
+repositories {
+    // add 
+    maven("https://raw.github.com/d4l-data4life/maven-repository/main/releases")
+}
+----
+
+=== Snapshots
+
+Latest versions of our development.
+
+[source, gradle]
+----
+// build.gradle.kts
+repositories {
+    // add 
+    maven("https://raw.github.com/d4l-data4life/maven-repository/main/snapshots")
+}
+----
+
+=== Features
+
+Home of features and experiments. Will be cleaned regulary.
+
+[source, gradle]
+----
+// build.gradle.kts
+repositories {
+    // add 
+    maven("https://raw.github.com/d4l-data4life/maven-repository/main/features")
+}
+----

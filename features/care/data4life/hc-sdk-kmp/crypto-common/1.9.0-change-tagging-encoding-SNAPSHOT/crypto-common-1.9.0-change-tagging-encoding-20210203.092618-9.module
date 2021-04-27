@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.9.0-change-tagging-encoding-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "ghokhajelbektfor33nz5ulrpm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.9.0-change-tagging-encoding-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.0-change-tagging-encoding-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "dcd946e7e1b06106a0f50972e2884f6b50eb106968f84acb475baf0a7b40f6c001c63cdacee318165c8a459fe7c5f6d4360d709aafb3f60c804ad65a964a30a8",
+          "sha256": "d12ac4a1ae4dfdabba65c7b60674439bd3e0a2e51782a042f16e6b45b1bddef4",
+          "sha1": "42b5ddd249789875ce577a86c6da8eb4420f823f",
+          "md5": "29a3d7a0fd7742c4da94a632f11fc982"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.9.0-change-tagging-encoding-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.0-change-tagging-encoding-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "dcd946e7e1b06106a0f50972e2884f6b50eb106968f84acb475baf0a7b40f6c001c63cdacee318165c8a459fe7c5f6d4360d709aafb3f60c804ad65a964a30a8",
+          "sha256": "d12ac4a1ae4dfdabba65c7b60674439bd3e0a2e51782a042f16e6b45b1bddef4",
+          "sha1": "42b5ddd249789875ce577a86c6da8eb4420f823f",
+          "md5": "29a3d7a0fd7742c4da94a632f11fc982"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-android",
+    "version": "1.9.2-change-recordservice-fetch-record-test-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "sgpkt5oz6rdojn6ojfll3aqlii"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.2-change-recordservice-fetch-record-test-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.9.2-change-recordservice-fetch-record-test-SNAPSHOT.aar",
+          "url": "crypto-android-1.9.2-change-recordservice-fetch-record-test-SNAPSHOT.aar",
+          "size": 51841,
+          "sha512": "25a255b2863a17670a950a7c6425c0a29b56f4769c0875a19e04bf111d79b5c6db8bb5d0770482e21dab6e718b2e33773fab0ed8290d0850c58ee2114b30bcee",
+          "sha256": "e6ef327ac030d02d098e409d7e0b6d117599d56e112ce34073ce8939c2b92c0d",
+          "sha1": "c1ffbb2e025eacb2b305be65a2154ce8eebc3ef7",
+          "md5": "8b3b3c4ba99e59bea6ac2cdc7f1b21e8"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.2-change-recordservice-fetch-record-test-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.9.2-change-recordservice-fetch-record-test-SNAPSHOT.aar",
+          "url": "crypto-android-1.9.2-change-recordservice-fetch-record-test-SNAPSHOT.aar",
+          "size": 51841,
+          "sha512": "25a255b2863a17670a950a7c6425c0a29b56f4769c0875a19e04bf111d79b5c6db8bb5d0770482e21dab6e718b2e33773fab0ed8290d0850c58ee2114b30bcee",
+          "sha256": "e6ef327ac030d02d098e409d7e0b6d117599d56e112ce34073ce8939c2b92c0d",
+          "sha1": "c1ffbb2e025eacb2b305be65a2154ce8eebc3ef7",
+          "md5": "8b3b3c4ba99e59bea6ac2cdc7f1b21e8"
+        }
+      ]
+    }
+  ]
+}

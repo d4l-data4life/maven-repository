@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-android",
+    "version": "1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "s2uv6hyio5a4zjpguswutgntie"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT.aar",
+          "url": "securestore-android-1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT.aar",
+          "size": 41931,
+          "sha512": "69763530b5b3afdcd973bafeecdebc1de83c115d597e3d48a5f04910525205e440d82b778ef618f045747d05b145f42730a9345fc33c6ba0bed70be50453463f",
+          "sha256": "3ce4251b1b9d6fb319754509b39248fc0f4aff56b610236ef036388e5bd0b075",
+          "sha1": "41af876ffcbe1a61288ada058478309e3737c181",
+          "md5": "5e1aede12f8b61bab0e591b815a21a2d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.crypto.tink",
+          "module": "tink-android",
+          "version": {
+            "requires": "1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT.aar",
+          "url": "securestore-android-1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT.aar",
+          "size": 41931,
+          "sha512": "69763530b5b3afdcd973bafeecdebc1de83c115d597e3d48a5f04910525205e440d82b778ef618f045747d05b145f42730a9345fc33c6ba0bed70be50453463f",
+          "sha256": "3ce4251b1b9d6fb319754509b39248fc0f4aff56b610236ef036388e5bd0b075",
+          "sha1": "41af876ffcbe1a61288ada058478309e3737c181",
+          "md5": "5e1aede12f8b61bab0e591b815a21a2d"
+        }
+      ]
+    }
+  ]
+}

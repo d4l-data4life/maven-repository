@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.10.0-change-module-test-recordservice-count-fake-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "b2jdpwlhsbdaderp7fakrbig5i"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.10.0-change-module-test-recordservice-count-fake-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.10.0-change-module-test-recordservice-count-fake-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.10.0-change-module-test-recordservice-count-fake-SNAPSHOT.jar",
+          "size": 46060,
+          "sha512": "914064f2cc84bc2a49ac019c69858abfb855a3b3dbd90371cd06a51c92cc4df454c0c6d7d8d024f85715b39557c669269613c44e2032b6fb70905ab5f9cb99ca",
+          "sha256": "8cc02dd89ebfdc6f5928a977b662c2a30dd15c615adbd645829a2a165aeab130",
+          "sha1": "7f440e31963b9e49b0311e7e4a891b1207b608bc",
+          "md5": "7200c0774764a63cad4ffc8226ded170"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.10.0-change-module-test-recordservice-count-fake-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.10.0-change-module-test-recordservice-count-fake-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.10.0-change-module-test-recordservice-count-fake-SNAPSHOT.jar",
+          "size": 46060,
+          "sha512": "914064f2cc84bc2a49ac019c69858abfb855a3b3dbd90371cd06a51c92cc4df454c0c6d7d8d024f85715b39557c669269613c44e2032b6fb70905ab5f9cb99ca",
+          "sha256": "8cc02dd89ebfdc6f5928a977b662c2a30dd15c615adbd645829a2a165aeab130",
+          "sha1": "7f440e31963b9e49b0311e7e4a891b1207b608bc",
+          "md5": "7200c0774764a63cad4ffc8226ded170"
+        }
+      ]
+    }
+  ]
+}

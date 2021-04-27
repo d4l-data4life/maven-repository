@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.10.0-fix-code-style-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "b645qhpounhvbn4genyfu62jb4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.10.0-fix-code-style-SNAPSHOT.jar",
+          "url": "crypto-common-1.10.0-fix-code-style-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "42eab8c75c24503e985d3fd98d538b10e8733a4ba31ac3b72875d4a1aa0c17467f64ea49791e67168724ce3afdbc2f403d31b7b319cc66a6c61036dd2cca0147",
+          "sha256": "8d12fe32a046e825e7af4542a8f1c5bc35f1db44e78f5fa312077239e0a18b2c",
+          "sha1": "a853e1105818ac5f0d1518256c4648576639193f",
+          "md5": "62c43e329ae6cebd02927f835fcbe7c1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.10.0-fix-code-style-SNAPSHOT.jar",
+          "url": "crypto-common-1.10.0-fix-code-style-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "42eab8c75c24503e985d3fd98d538b10e8733a4ba31ac3b72875d4a1aa0c17467f64ea49791e67168724ce3afdbc2f403d31b7b319cc66a6c61036dd2cca0147",
+          "sha256": "8d12fe32a046e825e7af4542a8f1c5bc35f1db44e78f5fa312077239e0a18b2c",
+          "sha1": "a853e1105818ac5f0d1518256c4648576639193f",
+          "md5": "62c43e329ae6cebd02927f835fcbe7c1"
+        }
+      ]
+    }
+  ]
+}

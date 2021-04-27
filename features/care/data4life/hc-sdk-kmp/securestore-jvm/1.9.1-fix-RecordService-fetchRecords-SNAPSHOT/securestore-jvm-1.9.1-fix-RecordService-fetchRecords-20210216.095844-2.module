@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.9.1-fix-RecordService-fetchRecords-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "gkodvhut2fc7bd7fhe6ecgdtiq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.1-fix-RecordService-fetchRecords-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.1-fix-RecordService-fetchRecords-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.1-fix-RecordService-fetchRecords-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "854896fac0352fbb52e0f035033f68f4e1040ab4dd48499c0c421400c1262eb1bc33cf76ef15f493486c918fde5b9ad0709b27c5b0a0321d7147b4c9e4fd3672",
+          "sha256": "94c0cafd8d43563293d4a7f76101c13cfc22a7b91fc886ea65874b4e3db8d05e",
+          "sha1": "5eaa4a3a20c75daeb29f08d678dce386503e539e",
+          "md5": "00a393d16cd4fc6443b898c567ff28a3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.1-fix-RecordService-fetchRecords-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.1-fix-RecordService-fetchRecords-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.1-fix-RecordService-fetchRecords-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "854896fac0352fbb52e0f035033f68f4e1040ab4dd48499c0c421400c1262eb1bc33cf76ef15f493486c918fde5b9ad0709b27c5b0a0321d7147b4c9e4fd3672",
+          "sha256": "94c0cafd8d43563293d4a7f76101c13cfc22a7b91fc886ea65874b4e3db8d05e",
+          "sha1": "5eaa4a3a20c75daeb29f08d678dce386503e539e",
+          "md5": "00a393d16cd4fc6443b898c567ff28a3"
+        }
+      ]
+    }
+  ]
+}

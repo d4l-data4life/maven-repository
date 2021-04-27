@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.9.0-add-label-ci-workflow-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "npror4vrubhehb2jhf4kh7fm7q"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.9.0-add-label-ci-workflow-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.0-add-label-ci-workflow-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "f5013f03b1d6e4d700e5264d9c8dad83954f72d63e9d4917833a6b9c3034fdfaca5a047541dff9ea543f1aa1f11c6cbb64d7e970fe6c80ec6ac6db7c41e6ad65",
+          "sha256": "4e1a58383218a8c9aca35a72df8cd4c8f2dab8c91f98c552ddd9a5a298fa95db",
+          "sha1": "4b4bd871b2e728687692e2bc5ab975d5fd37444d",
+          "md5": "1da9d6f36d5692e78c418c64e439575c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.9.0-add-label-ci-workflow-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.0-add-label-ci-workflow-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "f5013f03b1d6e4d700e5264d9c8dad83954f72d63e9d4917833a6b9c3034fdfaca5a047541dff9ea543f1aa1f11c6cbb64d7e970fe6c80ec6ac6db7c41e6ad65",
+          "sha256": "4e1a58383218a8c9aca35a72df8cd4c8f2dab8c91f98c552ddd9a5a298fa95db",
+          "sha1": "4b4bd871b2e728687692e2bc5ab975d5fd37444d",
+          "md5": "1da9d6f36d5692e78c418c64e439575c"
+        }
+      ]
+    }
+  ]
+}

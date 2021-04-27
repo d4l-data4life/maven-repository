@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-android",
+    "version": "1.9.0-fix-release-ci-job-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "wk2qiqpmkbc5nlsh3lu5ln7ujy"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.0-fix-release-ci-job-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.9.0-fix-release-ci-job-SNAPSHOT.aar",
+          "url": "securestore-android-1.9.0-fix-release-ci-job-SNAPSHOT.aar",
+          "size": 41914,
+          "sha512": "2b59f9dc4f0bc5265465137440844988b2c678dee62468c85fb9d3bcae006da89d85f6f57f02032026ce2d044f88d2d9502cc4e00057aa6f1c9a0a241e8cd74a",
+          "sha256": "1ce79deb3f4ff6f0e42d9ec3e364c7a3a67606c2389589e5f9de49cc8e2df797",
+          "sha1": "4f026db38739178b529e6c84bba16afeaf8a8444",
+          "md5": "05ab0b313bb38de8bbae894fe611b00c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.0-fix-release-ci-job-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.crypto.tink",
+          "module": "tink-android",
+          "version": {
+            "requires": "1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.9.0-fix-release-ci-job-SNAPSHOT.aar",
+          "url": "securestore-android-1.9.0-fix-release-ci-job-SNAPSHOT.aar",
+          "size": 41914,
+          "sha512": "2b59f9dc4f0bc5265465137440844988b2c678dee62468c85fb9d3bcae006da89d85f6f57f02032026ce2d044f88d2d9502cc4e00057aa6f1c9a0a241e8cd74a",
+          "sha256": "1ce79deb3f4ff6f0e42d9ec3e364c7a3a67606c2389589e5f9de49cc8e2df797",
+          "sha1": "4f026db38739178b529e6c84bba16afeaf8a8444",
+          "md5": "05ab0b313bb38de8bbae894fe611b00c"
+        }
+      ]
+    }
+  ]
+}

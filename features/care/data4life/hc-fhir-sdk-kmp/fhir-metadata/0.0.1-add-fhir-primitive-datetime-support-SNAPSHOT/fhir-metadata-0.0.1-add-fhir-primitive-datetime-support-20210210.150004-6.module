@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir-jvm/0.0.1-add-fhir-primitive-datetime-support-SNAPSHOT/fhir-jvm-0.0.1-add-fhir-primitive-datetime-support-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-sdk-kmp",
+    "module": "fhir-jvm",
+    "version": "0.0.1-add-fhir-primitive-datetime-support-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.2",
+      "buildId": "ydpwfdc2gvfwfhtfkxydhvvufe"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "fhir-metadata-0.0.1-add-fhir-primitive-datetime-support-SNAPSHOT.jar",
+          "url": "fhir-metadata-0.0.1-add-fhir-primitive-datetime-support-SNAPSHOT.jar",
+          "size": 514431,
+          "sha512": "3dafba074bb58f462e12e7298dca13e44a275fad65b937d79ec14d4758f3a827cf0495366a155bf56f3270db9799bdd064186ff530c0d7955dc2f9a9dbcb810e",
+          "sha256": "934d6e09df77f18486cfa08bc5b7c9f30c204bd312e45f658cd04df74c0238d7",
+          "sha1": "3443abc161973a8bf068f6f705db8b2545e0d82a",
+          "md5": "412af6bc43e6949700c1606c3bad8591"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-android",
+    "version": "1.9.2-change-commkey-response-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "7xpblakkrfamdmuu36e5rvf5g4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.2-change-commkey-response-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.9.2-change-commkey-response-SNAPSHOT.aar",
+          "url": "securestore-android-1.9.2-change-commkey-response-SNAPSHOT.aar",
+          "size": 41917,
+          "sha512": "95862a5ab8809caf9c07758487a8b6f2ef3ed78152155672ac335546d46e81cad17ed55dafce516459c2ac9f6c3bf8c05049b88ecf24e16697a3b7d243f1f5a7",
+          "sha256": "0df28d0760af087f1a6d5b3e0871a8de102407c5bf6ffb6fb9f692de743ac434",
+          "sha1": "1e2daa8e6a7789ea875104db013ca61e23298ffc",
+          "md5": "d8902d9d1ac8d637670ad5165c9fd8c7"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.2-change-commkey-response-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.crypto.tink",
+          "module": "tink-android",
+          "version": {
+            "requires": "1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.9.2-change-commkey-response-SNAPSHOT.aar",
+          "url": "securestore-android-1.9.2-change-commkey-response-SNAPSHOT.aar",
+          "size": 41917,
+          "sha512": "95862a5ab8809caf9c07758487a8b6f2ef3ed78152155672ac335546d46e81cad17ed55dafce516459c2ac9f6c3bf8c05049b88ecf24e16697a3b7d243f1f5a7",
+          "sha256": "0df28d0760af087f1a6d5b3e0871a8de102407c5bf6ffb6fb9f692de743ac434",
+          "sha1": "1e2daa8e6a7789ea875104db013ca61e23298ffc",
+          "md5": "d8902d9d1ac8d637670ad5165c9fd8c7"
+        }
+      ]
+    }
+  ]
+}

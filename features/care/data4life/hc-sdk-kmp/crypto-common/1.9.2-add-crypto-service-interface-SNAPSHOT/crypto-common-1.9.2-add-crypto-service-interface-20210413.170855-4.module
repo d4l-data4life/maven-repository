@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.9.2-add-crypto-service-interface-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "moi2cm6o5jhfbbd7rxfpm4hocm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.9.2-add-crypto-service-interface-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.2-add-crypto-service-interface-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "c26f2a3f94d5a86cbb2b10c48d3d8d0d1fd1ad25ab41262cec2396962a2531486ae030787062781bbc7fce267f0f909832e508ecde56c74dcb860f61cf9a0977",
+          "sha256": "759798be16ed26b537ef39b3432547c9d3c79f5697281e3e8d96476d0cb1de89",
+          "sha1": "6f655684dce0854102de0d30cbdc72a96f7eb3d7",
+          "md5": "4f37020d175c9475fb27362a23898897"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.9.2-add-crypto-service-interface-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.2-add-crypto-service-interface-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "c26f2a3f94d5a86cbb2b10c48d3d8d0d1fd1ad25ab41262cec2396962a2531486ae030787062781bbc7fce267f0f909832e508ecde56c74dcb860f61cf9a0977",
+          "sha256": "759798be16ed26b537ef39b3432547c9d3c79f5697281e3e8d96476d0cb1de89",
+          "sha1": "6f655684dce0854102de0d30cbdc72a96f7eb3d7",
+          "md5": "4f37020d175c9475fb27362a23898897"
+        }
+      ]
+    }
+  ]
+}

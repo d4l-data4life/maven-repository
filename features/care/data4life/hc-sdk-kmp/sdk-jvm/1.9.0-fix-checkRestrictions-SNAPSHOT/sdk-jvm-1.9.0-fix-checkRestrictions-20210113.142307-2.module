@@ -1,0 +1,171 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "sdk-jvm",
+    "version": "1.9.0-fix-checkRestrictions-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "diiijoabxbckzozrfz4hjevnv4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.9.0-fix-checkRestrictions-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-jvm-1.9.0-fix-checkRestrictions-SNAPSHOT.jar",
+          "url": "sdk-jvm-1.9.0-fix-checkRestrictions-SNAPSHOT.jar",
+          "size": 11235,
+          "sha512": "b48bdeed8989c28cc9519f652e0b2797f78624eeead425282b03dce1fc9fd3a00bac6b78b7ae3039fbd202643ee9baa848c2235dc9224ddbeda70a67f5f9d396",
+          "sha256": "572d48e21e4239a0298aa6a632c399a3cbb5ec2d3af7e0bd90475de3c54a72e4",
+          "sha1": "08f310f0b6b7a7256aaa7aac0c634e6fe8a38da7",
+          "md5": "bf26ca4aad08a6d220ef749d6fd118ce"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.9.0-fix-checkRestrictions-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-jvm",
+          "version": {
+            "requires": "1.9.0-fix-checkRestrictions-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-jvm",
+          "version": {
+            "requires": "1.9.0-fix-checkRestrictions-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "hc-fhir-sdk-java",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.19"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.9.0-fix-checkRestrictions-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-jvm-1.9.0-fix-checkRestrictions-SNAPSHOT.jar",
+          "url": "sdk-jvm-1.9.0-fix-checkRestrictions-SNAPSHOT.jar",
+          "size": 11235,
+          "sha512": "b48bdeed8989c28cc9519f652e0b2797f78624eeead425282b03dce1fc9fd3a00bac6b78b7ae3039fbd202643ee9baa848c2235dc9224ddbeda70a67f5f9d396",
+          "sha256": "572d48e21e4239a0298aa6a632c399a3cbb5ec2d3af7e0bd90475de3c54a72e4",
+          "sha1": "08f310f0b6b7a7256aaa7aac0c634e6fe8a38da7",
+          "md5": "bf26ca4aad08a6d220ef749d6fd118ce"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.10.0-change-userid-on-client-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "jkhz7u6mdncozc5bphjfihznqq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.10.0-change-userid-on-client-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.10.0-change-userid-on-client-SNAPSHOT.jar",
+          "url": "auth-jvm-1.10.0-change-userid-on-client-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "bdc161811f1aa0b4001ffa7a4f25880abf33ace22be8609110bdeb5c948eab01d79f0008f3302da4848761ad29d866c1272750343e6b08b1a1f1dc1eff91494a",
+          "sha256": "37eee2ba96f10ccc8420eacd2ced2d6f8178a28ffaf86520e58760793fef7288",
+          "sha1": "d3fde0c70c8b9a81173aee9a5f713fa79dc1099f",
+          "md5": "09c7a4fadce96c6772c6f1f166cc3cb6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.10.0-change-userid-on-client-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.10.0-change-userid-on-client-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.10.0-change-userid-on-client-SNAPSHOT.jar",
+          "url": "auth-jvm-1.10.0-change-userid-on-client-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "bdc161811f1aa0b4001ffa7a4f25880abf33ace22be8609110bdeb5c948eab01d79f0008f3302da4848761ad29d866c1272750343e6b08b1a1f1dc1eff91494a",
+          "sha256": "37eee2ba96f10ccc8420eacd2ced2d6f8178a28ffaf86520e58760793fef7288",
+          "sha1": "d3fde0c70c8b9a81173aee9a5f713fa79dc1099f",
+          "md5": "09c7a4fadce96c6772c6f1f166cc3cb6"
+        }
+      ]
+    }
+  ]
+}

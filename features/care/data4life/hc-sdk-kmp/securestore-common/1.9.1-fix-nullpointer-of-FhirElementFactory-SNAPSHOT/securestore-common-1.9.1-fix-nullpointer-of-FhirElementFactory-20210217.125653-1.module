@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.9.1-fix-nullpointer-of-FhirElementFactory-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "or57dccynrfj7i3n64cav5czii"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.1-fix-nullpointer-of-FhirElementFactory-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.1-fix-nullpointer-of-FhirElementFactory-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "668c218c282ceb7d21623e1e3201b9b19e33f73683ede0870b61edbe9979a06ff6295a0ebc6f6f08cc5e9e07abff5a6e5ce52311b86a84f30c752ceaecf3d7ca",
+          "sha256": "bb34e97b223968e6a420f190194f84e1b13f5d4f778cf15aae5604a09f9d69e0",
+          "sha1": "c47a55d2d70b8b6b025f9c2dcf340e001ac98713",
+          "md5": "6c8f7395c408904dee805398e1e9ea50"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.1-fix-nullpointer-of-FhirElementFactory-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.1-fix-nullpointer-of-FhirElementFactory-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "668c218c282ceb7d21623e1e3201b9b19e33f73683ede0870b61edbe9979a06ff6295a0ebc6f6f08cc5e9e07abff5a6e5ce52311b86a84f30c752ceaecf3d7ca",
+          "sha256": "bb34e97b223968e6a420f190194f84e1b13f5d4f778cf15aae5604a09f9d69e0",
+          "sha1": "c47a55d2d70b8b6b025f9c2dcf340e001ac98713",
+          "md5": "6c8f7395c408904dee805398e1e9ea50"
+        }
+      ]
+    }
+  ]
+}

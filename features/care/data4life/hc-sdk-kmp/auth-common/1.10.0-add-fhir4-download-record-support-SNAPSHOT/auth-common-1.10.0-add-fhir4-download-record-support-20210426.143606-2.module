@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.10.0-add-fhir4-download-record-support-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "jiojqrhmqbdhnjtuxfazcumjni"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.10.0-add-fhir4-download-record-support-SNAPSHOT.jar",
+          "url": "auth-common-1.10.0-add-fhir4-download-record-support-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "5906748f31ae6105c17e02a539dc60f5321f61f6110e7702ba42a19d7a48accf22f2c22d59e37ee8b8af04d743322eed1ed40d9c4aeb0ca923845f36a98778b2",
+          "sha256": "828e608b682813d9b93d2340a7c8acd27102561da58bc522ac8eb5714ca9d4e0",
+          "sha1": "02a801f67e127127d93c0693b30b2062b4dfc817",
+          "md5": "7c73a63a3bef32736025db410fe0b922"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.10.0-add-fhir4-download-record-support-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.10.0-add-fhir4-download-record-support-SNAPSHOT.jar",
+          "url": "auth-common-1.10.0-add-fhir4-download-record-support-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "5906748f31ae6105c17e02a539dc60f5321f61f6110e7702ba42a19d7a48accf22f2c22d59e37ee8b8af04d743322eed1ed40d9c4aeb0ca923845f36a98778b2",
+          "sha256": "828e608b682813d9b93d2340a7c8acd27102561da58bc522ac8eb5714ca9d4e0",
+          "sha1": "02a801f67e127127d93c0693b30b2062b4dfc817",
+          "md5": "7c73a63a3bef32736025db410fe0b922"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-fhir-sdk-java",
+    "module": "fhir-java",
+    "version": "1.2.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "dvjldjttlbffzja7bmpy6lejpu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fhir-java-1.2.0-SNAPSHOT.jar",
+          "url": "fhir-java-1.2.0-SNAPSHOT.jar",
+          "size": 982177,
+          "sha512": "897bb78f4dc2557e9cfcab2308e9b0e1300cb10c219b7c706414a1ab1af55d25ab44466aca058b9431caa1d26438bf0d7f681ba4f4ee49feb291b1b2075ca903",
+          "sha256": "f5987ea05285f4bcc0773b9f5a8d3a124c710bcb89f7587e285fc623689aa672",
+          "sha1": "cc39dc8c7470587843967dfa62045ae31f687bcf",
+          "md5": "1d973eff6d384269fb1d78d9d46b5cc5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-java-1.2.0-SNAPSHOT.jar",
+          "url": "fhir-java-1.2.0-SNAPSHOT.jar",
+          "size": 982177,
+          "sha512": "897bb78f4dc2557e9cfcab2308e9b0e1300cb10c219b7c706414a1ab1af55d25ab44466aca058b9431caa1d26438bf0d7f681ba4f4ee49feb291b1b2075ca903",
+          "sha256": "f5987ea05285f4bcc0773b9f5a8d3a124c710bcb89f7587e285fc623689aa672",
+          "sha1": "cc39dc8c7470587843967dfa62045ae31f687bcf",
+          "md5": "1d973eff6d384269fb1d78d9d46b5cc5"
+        }
+      ]
+    }
+  ]
+}

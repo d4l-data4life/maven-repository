@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-fhir-sdk-java",
+    "module": "fhir-java",
+    "version": "1.2.1-fix-ci-job-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "sx3xew3xdvfbhd7644twjcmuru"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fhir-java-1.2.1-fix-ci-job-SNAPSHOT.jar",
+          "url": "fhir-java-1.2.1-fix-ci-job-SNAPSHOT.jar",
+          "size": 982177,
+          "sha512": "68182534afbcc0e3cddfa3401bccb8bcaf6efc014d34477a967aea5d4c91991f3370168779d3d67ea044bcdfda464939d43da97f35000cbcaf4620bc9ce72ea1",
+          "sha256": "f8573858c232994b69fd4fdcb39162a796d10bee66d1d8cf6807018140e21547",
+          "sha1": "4eb220750a9cf395eaebcb6984c4935d7d66365d",
+          "md5": "faef905489b4c07dd81bb1d50933c0e5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-java-1.2.1-fix-ci-job-SNAPSHOT.jar",
+          "url": "fhir-java-1.2.1-fix-ci-job-SNAPSHOT.jar",
+          "size": 982177,
+          "sha512": "68182534afbcc0e3cddfa3401bccb8bcaf6efc014d34477a967aea5d4c91991f3370168779d3d67ea044bcdfda464939d43da97f35000cbcaf4620bc9ce72ea1",
+          "sha256": "f8573858c232994b69fd4fdcb39162a796d10bee66d1d8cf6807018140e21547",
+          "sha1": "4eb220750a9cf395eaebcb6984c4935d7d66365d",
+          "md5": "faef905489b4c07dd81bb1d50933c0e5"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir-helper/1.5.0-fix-versioning-with-github-action-SNAPSHOT/fhir-helper-1.5.0-fix-versioning-with-github-action-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+    "module": "fhir-helper",
+    "version": "1.5.0-fix-versioning-with-github-action-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "uvic3k5ttrfnxmo4hrnv6xn2my"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "hc-fhir-sdk-java",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-helper-jvm-1.5.0-fix-versioning-with-github-action-SNAPSHOT.jar",
+          "url": "fhir-helper-jvm-1.5.0-fix-versioning-with-github-action-SNAPSHOT.jar",
+          "size": 113469,
+          "sha512": "942dd789a3f2a01ea59328cc76cb1e9fa0315801f4d82bfde9bb86095844151ad3dd52bb19b488789711714ffbc5e32951538a3e79ff559e4a2a37963effbd61",
+          "sha256": "39681169627ab63be117b2f6784e22e9e6c9dd8c57cca5b7a8898cc8b6039cdb",
+          "sha1": "51d500bdc34cda9280d443a3beda75ba5080ed93",
+          "md5": "67b7c1c83438e59c4bcc93e24758bdfb"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "hc-fhir-sdk-java",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-helper-jvm-1.5.0-fix-versioning-with-github-action-SNAPSHOT.jar",
+          "url": "fhir-helper-jvm-1.5.0-fix-versioning-with-github-action-SNAPSHOT.jar",
+          "size": 113469,
+          "sha512": "942dd789a3f2a01ea59328cc76cb1e9fa0315801f4d82bfde9bb86095844151ad3dd52bb19b488789711714ffbc5e32951538a3e79ff559e4a2a37963effbd61",
+          "sha256": "39681169627ab63be117b2f6784e22e9e6c9dd8c57cca5b7a8898cc8b6039cdb",
+          "sha1": "51d500bdc34cda9280d443a3beda75ba5080ed93",
+          "md5": "67b7c1c83438e59c4bcc93e24758bdfb"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../fhir-helper-metadata/1.5.0-fix-versioning-with-github-action-SNAPSHOT/fhir-helper-metadata-1.5.0-fix-versioning-with-github-action-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+        "module": "fhir-helper-metadata",
+        "version": "1.5.0-fix-versioning-with-github-action-SNAPSHOT"
+      }
+    }
+  ]
+}

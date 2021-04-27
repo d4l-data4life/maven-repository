@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.9.1-fix-RecordService-fetchRecords-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "xud6ebqvlzh5ndholrtj75amoq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.1-fix-RecordService-fetchRecords-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.9.1-fix-RecordService-fetchRecords-SNAPSHOT.jar",
+          "url": "auth-jvm-1.9.1-fix-RecordService-fetchRecords-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "c4a7e3287931677c5d8ed7eb519b95b8ac3b7ccc5c590f25b70cf6149dcb9e678f4502af2cbcbf9a6b8cc97fd688ab861a7161aec1fb15e432b48f8dcf11bc9f",
+          "sha256": "6d2f9e3ccc82fd59a36c4b2ce3878dcb995a746e0fc17e0afeafd8381f45c918",
+          "sha1": "b4d44f85742285972f4a348b207b97e2932ee81f",
+          "md5": "164cd627298f1adcfec2f05587f3d4f0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.9.1-fix-RecordService-fetchRecords-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.1-fix-RecordService-fetchRecords-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.9.1-fix-RecordService-fetchRecords-SNAPSHOT.jar",
+          "url": "auth-jvm-1.9.1-fix-RecordService-fetchRecords-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "c4a7e3287931677c5d8ed7eb519b95b8ac3b7ccc5c590f25b70cf6149dcb9e678f4502af2cbcbf9a6b8cc97fd688ab861a7161aec1fb15e432b48f8dcf11bc9f",
+          "sha256": "6d2f9e3ccc82fd59a36c4b2ce3878dcb995a746e0fc17e0afeafd8381f45c918",
+          "sha1": "b4d44f85742285972f4a348b207b97e2932ee81f",
+          "md5": "164cd627298f1adcfec2f05587f3d4f0"
+        }
+      ]
+    }
+  ]
+}

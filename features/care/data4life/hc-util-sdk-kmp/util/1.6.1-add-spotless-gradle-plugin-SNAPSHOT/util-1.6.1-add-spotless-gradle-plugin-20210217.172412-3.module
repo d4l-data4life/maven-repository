@@ -1,0 +1,95 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.6.1-add-spotless-gradle-plugin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.2",
+      "buildId": "7jurxokygrd6rge6cjvpxqsymq"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "util-metadata-1.6.1-add-spotless-gradle-plugin-SNAPSHOT.jar",
+          "url": "util-1.6.1-add-spotless-gradle-plugin-SNAPSHOT.jar",
+          "size": 6584,
+          "sha512": "f16caa700bab8f1126616ccfec926c90273ffe74cba7478d0ab8810bc59f1e7ddd53e29ffe029d20f206ac723ebf70eb436ea879298963e28d34c0da59b0627f",
+          "sha256": "3129fee23846b222e873306576329073d9a2a6c4fe6f27c355c70eb8b7422051",
+          "sha1": "4373b66b9ff38a05fc068e026c236317292ced85",
+          "md5": "6d9e3ac80807e365a22c0b802cdb27dd"
+        }
+      ]
+    },
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-android/1.6.1-add-spotless-gradle-plugin-SNAPSHOT/util-android-1.6.1-add-spotless-gradle-plugin-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-android",
+        "version": "1.6.1-add-spotless-gradle-plugin-SNAPSHOT"
+      }
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "available-at": {
+        "url": "../../util-android/1.6.1-add-spotless-gradle-plugin-SNAPSHOT/util-android-1.6.1-add-spotless-gradle-plugin-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-android",
+        "version": "1.6.1-add-spotless-gradle-plugin-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-jvm/1.6.1-add-spotless-gradle-plugin-SNAPSHOT/util-jvm-1.6.1-add-spotless-gradle-plugin-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-jvm",
+        "version": "1.6.1-add-spotless-gradle-plugin-SNAPSHOT"
+      }
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "available-at": {
+        "url": "../../util-jvm/1.6.1-add-spotless-gradle-plugin-SNAPSHOT/util-jvm-1.6.1-add-spotless-gradle-plugin-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-jvm",
+        "version": "1.6.1-add-spotless-gradle-plugin-SNAPSHOT"
+      }
+    }
+  ]
+}

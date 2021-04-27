@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.9.1-add-fhir4-support-countRecords-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "lekq4a2gvbegjdbbjuo7f4rfey"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.9.1-add-fhir4-support-countRecords-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.1-add-fhir4-support-countRecords-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "8e1d9e03fd5074c18fb16353363e247a8f4280a6659711d5565804a3c9eb347af55f5071f01daed25761e2cbacaa09ac06ac6283ecf4b66d776dfe6a443f254b",
+          "sha256": "d3a593bc95a0e544b8b0fdbf5418ccf552df890888a4c13ef736c337d7d080de",
+          "sha1": "9814df6aecca49b71453fcbf67bee9911f337285",
+          "md5": "e3eee16c6adce57b146b65d53a3a178a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.9.1-add-fhir4-support-countRecords-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.1-add-fhir4-support-countRecords-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "8e1d9e03fd5074c18fb16353363e247a8f4280a6659711d5565804a3c9eb347af55f5071f01daed25761e2cbacaa09ac06ac6283ecf4b66d776dfe6a443f254b",
+          "sha256": "d3a593bc95a0e544b8b0fdbf5418ccf552df890888a4c13ef736c337d7d080de",
+          "sha1": "9814df6aecca49b71453fcbf67bee9911f337285",
+          "md5": "e3eee16c6adce57b146b65d53a3a178a"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../fhir-helper/1.5.0-add-danger-SNAPSHOT/fhir-helper-1.5.0-add-danger-SNAPSHOT.module",
+    "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+    "module": "fhir-helper",
+    "version": "1.5.0-add-danger-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "ddljrihdbvbnrha7trzhigwyjm"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-helper-release.aar",
+          "url": "fhir-helper-android-1.5.0-add-danger-SNAPSHOT.aar",
+          "size": 106676,
+          "sha512": "978ec6dd724f417f07d1a3f824b00fe1fa7f3ef3ad08de12afd0fe270c16ec54e46725f2ad4426a6bb51e6582521e6891b5ae226571c95afe5cb86766615d1cb",
+          "sha256": "30679a3b85eda3e333a028848debc37c0ecf451af804f9b6b13a931fc97cb347",
+          "sha1": "dcf7a2c0dc7ef4bd9cfdd7379d1ff89b10787bd9",
+          "md5": "276948e63eca906deae6a0cb8aa20b83"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "com.android.build.api.attributes.BuildTypeAttr": "release",
+        "com.android.build.api.attributes.VariantAttr": "release",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-helper-release.aar",
+          "url": "fhir-helper-android-1.5.0-add-danger-SNAPSHOT.aar",
+          "size": 106676,
+          "sha512": "978ec6dd724f417f07d1a3f824b00fe1fa7f3ef3ad08de12afd0fe270c16ec54e46725f2ad4426a6bb51e6582521e6891b5ae226571c95afe5cb86766615d1cb",
+          "sha256": "30679a3b85eda3e333a028848debc37c0ecf451af804f9b6b13a931fc97cb347",
+          "sha1": "dcf7a2c0dc7ef4bd9cfdd7379d1ff89b10787bd9",
+          "md5": "276948e63eca906deae6a0cb8aa20b83"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../fhir-helper-metadata/1.5.0-add-danger-SNAPSHOT/fhir-helper-metadata-1.5.0-add-danger-SNAPSHOT.module",
+        "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+        "module": "fhir-helper-metadata",
+        "version": "1.5.0-add-danger-SNAPSHOT"
+      }
+    }
+  ]
+}

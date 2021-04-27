@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.9.1-change-TaggingService-getTagFromType-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "bjlqrxtr6feqvdwnzzqsiaiir4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.9.1-change-TaggingService-getTagFromType-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.1-change-TaggingService-getTagFromType-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "d582baadfaae829e9ec81355befc9fb403febe96aefe151424b5fdd5dc19252f4191f3a285374d5d47541239b577cb10d6406d2c8c208ff0f066ad5ed6b6497d",
+          "sha256": "2e4dc2d4f057eba6ffa297223683b14bbfa158a1634cc06333f1e0540605aa57",
+          "sha1": "5cae53008701c1abd7694e8ecd0d46d341034e13",
+          "md5": "13bfe957562daea7b85a59a0f7446cd4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.9.1-change-TaggingService-getTagFromType-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.1-change-TaggingService-getTagFromType-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "d582baadfaae829e9ec81355befc9fb403febe96aefe151424b5fdd5dc19252f4191f3a285374d5d47541239b577cb10d6406d2c8c208ff0f066ad5ed6b6497d",
+          "sha256": "2e4dc2d4f057eba6ffa297223683b14bbfa158a1634cc06333f1e0540605aa57",
+          "sha1": "5cae53008701c1abd7694e8ecd0d46d341034e13",
+          "md5": "13bfe957562daea7b85a59a0f7446cd4"
+        }
+      ]
+    }
+  ]
+}

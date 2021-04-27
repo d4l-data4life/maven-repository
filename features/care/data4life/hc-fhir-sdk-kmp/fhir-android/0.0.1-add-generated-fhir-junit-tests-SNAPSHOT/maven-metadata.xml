@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>care.data4life.hc-fhir-sdk-kmp</groupId>
+  <artifactId>fhir-android</artifactId>
+  <version>0.0.1-add-generated-fhir-junit-tests-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210210.162840</timestamp>
+      <buildNumber>2</buildNumber>
+    </snapshot>
+    <lastUpdated>20210210162840</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.0.1-add-generated-fhir-junit-tests-20210210.162840-2</value>
+        <updated>20210210162840</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.0.1-add-generated-fhir-junit-tests-20210210.162840-2</value>
+        <updated>20210210162840</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>0.0.1-add-generated-fhir-junit-tests-20210210.162840-2</value>
+        <updated>20210210162840</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>0.0.1-add-generated-fhir-junit-tests-20210210.162840-2</value>
+        <updated>20210210162840</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

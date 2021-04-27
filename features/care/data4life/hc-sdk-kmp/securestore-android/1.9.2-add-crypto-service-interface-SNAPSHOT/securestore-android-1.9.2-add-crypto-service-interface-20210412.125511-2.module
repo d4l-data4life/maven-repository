@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-android",
+    "version": "1.9.2-add-crypto-service-interface-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "7vdoo7el4nhrhlao4geitoadoy"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.2-add-crypto-service-interface-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.9.2-add-crypto-service-interface-SNAPSHOT.aar",
+          "url": "securestore-android-1.9.2-add-crypto-service-interface-SNAPSHOT.aar",
+          "size": 41919,
+          "sha512": "34e087a94082c4074c7e559d93d07e42577ee8b2d747346c7e12865c6b58d27de3edb4336078a8bd076cbc225f84c32352a2c7c9e014d700f7d02f798f33b3e4",
+          "sha256": "4e7cb9e25d9c51825374a466bd08e6c8b021344e59860d56d83d39ec61f79ba5",
+          "sha1": "e9d8c9cd003e00d3d90e7cd9c9f14142b4012398",
+          "md5": "439dab506f37e892f1d30cb0a5119ca1"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.2-add-crypto-service-interface-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.crypto.tink",
+          "module": "tink-android",
+          "version": {
+            "requires": "1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.9.2-add-crypto-service-interface-SNAPSHOT.aar",
+          "url": "securestore-android-1.9.2-add-crypto-service-interface-SNAPSHOT.aar",
+          "size": 41919,
+          "sha512": "34e087a94082c4074c7e559d93d07e42577ee8b2d747346c7e12865c6b58d27de3edb4336078a8bd076cbc225f84c32352a2c7c9e014d700f7d02f798f33b3e4",
+          "sha256": "4e7cb9e25d9c51825374a466bd08e6c8b021344e59860d56d83d39ec61f79ba5",
+          "sha1": "e9d8c9cd003e00d3d90e7cd9c9f14142b4012398",
+          "md5": "439dab506f37e892f1d30cb0a5119ca1"
+        }
+      ]
+    }
+  ]
+}

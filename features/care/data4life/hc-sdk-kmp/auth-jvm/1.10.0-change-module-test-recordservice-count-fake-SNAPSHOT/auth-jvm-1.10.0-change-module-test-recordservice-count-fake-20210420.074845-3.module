@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.10.0-change-module-test-recordservice-count-fake-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "irpxytyxefdkdflntqxn4tbtae"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.10.0-change-module-test-recordservice-count-fake-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.10.0-change-module-test-recordservice-count-fake-SNAPSHOT.jar",
+          "url": "auth-jvm-1.10.0-change-module-test-recordservice-count-fake-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "1ffec871e13da869c6a98e9c89a752eb4474e2b9ee6180692da83758fc98874d6aae2f90d45e8625e4fffdc8c4d931e1a97a4701c6d28982ff97cf6adb4d86d2",
+          "sha256": "5bbc9357952efca9e4263d69058d1ee8378349d25be74bdb2880b591f958f440",
+          "sha1": "3597fcfc7cc4566247ab8ad67ad9d8c725052891",
+          "md5": "e6cb3644aea524ba91b690a472e9d10b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.10.0-change-module-test-recordservice-count-fake-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.10.0-change-module-test-recordservice-count-fake-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.10.0-change-module-test-recordservice-count-fake-SNAPSHOT.jar",
+          "url": "auth-jvm-1.10.0-change-module-test-recordservice-count-fake-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "1ffec871e13da869c6a98e9c89a752eb4474e2b9ee6180692da83758fc98874d6aae2f90d45e8625e4fffdc8c4d931e1a97a4701c6d28982ff97cf6adb4d86d2",
+          "sha256": "5bbc9357952efca9e4263d69058d1ee8378349d25be74bdb2880b591f958f440",
+          "sha1": "3597fcfc7cc4566247ab8ad67ad9d8c725052891",
+          "md5": "e6cb3644aea524ba91b690a472e9d10b"
+        }
+      ]
+    }
+  ]
+}

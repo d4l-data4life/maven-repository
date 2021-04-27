@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-android",
+    "version": "1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "6oau6ptl7va6rdgaejx6j2j2um"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-android-1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT.aar",
+          "url": "auth-android-1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT.aar",
+          "size": 44901,
+          "sha512": "1f103fca5da56181c2abfc25c1bd573dcdeeacd43eb0a6ee4a84d35486c9ee614eb1b86e370cc8561ecc91c8738ef9fb936deb89b28926bdfbcaec1a6304a0a1",
+          "sha256": "08044f4903faa8cc87befc362fd604a4147fd05ce15001271c7bdf8dbb018dac",
+          "sha1": "057aaf8156488f00810e87bc1b39c7a04316fc0a",
+          "md5": "9a9d6ed6c31e37b96625ccddcf2d9ea7"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-android",
+          "version": {
+            "requires": "1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-jvm"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.3.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.github.gesundheitscloud",
+          "module": "AppAuth-Android",
+          "version": {
+            "requires": "9e3cc033ff"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-android-1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT.aar",
+          "url": "auth-android-1.9.1-fix-versioning-for-ticket-branches-SNAPSHOT.aar",
+          "size": 44901,
+          "sha512": "1f103fca5da56181c2abfc25c1bd573dcdeeacd43eb0a6ee4a84d35486c9ee614eb1b86e370cc8561ecc91c8738ef9fb936deb89b28926bdfbcaec1a6304a0a1",
+          "sha256": "08044f4903faa8cc87befc362fd604a4147fd05ce15001271c7bdf8dbb018dac",
+          "sha1": "057aaf8156488f00810e87bc1b39c7a04316fc0a",
+          "md5": "9a9d6ed6c31e37b96625ccddcf2d9ea7"
+        }
+      ]
+    }
+  ]
+}

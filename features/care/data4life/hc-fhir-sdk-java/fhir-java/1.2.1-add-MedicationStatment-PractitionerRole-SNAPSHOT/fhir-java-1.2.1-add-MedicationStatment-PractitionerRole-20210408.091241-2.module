@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-fhir-sdk-java",
+    "module": "fhir-java",
+    "version": "1.2.1-add-MedicationStatment-PractitionerRole-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "ujyw4qpzdjh3lfkvowezexmbii"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fhir-java-1.2.1-add-MedicationStatment-PractitionerRole-SNAPSHOT.jar",
+          "url": "fhir-java-1.2.1-add-MedicationStatment-PractitionerRole-SNAPSHOT.jar",
+          "size": 986396,
+          "sha512": "87e9fd9c97a4a6b88f2f29227cc12dd06e40b05a0adab0937af192aefbff1f5bc19c5bbdc91287f0226e932f34f66f16f46e943cb5016b4963f4232448481a6a",
+          "sha256": "9013cb85f671115f248ccb296388bffc6f750a999b310a51150051e5981392c3",
+          "sha1": "fb08781dba6c355e01719cdf6f524cb974e72296",
+          "md5": "f299ed53208a2eadc2d567464857dacb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-java-1.2.1-add-MedicationStatment-PractitionerRole-SNAPSHOT.jar",
+          "url": "fhir-java-1.2.1-add-MedicationStatment-PractitionerRole-SNAPSHOT.jar",
+          "size": 986396,
+          "sha512": "87e9fd9c97a4a6b88f2f29227cc12dd06e40b05a0adab0937af192aefbff1f5bc19c5bbdc91287f0226e932f34f66f16f46e943cb5016b4963f4232448481a6a",
+          "sha256": "9013cb85f671115f248ccb296388bffc6f750a999b310a51150051e5981392c3",
+          "sha1": "fb08781dba6c355e01719cdf6f524cb974e72296",
+          "md5": "f299ed53208a2eadc2d567464857dacb"
+        }
+      ]
+    }
+  ]
+}

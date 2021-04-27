@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-android",
+    "version": "1.10.0-add-fhir4-download-support-in-clients-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "xn4cqacczvasvh6dqh5ii2fshm"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.10.0-add-fhir4-download-support-in-clients-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.10.0-add-fhir4-download-support-in-clients-SNAPSHOT.aar",
+          "url": "crypto-android-1.10.0-add-fhir4-download-support-in-clients-SNAPSHOT.aar",
+          "size": 51845,
+          "sha512": "6f3159a610ce069bd84fe7414b9a2c8cbee1185d5c2022d5b6fdfafd2407e79cec210564f4888c576ad8537b0307601ce7aa72758caebb547720ac50c28e1be0",
+          "sha256": "9b3955757f0788457f510318b9897d345eeb51a810fa07adf2c568482b7daf6f",
+          "sha1": "92f3cf8023914401f93f7fcfe420474881be6e64",
+          "md5": "ec568045f286817cfbf096bf990c9ed6"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.10.0-add-fhir4-download-support-in-clients-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.10.0-add-fhir4-download-support-in-clients-SNAPSHOT.aar",
+          "url": "crypto-android-1.10.0-add-fhir4-download-support-in-clients-SNAPSHOT.aar",
+          "size": 51845,
+          "sha512": "6f3159a610ce069bd84fe7414b9a2c8cbee1185d5c2022d5b6fdfafd2407e79cec210564f4888c576ad8537b0307601ce7aa72758caebb547720ac50c28e1be0",
+          "sha256": "9b3955757f0788457f510318b9897d345eeb51a810fa07adf2c568482b7daf6f",
+          "sha1": "92f3cf8023914401f93f7fcfe420474881be6e64",
+          "md5": "ec568045f286817cfbf096bf990c9ed6"
+        }
+      ]
+    }
+  ]
+}

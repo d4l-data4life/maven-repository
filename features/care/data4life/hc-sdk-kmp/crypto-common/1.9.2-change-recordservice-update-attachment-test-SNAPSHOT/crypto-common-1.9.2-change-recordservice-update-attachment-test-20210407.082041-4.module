@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.9.2-change-recordservice-update-attachment-test-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "z2wybvjdrzc7hcaa3qdl73xt5m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.9.2-change-recordservice-update-attachment-test-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.2-change-recordservice-update-attachment-test-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "219700c16f3955184f0dd13be067f4897ae92b11b8bf9bc973758bed32ef87fea90afabee62297fc6d989550d9d73cd0ec053f31426318312dabf1514fb58718",
+          "sha256": "3eab6173880136bf540b44cdabfad5bf56d7d68791c1296423d8ef499c8a8f1a",
+          "sha1": "f0d14fa1936753413aded4e97a80639582e588d0",
+          "md5": "430269c63f8c580e19e49d4e7a607ae6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.9.2-change-recordservice-update-attachment-test-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.2-change-recordservice-update-attachment-test-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "219700c16f3955184f0dd13be067f4897ae92b11b8bf9bc973758bed32ef87fea90afabee62297fc6d989550d9d73cd0ec053f31426318312dabf1514fb58718",
+          "sha256": "3eab6173880136bf540b44cdabfad5bf56d7d68791c1296423d8ef499c8a8f1a",
+          "sha1": "f0d14fa1936753413aded4e97a80639582e588d0",
+          "md5": "430269c63f8c580e19e49d4e7a607ae6"
+        }
+      ]
+    }
+  ]
+}

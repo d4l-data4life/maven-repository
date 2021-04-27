@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.9.0-fix-api-task-exposure-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "cn7fqykbvjcrjihqtpnphfsqyi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.9.0-fix-api-task-exposure-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.0-fix-api-task-exposure-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "3bc8938e891c98937a4e4013654f6944152079435f238c8dabb1c6fcc5a0f00350aadf5cf8471676cf553f8b489a715192d1e2cd75f6d12bf5b3c8df191a8f22",
+          "sha256": "11cc4956b0b58a8aadae0ba079f6a007c5c7296a5d66db5b9d106ae8b5db80ce",
+          "sha1": "5428bc000aaca34795720a50c9d24e80a59340b9",
+          "md5": "09ec323855e211d714ab7c32c036e0e4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.9.0-fix-api-task-exposure-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.0-fix-api-task-exposure-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "3bc8938e891c98937a4e4013654f6944152079435f238c8dabb1c6fcc5a0f00350aadf5cf8471676cf553f8b489a715192d1e2cd75f6d12bf5b3c8df191a8f22",
+          "sha256": "11cc4956b0b58a8aadae0ba079f6a007c5c7296a5d66db5b9d106ae8b5db80ce",
+          "sha1": "5428bc000aaca34795720a50c9d24e80a59340b9",
+          "md5": "09ec323855e211d714ab7c32c036e0e4"
+        }
+      ]
+    }
+  ]
+}

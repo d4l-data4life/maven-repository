@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-android",
+    "version": "1.9.1-fix-date-formatting-on-search-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "6xcmg72gknbmln5zn4duvnj2b4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.1-fix-date-formatting-on-search-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.9.1-fix-date-formatting-on-search-SNAPSHOT.aar",
+          "url": "securestore-android-1.9.1-fix-date-formatting-on-search-SNAPSHOT.aar",
+          "size": 41921,
+          "sha512": "6ee96b8dbc2c1000dcaef3f0a5717697866844cf799ff92483427155e6849560ee23cd9abcf13f58af150ef8aadd4829154a3170eb424b70ad63192e93a2ac7a",
+          "sha256": "b29ba42421bca26d0845ce47fb068ba354f6d505ba049db15fb6e51cc1b2da8f",
+          "sha1": "3ee83caf4e381e685b9fcacac8a2cc683914c000",
+          "md5": "803ef039b1a966eec1a8dda69fe0f10c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.1-fix-date-formatting-on-search-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.crypto.tink",
+          "module": "tink-android",
+          "version": {
+            "requires": "1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.9.1-fix-date-formatting-on-search-SNAPSHOT.aar",
+          "url": "securestore-android-1.9.1-fix-date-formatting-on-search-SNAPSHOT.aar",
+          "size": 41921,
+          "sha512": "6ee96b8dbc2c1000dcaef3f0a5717697866844cf799ff92483427155e6849560ee23cd9abcf13f58af150ef8aadd4829154a3170eb424b70ad63192e93a2ac7a",
+          "sha256": "b29ba42421bca26d0845ce47fb068ba354f6d505ba049db15fb6e51cc1b2da8f",
+          "sha1": "3ee83caf4e381e685b9fcacac8a2cc683914c000",
+          "md5": "803ef039b1a966eec1a8dda69fe0f10c"
+        }
+      ]
+    }
+  ]
+}

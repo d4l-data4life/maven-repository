@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.10.0-change-module-tests-ignore-tag-order-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "h2sp3o6kxjeltkj72ecygshhxi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.10.0-change-module-tests-ignore-tag-order-SNAPSHOT.jar",
+          "url": "crypto-common-1.10.0-change-module-tests-ignore-tag-order-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "2cc20061a1b269374e27647611c609f5aefacae7f183641532847da7bf065c2c8220d93c524339a5069008aff57f3c584fc14f20ad1d3ec30ed1dc1e338c002b",
+          "sha256": "44dfc99dd3688e8680c77340592af123af188ad812665b54cc86210334f895ab",
+          "sha1": "7ecf538df567f5fc5069fe86edb2efe0f270bdf2",
+          "md5": "b1df3cd8b493602397d5de55dfbeb3ee"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.10.0-change-module-tests-ignore-tag-order-SNAPSHOT.jar",
+          "url": "crypto-common-1.10.0-change-module-tests-ignore-tag-order-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "2cc20061a1b269374e27647611c609f5aefacae7f183641532847da7bf065c2c8220d93c524339a5069008aff57f3c584fc14f20ad1d3ec30ed1dc1e338c002b",
+          "sha256": "44dfc99dd3688e8680c77340592af123af188ad812665b54cc86210334f895ab",
+          "sha1": "7ecf538df567f5fc5069fe86edb2efe0f270bdf2",
+          "md5": "b1df3cd8b493602397d5de55dfbeb3ee"
+        }
+      ]
+    }
+  ]
+}

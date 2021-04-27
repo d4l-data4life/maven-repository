@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.10.0-change-module-test-recordservice-leftovers-fake-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "ed42tcj7wvazldtj4ajihfe3uu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.10.0-change-module-test-recordservice-leftovers-fake-SNAPSHOT.jar",
+          "url": "securestore-common-1.10.0-change-module-test-recordservice-leftovers-fake-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "fe1666f9ac090f1ca7786ebdc6ef4288b823f7c96d44584dc74baa4b1b4c72e3e7ce3f4730327fc8110a06686731dca20640e6d7b5e436f9554a1de701152152",
+          "sha256": "fa081ebb1f95ae61d9b99d617a84ec93b03e82e885412d62fc739ae3f895f763",
+          "sha1": "9518ad2560b533e0493714df90a80944672291fc",
+          "md5": "9f212d30f79ef5e97bced379ecad858f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.10.0-change-module-test-recordservice-leftovers-fake-SNAPSHOT.jar",
+          "url": "securestore-common-1.10.0-change-module-test-recordservice-leftovers-fake-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "fe1666f9ac090f1ca7786ebdc6ef4288b823f7c96d44584dc74baa4b1b4c72e3e7ce3f4730327fc8110a06686731dca20640e6d7b5e436f9554a1de701152152",
+          "sha256": "fa081ebb1f95ae61d9b99d617a84ec93b03e82e885412d62fc739ae3f895f763",
+          "sha1": "9518ad2560b533e0493714df90a80944672291fc",
+          "md5": "9f212d30f79ef5e97bced379ecad858f"
+        }
+      ]
+    }
+  ]
+}

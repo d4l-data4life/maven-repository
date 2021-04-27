@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-fhir-sdk-java",
+    "module": "fhir-java",
+    "version": "1.2.1-add-codeowner-file-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "zphipmygjvcixoxumwk7rpoeci"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fhir-java-1.2.1-add-codeowner-file-SNAPSHOT.jar",
+          "url": "fhir-java-1.2.1-add-codeowner-file-SNAPSHOT.jar",
+          "size": 982177,
+          "sha512": "962f2e320960cff69c852e7b81d88fbb3a073e1661e9bd65e1763b3975600e1a295eca108a1fdfa7ffd632a37ca890a58463e691bd334262a9573573b058320b",
+          "sha256": "3e4e7776d08776b9610069ba8df43133d30d17586e236b602dda11d8a98056ed",
+          "sha1": "08cb7550287a99e70c58da6f8685546c9a664a12",
+          "md5": "65b47534987ff4cd1372b0663b6ae737"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-java-1.2.1-add-codeowner-file-SNAPSHOT.jar",
+          "url": "fhir-java-1.2.1-add-codeowner-file-SNAPSHOT.jar",
+          "size": 982177,
+          "sha512": "962f2e320960cff69c852e7b81d88fbb3a073e1661e9bd65e1763b3975600e1a295eca108a1fdfa7ffd632a37ca890a58463e691bd334262a9573573b058320b",
+          "sha256": "3e4e7776d08776b9610069ba8df43133d30d17586e236b602dda11d8a98056ed",
+          "sha1": "08cb7550287a99e70c58da6f8685546c9a664a12",
+          "md5": "65b47534987ff4cd1372b0663b6ae737"
+        }
+      ]
+    }
+  ]
+}

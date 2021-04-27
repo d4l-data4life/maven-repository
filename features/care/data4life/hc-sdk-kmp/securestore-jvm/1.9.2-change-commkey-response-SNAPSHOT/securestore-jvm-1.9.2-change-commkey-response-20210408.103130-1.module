@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.9.2-change-commkey-response-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "e72iisdsbzcz7jfyookvsx672m"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.2-change-commkey-response-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.2-change-commkey-response-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.2-change-commkey-response-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "fb2b829d88961d84ca65f38942e4252814d6d04daae9a9345f43b330eaa46cbbb47ae0b0f7f9b947e989e40e8ef0086c0f916ca949024a49891e3222829bd9dc",
+          "sha256": "4952fade15701dda5a53518d0ed66a5c49ac9a7242c8de414196a3c0e722cfa3",
+          "sha1": "fcfefaa6f215aa1f3688f8cf961c98a013efadc9",
+          "md5": "4ec083079505713ff4c1b30ce2cb0fa0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.2-change-commkey-response-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.2-change-commkey-response-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.2-change-commkey-response-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "fb2b829d88961d84ca65f38942e4252814d6d04daae9a9345f43b330eaa46cbbb47ae0b0f7f9b947e989e40e8ef0086c0f916ca949024a49891e3222829bd9dc",
+          "sha256": "4952fade15701dda5a53518d0ed66a5c49ac9a7242c8de414196a3c0e722cfa3",
+          "sha1": "fcfefaa6f215aa1f3688f8cf961c98a013efadc9",
+          "md5": "4ec083079505713ff4c1b30ce2cb0fa0"
+        }
+      ]
+    }
+  ]
+}

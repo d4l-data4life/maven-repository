@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>care.data4life.hc-securestore-kmp</groupId>
+  <artifactId>securestore-jvm</artifactId>
+  <versioning>
+    <latest>0.0.1-add-securestore-implementation-SNAPSHOT</latest>
+    <versions>
+      <version>0.0.1-add-securestore-implementation-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210427220202</lastUpdated>
+  </versioning>
+</metadata>

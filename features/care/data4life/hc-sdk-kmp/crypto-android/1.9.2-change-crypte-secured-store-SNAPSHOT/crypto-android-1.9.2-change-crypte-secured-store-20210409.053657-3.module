@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-android",
+    "version": "1.9.2-change-crypte-secured-store-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "mo3uhzmzcvey3eimx3rsgwb3aa"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.2-change-crypte-secured-store-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.9.2-change-crypte-secured-store-SNAPSHOT.aar",
+          "url": "crypto-android-1.9.2-change-crypte-secured-store-SNAPSHOT.aar",
+          "size": 51835,
+          "sha512": "36b5b802d0683fddbad1348227778499a1c78e72665183c90e11850e15f42e226ff3cdba0669f1d4a88d51ab2986a0e0ea7d2a77c893ca9cdeb6226afa8958ad",
+          "sha256": "05ebd87fbb7a87b1889f53d1f50a5d3484ed90c75ac191d0a46e01b139214754",
+          "sha1": "2aa0621d58997474f49f4f55fbb9294f5dbf3408",
+          "md5": "128d0dc88885ac21116eba6461c2e92e"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.2-change-crypte-secured-store-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.9.2-change-crypte-secured-store-SNAPSHOT.aar",
+          "url": "crypto-android-1.9.2-change-crypte-secured-store-SNAPSHOT.aar",
+          "size": 51835,
+          "sha512": "36b5b802d0683fddbad1348227778499a1c78e72665183c90e11850e15f42e226ff3cdba0669f1d4a88d51ab2986a0e0ea7d2a77c893ca9cdeb6226afa8958ad",
+          "sha256": "05ebd87fbb7a87b1889f53d1f50a5d3484ed90c75ac191d0a46e01b139214754",
+          "sha1": "2aa0621d58997474f49f4f55fbb9294f5dbf3408",
+          "md5": "128d0dc88885ac21116eba6461c2e92e"
+        }
+      ]
+    }
+  ]
+}

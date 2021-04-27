@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk-iosx64/0.0.1-add-danger-and-ci-flows-SNAPSHOT/data-donation-sdk-iosx64-0.0.1-add-danger-and-ci-flows-SNAPSHOT.module",
+    "group": "care.data4life.d4l-data-donation-sdk-kmp",
+    "module": "data-donation-sdk-iosx64",
+    "version": "0.0.1-add-danger-and-ci-flows-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "cmqfko4wsvd4dbu752srg6seai"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.0.1-add-danger-and-ci-flows-SNAPSHOT.jar",
+          "url": "data-donation-sdk-metadata-0.0.1-add-danger-and-ci-flows-SNAPSHOT.jar",
+          "size": 63039,
+          "sha512": "551cfa38d4055014b98862d2a29fa0400e63d0efae2dac4572f4fd0931c8cb4f72c2f0ea76452d030de0ccff15cfeb62a9e9dfb267328450e4cb58dae97d36ce",
+          "sha256": "58e4c2274104bc0f55312936857df10a3db90fbef0bf79bd85aa8db2f9835fe7",
+          "sha1": "880d480a640a0858f0e54366fd331d0e6a3755d7",
+          "md5": "8786ef8577b51526cb78f556e3917721"
+        }
+      ]
+    }
+  ]
+}

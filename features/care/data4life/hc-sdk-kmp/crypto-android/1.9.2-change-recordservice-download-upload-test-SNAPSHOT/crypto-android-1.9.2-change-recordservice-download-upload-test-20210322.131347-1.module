@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-android",
+    "version": "1.9.2-change-recordservice-download-upload-test-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "onleued4znal7nvsg6sz4jmpme"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.2-change-recordservice-download-upload-test-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.9.2-change-recordservice-download-upload-test-SNAPSHOT.aar",
+          "url": "crypto-android-1.9.2-change-recordservice-download-upload-test-SNAPSHOT.aar",
+          "size": 51845,
+          "sha512": "805816db5d1768dcbd87c2220da8412da60e68d097e65c86775574b2fb49c0446fcd3549984c9b7130d6e31414eeb329cc6d1ad464ccdc5fa35e970b35f2c435",
+          "sha256": "8259a663f5b88bdc76772ef06fd5dbe48931a9a49f414ffb0aaeee08fc36b668",
+          "sha1": "be99b9a73b32439c4be09d7bfd0322cb1cc6c651",
+          "md5": "25136ce332c25786ce5d6cdf1265b9a6"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.2-change-recordservice-download-upload-test-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.9.2-change-recordservice-download-upload-test-SNAPSHOT.aar",
+          "url": "crypto-android-1.9.2-change-recordservice-download-upload-test-SNAPSHOT.aar",
+          "size": 51845,
+          "sha512": "805816db5d1768dcbd87c2220da8412da60e68d097e65c86775574b2fb49c0446fcd3549984c9b7130d6e31414eeb329cc6d1ad464ccdc5fa35e970b35f2c435",
+          "sha256": "8259a663f5b88bdc76772ef06fd5dbe48931a9a49f414ffb0aaeee08fc36b668",
+          "sha1": "be99b9a73b32439c4be09d7bfd0322cb1cc6c651",
+          "md5": "25136ce332c25786ce5d6cdf1265b9a6"
+        }
+      ]
+    }
+  ]
+}

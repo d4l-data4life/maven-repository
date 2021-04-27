@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.10.0-change-tags-and-annotations-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "c64kvleewfbv7gv3dfpz3wrevy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.10.0-change-tags-and-annotations-SNAPSHOT.jar",
+          "url": "securestore-common-1.10.0-change-tags-and-annotations-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "b976ca86981e3f60ec8debe11c82e33b01691941211aa6776866e26af0191686ed662d949867f009898d5deffa504588bcf81863ceaf59c6a64d490620141bb0",
+          "sha256": "cf3e27b03a6f4a71bbb715f3dda34cac9f189e565c1d25dc63bb53be636a674c",
+          "sha1": "adfe840ae7b400cb6dd9cd55729e249121cc7d30",
+          "md5": "ecbee5312401a23f7604e0ac19c43649"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.10.0-change-tags-and-annotations-SNAPSHOT.jar",
+          "url": "securestore-common-1.10.0-change-tags-and-annotations-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "b976ca86981e3f60ec8debe11c82e33b01691941211aa6776866e26af0191686ed662d949867f009898d5deffa504588bcf81863ceaf59c6a64d490620141bb0",
+          "sha256": "cf3e27b03a6f4a71bbb715f3dda34cac9f189e565c1d25dc63bb53be636a674c",
+          "sha1": "adfe840ae7b400cb6dd9cd55729e249121cc7d30",
+          "md5": "ecbee5312401a23f7604e0ac19c43649"
+        }
+      ]
+    }
+  ]
+}

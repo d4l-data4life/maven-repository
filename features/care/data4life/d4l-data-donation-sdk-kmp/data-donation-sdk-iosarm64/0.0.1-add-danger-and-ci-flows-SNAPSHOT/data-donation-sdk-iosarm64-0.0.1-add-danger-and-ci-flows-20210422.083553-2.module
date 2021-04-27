@@ -1,0 +1,163 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk/0.0.1-add-danger-and-ci-flows-SNAPSHOT/data-donation-sdk-0.0.1-add-danger-and-ci-flows-SNAPSHOT.module",
+    "group": "care.data4life.d4l-data-donation-sdk-kmp",
+    "module": "data-donation-sdk",
+    "version": "0.0.1-add-danger-and-ci-flows-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "k4zt7yhazbfldel4yhzl2ihkce"
+    }
+  },
+  "variants": [
+    {
+      "name": "iosArm64ApiElements-published",
+      "attributes": {
+        "artifactType": "org.jetbrains.kotlin.klib",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.native.target": "ios_arm64",
+        "org.jetbrains.kotlin.platform.type": "native"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-common",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.koin",
+          "module": "koin-core",
+          "version": {
+            "requires": "3.0.1-alpha-2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.4.2-native-mt"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-json",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-protobuf",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.1.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-kmp",
+          "module": "fhir",
+          "version": {
+            "requires": "0.1.0"
+          }
+        },
+        {
+          "group": "com.benasher44",
+          "module": "uuid",
+          "version": {
+            "requires": "0.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "strictly": "1.4.2-native-mt",
+            "requires": "1.4.2-native-mt"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "data-donation-sdk.klib",
+          "url": "data-donation-sdk-iosarm64-0.0.1-add-danger-and-ci-flows-SNAPSHOT.klib",
+          "size": 7279058,
+          "sha512": "76c9b8b9f837d44bf35a397e3f9f577d9cfb9f2c5cfabfb10df9118d4edd51620a8ade802af785d4a9c921d526566887168696e55624ea75586259082e66a7ca",
+          "sha256": "2866d707fd4961bc81e95f323fd9d913a333b57c47c5d771106fb7b858486119",
+          "sha1": "3cdc7a59ef59abaccab3b92964cab558fb3f2da4",
+          "md5": "95ba345701c403c4d2824aa99dce1731"
+        },
+        {
+          "name": "data-donation-sdk-cinterop-iOSDCryptoDD.klib",
+          "url": "data-donation-sdk-iosarm64-0.0.1-add-danger-and-ci-flows-SNAPSHOT-cinterop-iOSDCryptoDD.klib",
+          "size": 5912,
+          "sha512": "abbc13c68ec542d7e7606854f52735bdd49475d9431a8253a9df291ec4d0f8c357a8b20b0abbcad45c3cf6eeed9e15f241fdf6d48424b9f91d0131c345820e13",
+          "sha256": "eeeb3bd8f13630e21f47ce455cf92e2aec604423883f5eec43f082fc7dfe2e82",
+          "sha1": "d3394c9109724887ade505296cd6586174eaf0fc",
+          "md5": "0cdc282d0f070bbed0f7a276254ff27d"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../data-donation-sdk-metadata/0.0.1-add-danger-and-ci-flows-SNAPSHOT/data-donation-sdk-metadata-0.0.1-add-danger-and-ci-flows-SNAPSHOT.module",
+        "group": "care.data4life.d4l-data-donation-sdk-kmp",
+        "module": "data-donation-sdk-metadata",
+        "version": "0.0.1-add-danger-and-ci-flows-SNAPSHOT"
+      }
+    }
+  ]
+}

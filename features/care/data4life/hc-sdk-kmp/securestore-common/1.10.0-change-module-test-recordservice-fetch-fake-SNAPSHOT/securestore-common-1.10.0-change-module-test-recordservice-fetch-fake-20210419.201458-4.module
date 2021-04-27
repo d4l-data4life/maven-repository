@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "gisfy7tfffayjmevm35evquz4e"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT.jar",
+          "url": "securestore-common-1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "1831416ddee2e186f8e6198643a1bd1c86fe4df0a0e67c813acf4460ff1e420f1d028fa94fb9357d835e53479918a23fc11daf51e3d1a29380f56f503e25614b",
+          "sha256": "459bad8eb2b511a5401b431b7c134e6a32fe534b329bcbd1941f64b95685e930",
+          "sha1": "8c8167712cf132d30df5d253ee242105523a201e",
+          "md5": "63f670b41e429185b0e47c6d45183813"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT.jar",
+          "url": "securestore-common-1.10.0-change-module-test-recordservice-fetch-fake-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "1831416ddee2e186f8e6198643a1bd1c86fe4df0a0e67c813acf4460ff1e420f1d028fa94fb9357d835e53479918a23fc11daf51e3d1a29380f56f503e25614b",
+          "sha256": "459bad8eb2b511a5401b431b7c134e6a32fe534b329bcbd1941f64b95685e930",
+          "sha1": "8c8167712cf132d30df5d253ee242105523a201e",
+          "md5": "63f670b41e429185b0e47c6d45183813"
+        }
+      ]
+    }
+  ]
+}

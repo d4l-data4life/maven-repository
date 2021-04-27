@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.9.2-change-crypte-secured-store-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "b6u55qvqdbhk7k2ccz2mpkyc3y"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.9.2-change-crypte-secured-store-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.2-change-crypte-secured-store-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "576750653c899930aa4444153109a0bbf77fa4e9e6fe0cb56b080f83085d4a51a705df6bd26372deaccc63f4260a64264ccfbce233314da3300b889f421b8980",
+          "sha256": "42fee2f55aa4d4c599d60df1b04dfb03c020e7119b179598ccaa2f12ef9219ed",
+          "sha1": "e20453d4cbe5ebc4c6187f64b03536bb6c418d2c",
+          "md5": "4333b44a7590d0e0bbdc52c62e1c717f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.9.2-change-crypte-secured-store-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.2-change-crypte-secured-store-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "576750653c899930aa4444153109a0bbf77fa4e9e6fe0cb56b080f83085d4a51a705df6bd26372deaccc63f4260a64264ccfbce233314da3300b889f421b8980",
+          "sha256": "42fee2f55aa4d4c599d60df1b04dfb03c020e7119b179598ccaa2f12ef9219ed",
+          "sha1": "e20453d4cbe5ebc4c6187f64b03536bb6c418d2c",
+          "md5": "4333b44a7590d0e0bbdc52c62e1c717f"
+        }
+      ]
+    }
+  ]
+}

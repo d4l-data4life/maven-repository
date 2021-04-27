@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-fhir-sdk-java",
+    "module": "fhir-java",
+    "version": "1.2.1-change-element-factory-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "myjmdllws5h4lat44wu64idtrm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fhir-java-1.2.1-change-element-factory-SNAPSHOT.jar",
+          "url": "fhir-java-1.2.1-change-element-factory-SNAPSHOT.jar",
+          "size": 982593,
+          "sha512": "3dada02bfd7e42ca0ec416d316c8000581021b97fae29eec4b13b3b735642eb9f1df5ee9088c32a019949bbbaa34ce243cae2ae9ab52abfa3d2deb9fb1b42948",
+          "sha256": "5fdf72a738eb286e4866a600754b93f9ac7864d877ddd46d44e37cff0009416a",
+          "sha1": "6fb98498034ace24be517c4c94772dc8c2411839",
+          "md5": "e7bedb27fc9b8c7afd1bd22cf54eb3b0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-java-1.2.1-change-element-factory-SNAPSHOT.jar",
+          "url": "fhir-java-1.2.1-change-element-factory-SNAPSHOT.jar",
+          "size": 982593,
+          "sha512": "3dada02bfd7e42ca0ec416d316c8000581021b97fae29eec4b13b3b735642eb9f1df5ee9088c32a019949bbbaa34ce243cae2ae9ab52abfa3d2deb9fb1b42948",
+          "sha256": "5fdf72a738eb286e4866a600754b93f9ac7864d877ddd46d44e37cff0009416a",
+          "sha1": "6fb98498034ace24be517c4c94772dc8c2411839",
+          "md5": "e7bedb27fc9b8c7afd1bd22cf54eb3b0"
+        }
+      ]
+    }
+  ]
+}

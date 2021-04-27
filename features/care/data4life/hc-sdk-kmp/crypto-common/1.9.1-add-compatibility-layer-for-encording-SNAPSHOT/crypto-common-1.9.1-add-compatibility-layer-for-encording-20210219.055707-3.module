@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.9.1-add-compatibility-layer-for-encording-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "rvovbq3pwvbtnj5kvmy6irbkf4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "2316340ac1294e93944e70ed8ed989bcf12751026a096644d036365ae42b7cff7c7fd2749d883622aa2c5204726acd93c5ebcede029a1dbbf86ebe38cb0d5afb",
+          "sha256": "468210cf5f02970c84b2997b68e8dedb9ae45bb5670713117ccadcb48ba7fe83",
+          "sha1": "00841266254b9025dfb216fad57a36e86d9543e7",
+          "md5": "ff9ae01d009ccaa302cc217f8af27443"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "2316340ac1294e93944e70ed8ed989bcf12751026a096644d036365ae42b7cff7c7fd2749d883622aa2c5204726acd93c5ebcede029a1dbbf86ebe38cb0d5afb",
+          "sha256": "468210cf5f02970c84b2997b68e8dedb9ae45bb5670713117ccadcb48ba7fe83",
+          "sha1": "00841266254b9025dfb216fad57a36e86d9543e7",
+          "md5": "ff9ae01d009ccaa302cc217f8af27443"
+        }
+      ]
+    }
+  ]
+}

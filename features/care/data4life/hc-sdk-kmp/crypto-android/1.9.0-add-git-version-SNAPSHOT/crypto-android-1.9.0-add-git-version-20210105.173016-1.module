@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-android",
+    "version": "1.9.0-add-git-version-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "cikq23s6vfdxdjt4j2js6daa4i"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.0-add-git-version-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.9.0-add-git-version-SNAPSHOT.aar",
+          "url": "crypto-android-1.9.0-add-git-version-SNAPSHOT.aar",
+          "size": 51826,
+          "sha512": "3de2e20acdd3df8f612299a87a75c53813322b0a3eb94cc1a824be52a35468a93f4802598b1d59b3a9006d346a4e301454bf5909e8c1346cfe5c03bb547651af",
+          "sha256": "fb9db6f5255b8d109da572deae45705bad241f10353d9e3144fca463994dc84f",
+          "sha1": "b871d64247edca4a11c04ff0e6d442148d54b3fa",
+          "md5": "4951be283e5c41558885f76498f0d4a5"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.0-add-git-version-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.9.0-add-git-version-SNAPSHOT.aar",
+          "url": "crypto-android-1.9.0-add-git-version-SNAPSHOT.aar",
+          "size": 51826,
+          "sha512": "3de2e20acdd3df8f612299a87a75c53813322b0a3eb94cc1a824be52a35468a93f4802598b1d59b3a9006d346a4e301454bf5909e8c1346cfe5c03bb547651af",
+          "sha256": "fb9db6f5255b8d109da572deae45705bad241f10353d9e3144fca463994dc84f",
+          "sha1": "b871d64247edca4a11c04ff0e6d442148d54b3fa",
+          "md5": "4951be283e5c41558885f76498f0d4a5"
+        }
+      ]
+    }
+  ]
+}

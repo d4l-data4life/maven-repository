@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.9.1-add-fhir4-support-countRecords-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "uhc6akxktvhrvmzhgrg4srjpwq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.1-add-fhir4-support-countRecords-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.9.1-add-fhir4-support-countRecords-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.9.1-add-fhir4-support-countRecords-SNAPSHOT.jar",
+          "size": 46078,
+          "sha512": "64a66642870042895b1a964de35bfb8f6468c238b662342293ab03829b9179e18e3e5309c420648b2c00eb3d95d315926ed83873b72e79922f576eda4f97374e",
+          "sha256": "2d684842dbf89d9aca96693f720cd158eca69c07c27c1ba9159a18f6ed9add7d",
+          "sha1": "302b0c1da05b045d0d2aff39ec5f38ade69f32c2",
+          "md5": "ad19b4c85827c9f6cedc4e7638a90f3b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.1-add-fhir4-support-countRecords-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.9.1-add-fhir4-support-countRecords-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.9.1-add-fhir4-support-countRecords-SNAPSHOT.jar",
+          "size": 46078,
+          "sha512": "64a66642870042895b1a964de35bfb8f6468c238b662342293ab03829b9179e18e3e5309c420648b2c00eb3d95d315926ed83873b72e79922f576eda4f97374e",
+          "sha256": "2d684842dbf89d9aca96693f720cd158eca69c07c27c1ba9159a18f6ed9add7d",
+          "sha1": "302b0c1da05b045d0d2aff39ec5f38ade69f32c2",
+          "md5": "ad19b4c85827c9f6cedc4e7638a90f3b"
+        }
+      ]
+    }
+  ]
+}

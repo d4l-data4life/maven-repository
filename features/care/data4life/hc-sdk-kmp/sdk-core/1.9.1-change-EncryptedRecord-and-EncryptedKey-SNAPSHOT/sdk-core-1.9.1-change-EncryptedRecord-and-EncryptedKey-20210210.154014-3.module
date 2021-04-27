@@ -1,0 +1,167 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "sdk-core",
+    "version": "1.9.1-change-EncryptedRecord-and-EncryptedKey-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "tgoacre5dre7zktx7r4f7zjxcm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-core-1.9.1-change-EncryptedRecord-and-EncryptedKey-SNAPSHOT.jar",
+          "url": "sdk-core-1.9.1-change-EncryptedRecord-and-EncryptedKey-SNAPSHOT.jar",
+          "size": 447556,
+          "sha512": "00570aa314d7cb0a283cd6cf2d8bc9fdd23283a0f8bdc3c8b64168519a91a2e1fda5ae4f4c5b8e11722482e7280f1de6e47f9e20cccb7117af7d06913f276e9c",
+          "sha256": "31ce415b8ed1c4bf4a9ace1614c286426e2b2b4c3f4624a9f97ceaeb14ce33b7",
+          "sha1": "4d9f7b978b1af99aa9538dd0c68f7898ada58927",
+          "md5": "b0f1a4154d6ba2165706e518680900b9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.9.1-change-EncryptedRecord-and-EncryptedKey-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-jvm",
+          "version": {
+            "requires": "1.9.1-change-EncryptedRecord-and-EncryptedKey-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-jvm",
+          "version": {
+            "requires": "1.9.1-change-EncryptedRecord-and-EncryptedKey-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.19"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.7.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.7.2"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-moshi",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava2",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-core-1.9.1-change-EncryptedRecord-and-EncryptedKey-SNAPSHOT.jar",
+          "url": "sdk-core-1.9.1-change-EncryptedRecord-and-EncryptedKey-SNAPSHOT.jar",
+          "size": 447556,
+          "sha512": "00570aa314d7cb0a283cd6cf2d8bc9fdd23283a0f8bdc3c8b64168519a91a2e1fda5ae4f4c5b8e11722482e7280f1de6e47f9e20cccb7117af7d06913f276e9c",
+          "sha256": "31ce415b8ed1c4bf4a9ace1614c286426e2b2b4c3f4624a9f97ceaeb14ce33b7",
+          "sha1": "4d9f7b978b1af99aa9538dd0c68f7898ada58927",
+          "md5": "b0f1a4154d6ba2165706e518680900b9"
+        }
+      ]
+    }
+  ]
+}

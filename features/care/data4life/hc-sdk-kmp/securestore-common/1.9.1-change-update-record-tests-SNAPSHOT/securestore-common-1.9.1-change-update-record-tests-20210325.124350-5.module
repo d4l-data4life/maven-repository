@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.9.1-change-update-record-tests-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "gms5ane4vfaijmuqxchmkqqlsq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.1-change-update-record-tests-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.1-change-update-record-tests-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "873ee91ebf4905a387c1ba01ad9eaa8b197fb19202bcc35d47324aff114ffb679d22061523468bbc55e1115dfedce620ef4ae2b71e28cf7bd0c7ade9c0475c9c",
+          "sha256": "9a40f80176d3d8d4015b9c30d26c98ba8242030199ea8c2b3da7dfe0b44e7cb5",
+          "sha1": "6d9c5fb5ee28d8d2ea9314e6cdebaa2bbaaf6f6f",
+          "md5": "95eb0add7258d4a227f50c86c502bacb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.1-change-update-record-tests-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.1-change-update-record-tests-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "873ee91ebf4905a387c1ba01ad9eaa8b197fb19202bcc35d47324aff114ffb679d22061523468bbc55e1115dfedce620ef4ae2b71e28cf7bd0c7ade9c0475c9c",
+          "sha256": "9a40f80176d3d8d4015b9c30d26c98ba8242030199ea8c2b3da7dfe0b44e7cb5",
+          "sha1": "6d9c5fb5ee28d8d2ea9314e6cdebaa2bbaaf6f6f",
+          "md5": "95eb0add7258d4a227f50c86c502bacb"
+        }
+      ]
+    }
+  ]
+}

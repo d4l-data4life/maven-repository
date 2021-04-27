@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.9.0-fix-api-task-exposure-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "cn7fqykbvjcrjihqtpnphfsqyi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.0-fix-api-task-exposure-SNAPSHOT.jar",
+          "url": "auth-common-1.9.0-fix-api-task-exposure-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "edcab244135eb910a51aede32368e1e5c3dba187f6874c50bab70ea891c09b027dae4fd2e19525af402b5908ab3babdda007ff353ac9f307fd721d4f233b9448",
+          "sha256": "7abfc22b3868db34691b4edaf547a6cd9e1cdf19971a6e14fa3c4fa7c6220f2f",
+          "sha1": "6d4486619f105616cd3a0789b9bb72cfa1004847",
+          "md5": "dda5c236dbed5ea1f7864309542f89c0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.0-fix-api-task-exposure-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.0-fix-api-task-exposure-SNAPSHOT.jar",
+          "url": "auth-common-1.9.0-fix-api-task-exposure-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "edcab244135eb910a51aede32368e1e5c3dba187f6874c50bab70ea891c09b027dae4fd2e19525af402b5908ab3babdda007ff353ac9f307fd721d4f233b9448",
+          "sha256": "7abfc22b3868db34691b4edaf547a6cd9e1cdf19971a6e14fa3c4fa7c6220f2f",
+          "sha1": "6d4486619f105616cd3a0789b9bb72cfa1004847",
+          "md5": "dda5c236dbed5ea1f7864309542f89c0"
+        }
+      ]
+    }
+  ]
+}

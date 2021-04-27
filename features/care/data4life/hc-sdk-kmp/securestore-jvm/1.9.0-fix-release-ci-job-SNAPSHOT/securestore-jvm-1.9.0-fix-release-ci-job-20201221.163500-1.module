@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.9.0-fix-release-ci-job-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "xur4nmttufginmopoalmcfnbeu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.0-fix-release-ci-job-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.0-fix-release-ci-job-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.0-fix-release-ci-job-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "1d124c3a01fce93b56ddfe57db3c3dc4051cd2ba6092f816bbffbf9f242c8f4badc6f9c1f53b855e0dfb49175af210e434a4ab2a69d65d6a15cfa112b21dfbb3",
+          "sha256": "4c6ed618b092200416ad59ae87a182cd68108a1f9ea13fb0fc637a56ae53a00b",
+          "sha1": "49d315825cad1ba048f9b2f845bb45e4908081ff",
+          "md5": "b30006f2c82809427d153c12436b7ccc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.0-fix-release-ci-job-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.0-fix-release-ci-job-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.0-fix-release-ci-job-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "1d124c3a01fce93b56ddfe57db3c3dc4051cd2ba6092f816bbffbf9f242c8f4badc6f9c1f53b855e0dfb49175af210e434a4ab2a69d65d6a15cfa112b21dfbb3",
+          "sha256": "4c6ed618b092200416ad59ae87a182cd68108a1f9ea13fb0fc637a56ae53a00b",
+          "sha1": "49d315825cad1ba048f9b2f845bb45e4908081ff",
+          "md5": "b30006f2c82809427d153c12436b7ccc"
+        }
+      ]
+    }
+  ]
+}

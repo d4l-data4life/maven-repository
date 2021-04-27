@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-fhir-sdk-java",
+    "module": "fhir-java",
+    "version": "1.3.1-add-danger-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "sku6hcqhszdqhakselwx7biy2q"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fhir-java-1.3.1-add-danger-SNAPSHOT.jar",
+          "url": "fhir-java-1.3.1-add-danger-SNAPSHOT.jar",
+          "size": 986396,
+          "sha512": "66e91670e2533cb7a922ab57c4b205dd1813674c9c1fd9b47cc0933e3305817949bdfafc5bbed0258f6278004b41c8e819860c0d9a089354b859c558204c49cb",
+          "sha256": "395cdbb99af0f2562f687169c4b2f6126f9a2b4f6fe78e2767e2c50dbe4764ae",
+          "sha1": "ed60e1909408953a8efd267d0c33a97dce963219",
+          "md5": "d11f53d6effdd2870b5a4a3143b01db6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-java-1.3.1-add-danger-SNAPSHOT.jar",
+          "url": "fhir-java-1.3.1-add-danger-SNAPSHOT.jar",
+          "size": 986396,
+          "sha512": "66e91670e2533cb7a922ab57c4b205dd1813674c9c1fd9b47cc0933e3305817949bdfafc5bbed0258f6278004b41c8e819860c0d9a089354b859c558204c49cb",
+          "sha256": "395cdbb99af0f2562f687169c4b2f6126f9a2b4f6fe78e2767e2c50dbe4764ae",
+          "sha1": "ed60e1909408953a8efd267d0c33a97dce963219",
+          "md5": "d11f53d6effdd2870b5a4a3143b01db6"
+        }
+      ]
+    }
+  ]
+}

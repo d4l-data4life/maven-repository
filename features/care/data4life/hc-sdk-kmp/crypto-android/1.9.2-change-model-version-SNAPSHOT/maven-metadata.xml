@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>care.data4life.hc-sdk-kmp</groupId>
+  <artifactId>crypto-android</artifactId>
+  <version>1.9.2-change-model-version-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210408.135951</timestamp>
+      <buildNumber>3</buildNumber>
+    </snapshot>
+    <lastUpdated>20210408135951</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.9.2-change-model-version-20210408.135951-3</value>
+        <updated>20210408135951</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>1.9.2-change-model-version-20210408.135951-3</value>
+        <updated>20210408135951</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.9.2-change-model-version-20210408.135951-3</value>
+        <updated>20210408135951</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.9.2-change-model-version-20210408.135951-3</value>
+        <updated>20210408135951</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

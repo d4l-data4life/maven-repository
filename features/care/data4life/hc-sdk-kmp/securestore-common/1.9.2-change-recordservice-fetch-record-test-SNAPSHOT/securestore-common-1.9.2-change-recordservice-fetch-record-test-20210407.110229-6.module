@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.9.2-change-recordservice-fetch-record-test-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "q2d73emoy5ddnd7y7p43cgs3za"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.2-change-recordservice-fetch-record-test-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.2-change-recordservice-fetch-record-test-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "40369e0967127899a0d7ff128607d6dfd48fe658a8fbafec049ed3b63d91b3a520d231104b3e603c76fdd582ae46ed1aa5e679a022e08379d7580d1331f58752",
+          "sha256": "17ff73f52d1e45af9be607dc811b647b450ec4fb73b760b1456b0c268c78efa3",
+          "sha1": "5615c429dd33753ce6b9b243d142225f6c62ac52",
+          "md5": "61a0ba051cbd8e054c0e893c884fe0f7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.2-change-recordservice-fetch-record-test-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.2-change-recordservice-fetch-record-test-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "40369e0967127899a0d7ff128607d6dfd48fe658a8fbafec049ed3b63d91b3a520d231104b3e603c76fdd582ae46ed1aa5e679a022e08379d7580d1331f58752",
+          "sha256": "17ff73f52d1e45af9be607dc811b647b450ec4fb73b760b1456b0c268c78efa3",
+          "sha1": "5615c429dd33753ce6b9b243d142225f6c62ac52",
+          "md5": "61a0ba051cbd8e054c0e893c884fe0f7"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.9.1-add-compatibility-layer-for-encording-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "rvovbq3pwvbtnj5kvmy6irbkf4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "1200dfa1346776f7f19dc1a7b058fa3c6a8318532567108acdccfa9bf68d3a44462bd40251e3d1ad8d3c8ba3b86c0a9f28a86e1e9a62c7a5162107db9451c96f",
+          "sha256": "5ceae9f175ab80ef4b9b956dea87acf369060d0b6002952d6bba748c5fc336df",
+          "sha1": "cb2febeb2d663420d7534c69bb2630d35b55228c",
+          "md5": "82d405506ed90a1ed4ad6af6e71ec4c7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "1200dfa1346776f7f19dc1a7b058fa3c6a8318532567108acdccfa9bf68d3a44462bd40251e3d1ad8d3c8ba3b86c0a9f28a86e1e9a62c7a5162107db9451c96f",
+          "sha256": "5ceae9f175ab80ef4b9b956dea87acf369060d0b6002952d6bba748c5fc336df",
+          "sha1": "cb2febeb2d663420d7534c69bb2630d35b55228c",
+          "md5": "82d405506ed90a1ed4ad6af6e71ec4c7"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.9.2-change-crypte-secured-store-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "it2uqht2dbhu3kyednssrnhka4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.2-change-crypte-secured-store-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.2-change-crypte-secured-store-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.2-change-crypte-secured-store-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "c80b0a3f1ec83d2ca638c14e9cec712da789d47a6cb049afbff91a2fbe2f28accd7a7eedcf289112216b4b8d943bab54cec0dfd3c6f703a9e649773ee49c762c",
+          "sha256": "e9bf87485a66049b286c81f7cef10d55f2efd4dc1aac993b8d28077b295ed970",
+          "sha1": "e3b28d2e4f9b302f83f2ecff01f78effbe6a5c1b",
+          "md5": "ed6775b6f584b05006dd9a323f684248"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.2-change-crypte-secured-store-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.2-change-crypte-secured-store-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.2-change-crypte-secured-store-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "c80b0a3f1ec83d2ca638c14e9cec712da789d47a6cb049afbff91a2fbe2f28accd7a7eedcf289112216b4b8d943bab54cec0dfd3c6f703a9e649773ee49c762c",
+          "sha256": "e9bf87485a66049b286c81f7cef10d55f2efd4dc1aac993b8d28077b295ed970",
+          "sha1": "e3b28d2e4f9b302f83f2ecff01f78effbe6a5c1b",
+          "md5": "ed6775b6f584b05006dd9a323f684248"
+        }
+      ]
+    }
+  ]
+}

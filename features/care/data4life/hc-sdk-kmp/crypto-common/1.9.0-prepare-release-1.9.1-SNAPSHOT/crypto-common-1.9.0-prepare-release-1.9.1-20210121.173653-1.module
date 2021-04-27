@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.9.0-prepare-release-1.9.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "qxnhzhcfdnf4xhl6xin2es7xv4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.9.0-prepare-release-1.9.1-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.0-prepare-release-1.9.1-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "2274b1927dccabe58298f5d1c39ecddb79fa5fbd461732f2a735ada69a08a9ec5e9bfb2e73494c1f44bb1cb7331512828301851700d6ac5bd982123b8f4f91a9",
+          "sha256": "63fe53f4b2a1742a34c62b36f1a794a8dfa099bdf072dcf74b776dde276dd3ae",
+          "sha1": "ce844bb2c7a64527130edab1a5b2a396e3e450a9",
+          "md5": "4b825ab6c17c6c0726ca1760c2afecd0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.9.0-prepare-release-1.9.1-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.0-prepare-release-1.9.1-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "2274b1927dccabe58298f5d1c39ecddb79fa5fbd461732f2a735ada69a08a9ec5e9bfb2e73494c1f44bb1cb7331512828301851700d6ac5bd982123b8f4f91a9",
+          "sha256": "63fe53f4b2a1742a34c62b36f1a794a8dfa099bdf072dcf74b776dde276dd3ae",
+          "sha1": "ce844bb2c7a64527130edab1a5b2a396e3e450a9",
+          "md5": "4b825ab6c17c6c0726ca1760c2afecd0"
+        }
+      ]
+    }
+  ]
+}

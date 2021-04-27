@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>care.data4life.hc-sdk-kmp</groupId>
+  <artifactId>crypto-android</artifactId>
+  <version>1.9.1-fix-RecordService-deleteRecords-parameter-mixup-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210215.141504</timestamp>
+      <buildNumber>2</buildNumber>
+    </snapshot>
+    <lastUpdated>20210215141504</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.9.1-fix-RecordService-deleteRecords-parameter-mixup-20210215.141504-2</value>
+        <updated>20210215141504</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.9.1-fix-RecordService-deleteRecords-parameter-mixup-20210215.141504-2</value>
+        <updated>20210215141504</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>1.9.1-fix-RecordService-deleteRecords-parameter-mixup-20210215.141504-2</value>
+        <updated>20210215141504</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.9.1-fix-RecordService-deleteRecords-parameter-mixup-20210215.141504-2</value>
+        <updated>20210215141504</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

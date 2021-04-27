@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.9.2-change-user-info-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "3at7kjh3mbahxhqzgufly3v7aq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.2-change-user-info-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.2-change-user-info-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "4b76b668154ca7396f36cceb7c5c3acb335d24348ff62eb3f88893856fcf8db4bda0479da40d7c3bb097cdee354dc622133d7987c4281bde7e17c25e0517d010",
+          "sha256": "207eac41b8c38a612b075f6f6086a777895e1d2f03da7d0614d0b6eed0a2d78b",
+          "sha1": "8b30fb9dc354a6d667690628c7bb5e6cb27fcc71",
+          "md5": "38dbf356d77f1e7e3149cb72e0da6b19"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.2-change-user-info-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.2-change-user-info-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "4b76b668154ca7396f36cceb7c5c3acb335d24348ff62eb3f88893856fcf8db4bda0479da40d7c3bb097cdee354dc622133d7987c4281bde7e17c25e0517d010",
+          "sha256": "207eac41b8c38a612b075f6f6086a777895e1d2f03da7d0614d0b6eed0a2d78b",
+          "sha1": "8b30fb9dc354a6d667690628c7bb5e6cb27fcc71",
+          "md5": "38dbf356d77f1e7e3149cb72e0da6b19"
+        }
+      ]
+    }
+  ]
+}

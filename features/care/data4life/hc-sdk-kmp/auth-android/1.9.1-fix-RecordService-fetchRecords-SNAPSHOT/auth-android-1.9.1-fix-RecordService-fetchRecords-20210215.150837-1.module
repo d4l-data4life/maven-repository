@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-android",
+    "version": "1.9.1-fix-RecordService-fetchRecords-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "xud6ebqvlzh5ndholrtj75amoq"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.1-fix-RecordService-fetchRecords-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-android-1.9.1-fix-RecordService-fetchRecords-SNAPSHOT.aar",
+          "url": "auth-android-1.9.1-fix-RecordService-fetchRecords-SNAPSHOT.aar",
+          "size": 44899,
+          "sha512": "b395f52ce12e6215b57829cd8e1c58ffa6ff5b395baf3fbcf847b6b6847b5680a27240456f33ec4c0d1fc785260ce9316428c993fb9812563812570dde61a159",
+          "sha256": "a14de9ed0ad474d574d4225296d9901abaa75c8a6c71ba15237efcb880b7a0ef",
+          "sha1": "ff440845198bf638433d23b50ba15649caba41f5",
+          "md5": "a6a3bb30831a944b2ab4935dcaea8ffc"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.1-fix-RecordService-fetchRecords-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-android",
+          "version": {
+            "requires": "1.9.1-fix-RecordService-fetchRecords-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-jvm"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.3.3"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "androidx.browser",
+          "module": "browser",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "com.github.gesundheitscloud",
+          "module": "AppAuth-Android",
+          "version": {
+            "requires": "9e3cc033ff"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-android-1.9.1-fix-RecordService-fetchRecords-SNAPSHOT.aar",
+          "url": "auth-android-1.9.1-fix-RecordService-fetchRecords-SNAPSHOT.aar",
+          "size": 44899,
+          "sha512": "b395f52ce12e6215b57829cd8e1c58ffa6ff5b395baf3fbcf847b6b6847b5680a27240456f33ec4c0d1fc785260ce9316428c993fb9812563812570dde61a159",
+          "sha256": "a14de9ed0ad474d574d4225296d9901abaa75c8a6c71ba15237efcb880b7a0ef",
+          "sha1": "ff440845198bf638433d23b50ba15649caba41f5",
+          "md5": "a6a3bb30831a944b2ab4935dcaea8ffc"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.9.2-change-recordservice-crypto-test-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "bjmffnrewvfpjimoavhgpltn74"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.2-change-recordservice-crypto-test-SNAPSHOT.jar",
+          "url": "auth-common-1.9.2-change-recordservice-crypto-test-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "90ece949ea96c9cbc1a3050bfebd301a871dfb9f2cd948ae2946af4cdb3f1b534df52de31682179617b6525918eb6c0a7c88505fa44cdf8091a9966fe3fcc1a2",
+          "sha256": "18c2444c7a138f66f94e83fde109386ee36047cfca6fdc2949c5873f20e3b5eb",
+          "sha1": "53de8947f68e1fe7f3e768d1b4913a9f620c19da",
+          "md5": "8083c29a58ec22465457b65b7b965c78"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.2-change-recordservice-crypto-test-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.9.2-change-recordservice-crypto-test-SNAPSHOT.jar",
+          "url": "auth-common-1.9.2-change-recordservice-crypto-test-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "90ece949ea96c9cbc1a3050bfebd301a871dfb9f2cd948ae2946af4cdb3f1b534df52de31682179617b6525918eb6c0a7c88505fa44cdf8091a9966fe3fcc1a2",
+          "sha256": "18c2444c7a138f66f94e83fde109386ee36047cfca6fdc2949c5873f20e3b5eb",
+          "sha1": "53de8947f68e1fe7f3e768d1b4913a9f620c19da",
+          "md5": "8083c29a58ec22465457b65b7b965c78"
+        }
+      ]
+    }
+  ]
+}

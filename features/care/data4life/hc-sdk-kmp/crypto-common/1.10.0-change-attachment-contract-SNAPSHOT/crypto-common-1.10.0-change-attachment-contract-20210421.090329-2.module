@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.10.0-change-attachment-contract-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "6733dv5kkbab5ld45f5uxzcgfq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.10.0-change-attachment-contract-SNAPSHOT.jar",
+          "url": "crypto-common-1.10.0-change-attachment-contract-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "e02d2fcb95529609e775094a73f23165c1031d449eadc8b54967e5b6576ea0a612942cef0dc9be5a567352f5f2c7d47d9a8d3c05ee88c6f84390e5a7a0a3196e",
+          "sha256": "2f25b59470d717ca61a58b7ea57ef8590bdedb123ee4f882581b3dbcd083b9e5",
+          "sha1": "005a48e8ad529950da8a3da0a68a7ee88fee2e38",
+          "md5": "1da7e686a5a906794ec3fe5f01f4dec8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.10.0-change-attachment-contract-SNAPSHOT.jar",
+          "url": "crypto-common-1.10.0-change-attachment-contract-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "e02d2fcb95529609e775094a73f23165c1031d449eadc8b54967e5b6576ea0a612942cef0dc9be5a567352f5f2c7d47d9a8d3c05ee88c6f84390e5a7a0a3196e",
+          "sha256": "2f25b59470d717ca61a58b7ea57ef8590bdedb123ee4f882581b3dbcd083b9e5",
+          "sha1": "005a48e8ad529950da8a3da0a68a7ee88fee2e38",
+          "md5": "1da7e686a5a906794ec3fe5f01f4dec8"
+        }
+      ]
+    }
+  ]
+}

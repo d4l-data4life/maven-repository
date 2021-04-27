@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.9.2-bump-update-fhir-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "nd6oie6ysjboxkcwyybcj7bbzm"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.9.2-bump-update-fhir-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.2-bump-update-fhir-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "098f7ee0db6e8e384bb33bc926ac89770c7b47716ca0a9af4b0081ff7681db7026c882dae0351236f80ed5893784cb248fe77238d8f103115c978d32475419af",
+          "sha256": "9159497ca638b442dd8849b575db540ad46d54f07b9d95ef9b037933fd6b004e",
+          "sha1": "dda891d055e48e83982b5e5bfa4fe5c363956f28",
+          "md5": "d9cee9f9d5a78bc177f2b89be1bd0565"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.9.2-bump-update-fhir-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.2-bump-update-fhir-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "098f7ee0db6e8e384bb33bc926ac89770c7b47716ca0a9af4b0081ff7681db7026c882dae0351236f80ed5893784cb248fe77238d8f103115c978d32475419af",
+          "sha256": "9159497ca638b442dd8849b575db540ad46d54f07b9d95ef9b037933fd6b004e",
+          "sha1": "dda891d055e48e83982b5e5bfa4fe5c363956f28",
+          "md5": "d9cee9f9d5a78bc177f2b89be1bd0565"
+        }
+      ]
+    }
+  ]
+}

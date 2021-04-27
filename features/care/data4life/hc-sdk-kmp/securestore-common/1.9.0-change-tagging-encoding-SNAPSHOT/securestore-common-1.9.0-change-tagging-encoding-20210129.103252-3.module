@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.9.0-change-tagging-encoding-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "hmnqseqkznhyxe23rrp5xfemo4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.0-change-tagging-encoding-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.0-change-tagging-encoding-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "7bba106f84777a861ffb6fb661bfba1ab089b28a3fc97bc85d26f0c0fa04c416e9d996969daa54adb9e677989d25c92b4037c6bb347d5bcfa41b6668adced993",
+          "sha256": "9c2b05e2eb5b3abcfb66eb31187c2bfd074a7958a9893b4e02157694e8f20bbd",
+          "sha1": "8f96aa6bdb8480bc4fe0a166285b2d580e050fdf",
+          "md5": "a489b351edb17d98ffdfd67986cb819f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.9.0-change-tagging-encoding-SNAPSHOT.jar",
+          "url": "securestore-common-1.9.0-change-tagging-encoding-SNAPSHOT.jar",
+          "size": 6921,
+          "sha512": "7bba106f84777a861ffb6fb661bfba1ab089b28a3fc97bc85d26f0c0fa04c416e9d996969daa54adb9e677989d25c92b4037c6bb347d5bcfa41b6668adced993",
+          "sha256": "9c2b05e2eb5b3abcfb66eb31187c2bfd074a7958a9893b4e02157694e8f20bbd",
+          "sha1": "8f96aa6bdb8480bc4fe0a166285b2d580e050fdf",
+          "md5": "a489b351edb17d98ffdfd67986cb819f"
+        }
+      ]
+    }
+  ]
+}

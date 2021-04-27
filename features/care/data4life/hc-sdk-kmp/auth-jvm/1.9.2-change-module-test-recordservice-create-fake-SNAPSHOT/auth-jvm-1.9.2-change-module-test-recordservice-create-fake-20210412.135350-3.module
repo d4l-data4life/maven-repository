@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "rptefcjeojgvlof3jq37dzlg6y"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT.jar",
+          "url": "auth-jvm-1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "c56f4dde1041724d75927a2327166e34423ef3a70f2b6cf388d9b3c789d57855ceae050a80f29191ca3981c5782981debab8f093d1d61b1e97ca8ca7eb992314",
+          "sha256": "d3d63ea2b63f09b7a73e7456955384d128953fbf749f30e2b8cc59e552d6437f",
+          "sha1": "fbac04167bdac6af2a5054cb5a10d22d7ad97b42",
+          "md5": "7caa79eda197583c840df3731f67a66d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT.jar",
+          "url": "auth-jvm-1.9.2-change-module-test-recordservice-create-fake-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "c56f4dde1041724d75927a2327166e34423ef3a70f2b6cf388d9b3c789d57855ceae050a80f29191ca3981c5782981debab8f093d1d61b1e97ca8ca7eb992314",
+          "sha256": "d3d63ea2b63f09b7a73e7456955384d128953fbf749f30e2b8cc59e552d6437f",
+          "sha1": "fbac04167bdac6af2a5054cb5a10d22d7ad97b42",
+          "md5": "7caa79eda197583c840df3731f67a66d"
+        }
+      ]
+    }
+  ]
+}

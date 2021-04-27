@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.9.2-change-recordservice-download-upload-test-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "7aq5rzebv5c7jk5zwepcig6izy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.2-change-recordservice-download-upload-test-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.2-change-recordservice-download-upload-test-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.2-change-recordservice-download-upload-test-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "eccfb72da9513209f7da8bda30f1d94199803107efb6a87bcfa683cec354fb874655d01da4ff88b48f556911cf101100d59cd2db270505c339ef37c27bcf026c",
+          "sha256": "cc0389d6bcf8a7a7ddf0036b7a43760c82a42f6abbb7122a47ad85531d735924",
+          "sha1": "f6307c6bd153b022384188eb61f4ef802ee433b4",
+          "md5": "93f5f3c81e9c99df0ae21a165cfe73b1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.2-change-recordservice-download-upload-test-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.2-change-recordservice-download-upload-test-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.2-change-recordservice-download-upload-test-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "eccfb72da9513209f7da8bda30f1d94199803107efb6a87bcfa683cec354fb874655d01da4ff88b48f556911cf101100d59cd2db270505c339ef37c27bcf026c",
+          "sha256": "cc0389d6bcf8a7a7ddf0036b7a43760c82a42f6abbb7122a47ad85531d735924",
+          "sha1": "f6307c6bd153b022384188eb61f4ef802ee433b4",
+          "md5": "93f5f3c81e9c99df0ae21a165cfe73b1"
+        }
+      ]
+    }
+  ]
+}

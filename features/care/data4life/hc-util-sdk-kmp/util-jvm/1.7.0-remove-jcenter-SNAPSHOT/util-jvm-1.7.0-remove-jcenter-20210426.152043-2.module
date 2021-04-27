@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.7.0-remove-jcenter-SNAPSHOT/util-1.7.0-remove-jcenter-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.7.0-remove-jcenter-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "t7n5pvbcgvcbbbh4ezgnlwh7zu"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-jvm-1.7.0-remove-jcenter-SNAPSHOT.jar",
+          "url": "util-jvm-1.7.0-remove-jcenter-SNAPSHOT.jar",
+          "size": 20014,
+          "sha512": "78ee0a3f2b3f56ec653e9478298c365aac0e8c2c858fd616159596d9466f0779b46296159bcffd27da18019aa620b36b0f804b5f5f56f529035d7ff9eef0582c",
+          "sha256": "c3536430013c8a9c63a626e04c558c4f9a7f285d6501636f5a6d518bf8095990",
+          "sha1": "5ee9f99fd22257e913276b1b6f120605044b2da5",
+          "md5": "5ca8f14cca31b2582317dfb080880a0d"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-jvm-1.7.0-remove-jcenter-SNAPSHOT.jar",
+          "url": "util-jvm-1.7.0-remove-jcenter-SNAPSHOT.jar",
+          "size": 20014,
+          "sha512": "78ee0a3f2b3f56ec653e9478298c365aac0e8c2c858fd616159596d9466f0779b46296159bcffd27da18019aa620b36b0f804b5f5f56f529035d7ff9eef0582c",
+          "sha256": "c3536430013c8a9c63a626e04c558c4f9a7f285d6501636f5a6d518bf8095990",
+          "sha1": "5ee9f99fd22257e913276b1b6f120605044b2da5",
+          "md5": "5ca8f14cca31b2582317dfb080880a0d"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-metadata/1.7.0-remove-jcenter-SNAPSHOT/util-metadata-1.7.0-remove-jcenter-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-metadata",
+        "version": "1.7.0-remove-jcenter-SNAPSHOT"
+      }
+    }
+  ]
+}

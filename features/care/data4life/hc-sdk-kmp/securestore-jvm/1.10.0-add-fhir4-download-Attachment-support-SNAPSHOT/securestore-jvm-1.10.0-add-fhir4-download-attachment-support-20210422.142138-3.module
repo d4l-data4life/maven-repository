@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.10.0-add-fhir4-download-attachment-support-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "rwszed26yrcmfggg4ln3iezvbu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.10.0-add-fhir4-download-attachment-support-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.10.0-add-fhir4-download-attachment-support-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.10.0-add-fhir4-download-attachment-support-SNAPSHOT.jar",
+          "size": 16425,
+          "sha512": "6af988cdcd0f9ca29a3805c703c979f7bf86b0649e2b6fbc014b3cb0746dad2f342cddf00ed3987707feb89b08b42c5f9a1b093ef9b61952e2769b31a28e7f83",
+          "sha256": "23b74f5ddb069c483ed00dc22d234454527581e608fd771a8accc1cba412283b",
+          "sha1": "dc98d55fcb00c47f55550ae3e78889d6a09430d5",
+          "md5": "4c613c01ed60aa56ca33d1138deb9d7f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.10.0-add-fhir4-download-attachment-support-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.10.0-add-fhir4-download-attachment-support-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.10.0-add-fhir4-download-attachment-support-SNAPSHOT.jar",
+          "size": 16425,
+          "sha512": "6af988cdcd0f9ca29a3805c703c979f7bf86b0649e2b6fbc014b3cb0746dad2f342cddf00ed3987707feb89b08b42c5f9a1b093ef9b61952e2769b31a28e7f83",
+          "sha256": "23b74f5ddb069c483ed00dc22d234454527581e608fd771a8accc1cba412283b",
+          "sha1": "dc98d55fcb00c47f55550ae3e78889d6a09430d5",
+          "md5": "4c613c01ed60aa56ca33d1138deb9d7f"
+        }
+      ]
+    }
+  ]
+}

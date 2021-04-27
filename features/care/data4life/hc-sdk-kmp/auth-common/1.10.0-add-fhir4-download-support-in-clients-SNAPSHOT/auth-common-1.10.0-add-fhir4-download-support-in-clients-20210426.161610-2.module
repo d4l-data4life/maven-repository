@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.10.0-add-fhir4-download-support-in-clients-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "kbq63nxerffnrfw7qmmxelluri"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.10.0-add-fhir4-download-support-in-clients-SNAPSHOT.jar",
+          "url": "auth-common-1.10.0-add-fhir4-download-support-in-clients-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "e9029d6f8ef5996345b0c7e679e2a3c843b8d97f3d34d0fcf6042a8fbf806a08600b1a791297b5d210600cbee3fc64385348297ef9bd779175794907f1f8b00b",
+          "sha256": "16e04227e12e66dbe44909a69278dcc3ef829298b6ad7db21c5d84fef49f4dd4",
+          "sha1": "0e6df9e4ff48eb9e3ebe4605077b0e8309ffc26b",
+          "md5": "818bbfe44df527b9293018598539165f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.10.0-add-fhir4-download-support-in-clients-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.10.0-add-fhir4-download-support-in-clients-SNAPSHOT.jar",
+          "url": "auth-common-1.10.0-add-fhir4-download-support-in-clients-SNAPSHOT.jar",
+          "size": 3399,
+          "sha512": "e9029d6f8ef5996345b0c7e679e2a3c843b8d97f3d34d0fcf6042a8fbf806a08600b1a791297b5d210600cbee3fc64385348297ef9bd779175794907f1f8b00b",
+          "sha256": "16e04227e12e66dbe44909a69278dcc3ef829298b6ad7db21c5d84fef49f4dd4",
+          "sha1": "0e6df9e4ff48eb9e3ebe4605077b0e8309ffc26b",
+          "md5": "818bbfe44df527b9293018598539165f"
+        }
+      ]
+    }
+  ]
+}

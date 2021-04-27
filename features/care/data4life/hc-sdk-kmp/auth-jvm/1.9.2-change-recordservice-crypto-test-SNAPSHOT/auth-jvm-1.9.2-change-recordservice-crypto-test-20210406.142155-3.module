@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.9.2-change-recordservice-crypto-test-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "kzpv3c55nndrvkxkru5okcofte"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.2-change-recordservice-crypto-test-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.9.2-change-recordservice-crypto-test-SNAPSHOT.jar",
+          "url": "auth-jvm-1.9.2-change-recordservice-crypto-test-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "b0b7b8a18514e7e525ccdf0c5823991af22a371998326e856011cd67aa41955b3f5e78395723721884f6b7867c1f29f84b5ee646a54aa49bd249dc1f327b73bf",
+          "sha256": "c3d0feba27e06db1ac5f8f8f0ce4b79c0c04a85a66d30edfb84fad6aa0a1b40e",
+          "sha1": "0f6a0580ce31975427b734135dd009ff09db678a",
+          "md5": "d19b8f5b28a013506731f78c243deaac"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.9.2-change-recordservice-crypto-test-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.9.2-change-recordservice-crypto-test-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.9.2-change-recordservice-crypto-test-SNAPSHOT.jar",
+          "url": "auth-jvm-1.9.2-change-recordservice-crypto-test-SNAPSHOT.jar",
+          "size": 27832,
+          "sha512": "b0b7b8a18514e7e525ccdf0c5823991af22a371998326e856011cd67aa41955b3f5e78395723721884f6b7867c1f29f84b5ee646a54aa49bd249dc1f327b73bf",
+          "sha256": "c3d0feba27e06db1ac5f8f8f0ce4b79c0c04a85a66d30edfb84fad6aa0a1b40e",
+          "sha1": "0f6a0580ce31975427b734135dd009ff09db678a",
+          "md5": "d19b8f5b28a013506731f78c243deaac"
+        }
+      ]
+    }
+  ]
+}

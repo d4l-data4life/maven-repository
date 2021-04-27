@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.9.1-add-compatibility-layer-for-encording-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "chojjztcwngxvnyz6vvkqrwrzq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.1-add-compatibility-layer-for-encording-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "53b445704c5f39405e30050aa7bc5f1c36190fdf0bb57f240eef53270b688cde06752114d4fece7a5c88845e9c2be3367060300b7a0d2696ed3d266ca5f900d9",
+          "sha256": "9a22b0778fb1b7d6e5a06581115451684a0a93600a8c8c0cacb34eac11e2b0c8",
+          "sha1": "9320411a3a905e430e90117f0906d75e11b16309",
+          "md5": "83ab1b9205597fa52ea7bae8f6745805"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.9.1-add-compatibility-layer-for-encording-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.9.1-add-compatibility-layer-for-encording-SNAPSHOT.jar",
+          "size": 16423,
+          "sha512": "53b445704c5f39405e30050aa7bc5f1c36190fdf0bb57f240eef53270b688cde06752114d4fece7a5c88845e9c2be3367060300b7a0d2696ed3d266ca5f900d9",
+          "sha256": "9a22b0778fb1b7d6e5a06581115451684a0a93600a8c8c0cacb34eac11e2b0c8",
+          "sha1": "9320411a3a905e430e90117f0906d75e11b16309",
+          "md5": "83ab1b9205597fa52ea7bae8f6745805"
+        }
+      ]
+    }
+  ]
+}

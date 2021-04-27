@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>care.data4life.hc-fhir-sdk-kmp</groupId>
+  <artifactId>fhir-iosx64</artifactId>
+  <versioning>
+    <latest>0.1.0-add-danger-SNAPSHOT</latest>
+    <versions>
+      <version>0.0.1-add-custom-maven-deployment-SNAPSHOT</version>
+      <version>0.0.1-add-contained-resource-support-SNAPSHOT</version>
+      <version>0.0.1-add-fhir-primitives-number-support-SNAPSHOT</version>
+      <version>0.0.1-add-package-hl7-SNAPSHOT</version>
+      <version>0.0.1-add-fhir-primitive-datetime-support-SNAPSHOT</version>
+      <version>0.0.1-add-generated-fhir-models-SNAPSHOT</version>
+      <version>0.0.1-add-generated-fhir-junit-tests-SNAPSHOT</version>
+      <version>0.0.1-update-ci-label-configuration-SNAPSHOT</version>
+      <version>0.0.1-prepare-release-0.1.0-SNAPSHOT</version>
+      <version>0.0.1-change-contribution-guide-SNAPSHOT</version>
+      <version>0.1.0-change-contribution-guide-SNAPSHOT</version>
+      <version>0.1.0-add-danger-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20210415135721</lastUpdated>
+  </versioning>
+</metadata>

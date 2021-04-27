@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>care.data4life.hc-sdk-kmp</groupId>
+  <artifactId>auth-android</artifactId>
+  <version>1.9.0-NAT-496-align-tagging-with-js-sdk-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20210125.101112</timestamp>
+      <buildNumber>7</buildNumber>
+    </snapshot>
+    <lastUpdated>20210125101112</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.9.0-NAT-496-align-tagging-with-js-sdk-20210125.101112-7</value>
+        <updated>20210125101112</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>1.9.0-NAT-496-align-tagging-with-js-sdk-20210125.101112-7</value>
+        <updated>20210125101112</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.9.0-NAT-496-align-tagging-with-js-sdk-20210125.101112-7</value>
+        <updated>20210125101112</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.9.0-NAT-496-align-tagging-with-js-sdk-20210125.101112-7</value>
+        <updated>20210125101112</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>

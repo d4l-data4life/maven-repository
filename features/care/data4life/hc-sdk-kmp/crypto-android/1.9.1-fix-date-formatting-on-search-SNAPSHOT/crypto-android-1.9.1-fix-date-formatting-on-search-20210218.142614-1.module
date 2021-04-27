@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-android",
+    "version": "1.9.1-fix-date-formatting-on-search-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "6xcmg72gknbmln5zn4duvnj2b4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.1-fix-date-formatting-on-search-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.9.1-fix-date-formatting-on-search-SNAPSHOT.aar",
+          "url": "crypto-android-1.9.1-fix-date-formatting-on-search-SNAPSHOT.aar",
+          "size": 51839,
+          "sha512": "c8f72c35559bc424d661de7a46c51159faee1335767b27b4a763d35505e4fa344c55ce28c39cae04694f2c4422154a03ee3984eca5cce13c1f2d41b39481a6ff",
+          "sha256": "4048d3fee8751ed4a713e0c95cf569b92d9f57abfb39f595651cf2dd40c38135",
+          "sha1": "c1655d3af8e398c888f00e0e5aa5bb20ffa71758",
+          "md5": "0c6b04ae6e93f67df1b30b08c88826e5"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.9.1-fix-date-formatting-on-search-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.3.72"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.9.1-fix-date-formatting-on-search-SNAPSHOT.aar",
+          "url": "crypto-android-1.9.1-fix-date-formatting-on-search-SNAPSHOT.aar",
+          "size": 51839,
+          "sha512": "c8f72c35559bc424d661de7a46c51159faee1335767b27b4a763d35505e4fa344c55ce28c39cae04694f2c4422154a03ee3984eca5cce13c1f2d41b39481a6ff",
+          "sha256": "4048d3fee8751ed4a713e0c95cf569b92d9f57abfb39f595651cf2dd40c38135",
+          "sha1": "c1655d3af8e398c888f00e0e5aa5bb20ffa71758",
+          "md5": "0c6b04ae6e93f67df1b30b08c88826e5"
+        }
+      ]
+    }
+  ]
+}

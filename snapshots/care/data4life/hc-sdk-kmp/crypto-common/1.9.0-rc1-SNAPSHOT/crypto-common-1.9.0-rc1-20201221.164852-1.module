@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.9.0-rc1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "rjsjddkq7jedtpp5e4mwmjlrii"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.9.0-rc1-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.0-rc1-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "4e1b67668a4e9d45ed45d2dbeddc8fa628e16cfc2e92bc67b7901533cc09932e409a00af2238f6c96d17f8733a2e72866f80b88df9e267ed59ceef4e87b1b019",
+          "sha256": "39f77a747298b0d719b5a03b5a8c418a7a34308dcdd464e5fcd413486315044b",
+          "sha1": "929fc803e4efec3579293fd6d4a68984231cec9f",
+          "md5": "a585524579f3c0f95ae60db5d1780109"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.3.72"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.9.0-rc1-SNAPSHOT.jar",
+          "url": "crypto-common-1.9.0-rc1-SNAPSHOT.jar",
+          "size": 10850,
+          "sha512": "4e1b67668a4e9d45ed45d2dbeddc8fa628e16cfc2e92bc67b7901533cc09932e409a00af2238f6c96d17f8733a2e72866f80b88df9e267ed59ceef4e87b1b019",
+          "sha256": "39f77a747298b0d719b5a03b5a8c418a7a34308dcdd464e5fcd413486315044b",
+          "sha1": "929fc803e4efec3579293fd6d4a68984231cec9f",
+          "md5": "a585524579f3c0f95ae60db5d1780109"
+        }
+      ]
+    }
+  ]
+}

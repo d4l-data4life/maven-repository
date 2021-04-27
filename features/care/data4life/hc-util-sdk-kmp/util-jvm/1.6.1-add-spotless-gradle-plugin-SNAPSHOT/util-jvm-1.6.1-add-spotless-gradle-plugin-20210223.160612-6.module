@@ -1,0 +1,87 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../util/1.6.1-add-spotless-gradle-plugin-SNAPSHOT/util-1.6.1-add-spotless-gradle-plugin-SNAPSHOT.module",
+    "group": "care.data4life.hc-util-sdk-kmp",
+    "module": "util",
+    "version": "1.6.1-add-spotless-gradle-plugin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.2",
+      "buildId": "mx6dos42jzfknhcdccrtgltdoa"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "util-jvm-1.6.1-add-spotless-gradle-plugin-SNAPSHOT.jar",
+          "url": "util-jvm-1.6.1-add-spotless-gradle-plugin-SNAPSHOT.jar",
+          "size": 20014,
+          "sha512": "1073728b3335dbe00053692b9e90061fa36411e1f65d1fb836201e20a5a4a2b5358608a3fd1ba76cc278ca9c8b02f6e64e53b20d004c6441b80c77bea6858dea",
+          "sha256": "0b173e787331eed3d6a16c4c95c196185644df68bbb3fc68294008d497043cee",
+          "sha1": "41d1725c3aaa4c8fd8be1b81c50e6da20f8c3626",
+          "md5": "370ae933903a4a3952c333654ee88381"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "util-jvm-1.6.1-add-spotless-gradle-plugin-SNAPSHOT.jar",
+          "url": "util-jvm-1.6.1-add-spotless-gradle-plugin-SNAPSHOT.jar",
+          "size": 20014,
+          "sha512": "1073728b3335dbe00053692b9e90061fa36411e1f65d1fb836201e20a5a4a2b5358608a3fd1ba76cc278ca9c8b02f6e64e53b20d004c6441b80c77bea6858dea",
+          "sha256": "0b173e787331eed3d6a16c4c95c196185644df68bbb3fc68294008d497043cee",
+          "sha1": "41d1725c3aaa4c8fd8be1b81c50e6da20f8c3626",
+          "md5": "370ae933903a4a3952c333654ee88381"
+        }
+      ]
+    },
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "available-at": {
+        "url": "../../util-metadata/1.6.1-add-spotless-gradle-plugin-SNAPSHOT/util-metadata-1.6.1-add-spotless-gradle-plugin-SNAPSHOT.module",
+        "group": "care.data4life.hc-util-sdk-kmp",
+        "module": "util-metadata",
+        "version": "1.6.1-add-spotless-gradle-plugin-SNAPSHOT"
+      }
+    }
+  ]
+}
