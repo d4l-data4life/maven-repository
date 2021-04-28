@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.10.0-bump-update-kotlin-gradle-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "uwmpo4yfrvdfpg35w7w5jzniaq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.10.0-bump-update-kotlin-gradle-SNAPSHOT.jar",
+          "url": "securestore-common-1.10.0-bump-update-kotlin-gradle-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "12a9401cffccd6252c21ff0cb1b01ac702694b5c3c580c9f3b4fe053a1629bceed7a27a5825926834e8e75cdaa33dd4104925f5a35e3e15367e2c23f1b5e7dbf",
+          "sha256": "a4d269802b04475df8ae684b629a74be08a343c50460c331392848ffe6945f74",
+          "sha1": "741ac6c92f0d0134a6056a7bfd344740d260cd84",
+          "md5": "6b77d4a2ad96a5cef2acb53435bd5db3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.10.0-bump-update-kotlin-gradle-SNAPSHOT.jar",
+          "url": "securestore-common-1.10.0-bump-update-kotlin-gradle-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "12a9401cffccd6252c21ff0cb1b01ac702694b5c3c580c9f3b4fe053a1629bceed7a27a5825926834e8e75cdaa33dd4104925f5a35e3e15367e2c23f1b5e7dbf",
+          "sha256": "a4d269802b04475df8ae684b629a74be08a343c50460c331392848ffe6945f74",
+          "sha1": "741ac6c92f0d0134a6056a7bfd344740d260cd84",
+          "md5": "6b77d4a2ad96a5cef2acb53435bd5db3"
+        }
+      ]
+    }
+  ]
+}
