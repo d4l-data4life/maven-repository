@@ -5,37 +5,37 @@
   <version>1.10.0-fix-document-upload-response-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210427.091902</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210428.164403</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210427091902</lastUpdated>
+    <lastUpdated>20210428164403</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.10.0-fix-document-upload-response-20210427.091902-2</value>
-        <updated>20210427091902</updated>
+        <value>1.10.0-fix-document-upload-response-20210428.164403-3</value>
+        <updated>20210428164403</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.10.0-fix-document-upload-response-20210428.164403-3</value>
+        <updated>20210428164403</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.10.0-fix-document-upload-response-20210427.091902-2</value>
-        <updated>20210427091902</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.10.0-fix-document-upload-response-20210427.091902-2</value>
-        <updated>20210427091902</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.10.0-fix-document-upload-response-20210427.091902-2</value>
-        <updated>20210427091902</updated>
+        <value>1.10.0-fix-document-upload-response-20210428.164403-3</value>
+        <updated>20210428164403</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>jar</extension>
-        <value>1.10.0-fix-document-upload-response-20210427.091902-2</value>
-        <updated>20210427091902</updated>
+        <value>1.10.0-fix-document-upload-response-20210428.164403-3</value>
+        <updated>20210428164403</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.10.0-fix-document-upload-response-20210428.164403-3</value>
+        <updated>20210428164403</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
