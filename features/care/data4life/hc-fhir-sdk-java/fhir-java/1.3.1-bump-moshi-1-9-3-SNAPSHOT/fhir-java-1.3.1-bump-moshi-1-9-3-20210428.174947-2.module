@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-fhir-sdk-java",
+    "module": "fhir-java",
+    "version": "1.3.1-bump-moshi-1-9-3-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "vwk4pv2255agtkzarzg4ckhspi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fhir-java-1.3.1-bump-moshi-1-9-3-SNAPSHOT.jar",
+          "url": "fhir-java-1.3.1-bump-moshi-1-9-3-SNAPSHOT.jar",
+          "size": 986439,
+          "sha512": "d34e3842840e5140cb32ca709d42b3b2048dae0169731ac3e804eb1bd2bb99bb4f4e386613fb6f98b38ffed65ef52263c5d5354383791d6c3f18319b94721d76",
+          "sha256": "3ee27bca6365558e3a5c72c87cc5dc8640636c8ecee933b77a3b76c20a2795d1",
+          "sha1": "b05af455aa8750718a9aca76b2b5c74061f995c4",
+          "md5": "0411a3a0bc7c23df51583c28833125d7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-java-1.3.1-bump-moshi-1-9-3-SNAPSHOT.jar",
+          "url": "fhir-java-1.3.1-bump-moshi-1-9-3-SNAPSHOT.jar",
+          "size": 986439,
+          "sha512": "d34e3842840e5140cb32ca709d42b3b2048dae0169731ac3e804eb1bd2bb99bb4f4e386613fb6f98b38ffed65ef52263c5d5354383791d6c3f18319b94721d76",
+          "sha256": "3ee27bca6365558e3a5c72c87cc5dc8640636c8ecee933b77a3b76c20a2795d1",
+          "sha1": "b05af455aa8750718a9aca76b2b5c74061f995c4",
+          "md5": "0411a3a0bc7c23df51583c28833125d7"
+        }
+      ]
+    }
+  ]
+}
