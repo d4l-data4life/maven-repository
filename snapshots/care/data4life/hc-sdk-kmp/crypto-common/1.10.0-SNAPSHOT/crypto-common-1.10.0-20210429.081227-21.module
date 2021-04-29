@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.10.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "vnzvke5bmvc3vjgyohvw7e73li"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.10.0-SNAPSHOT.jar",
+          "url": "crypto-common-1.10.0-SNAPSHOT.jar",
+          "size": 10855,
+          "sha512": "c574f4154d27723982654d3012a562f67e72013d451ac8ba81d975e2640732026d16fe7db7c9d90dc232f7d093f11637fa0a94341da37ec0437b42088d014b59",
+          "sha256": "e14e418e949912f8f4624009c4a7250740f5af4a308bd5e4381d7f531af05234",
+          "sha1": "502d75ca7178a6dfba387d666cb92e48700201c7",
+          "md5": "f6833e7490324ff7d4046f0abc6a1237"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.10.0-SNAPSHOT.jar",
+          "url": "crypto-common-1.10.0-SNAPSHOT.jar",
+          "size": 10855,
+          "sha512": "c574f4154d27723982654d3012a562f67e72013d451ac8ba81d975e2640732026d16fe7db7c9d90dc232f7d093f11637fa0a94341da37ec0437b42088d014b59",
+          "sha256": "e14e418e949912f8f4624009c4a7250740f5af4a308bd5e4381d7f531af05234",
+          "sha1": "502d75ca7178a6dfba387d666cb92e48700201c7",
+          "md5": "f6833e7490324ff7d4046f0abc6a1237"
+        }
+      ]
+    }
+  ]
+}
