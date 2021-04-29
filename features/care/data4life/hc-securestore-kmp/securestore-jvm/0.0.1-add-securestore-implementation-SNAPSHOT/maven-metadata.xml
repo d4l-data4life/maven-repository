@@ -5,31 +5,31 @@
   <version>0.0.1-add-securestore-implementation-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210427.215831</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210429.130019</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210427215831</lastUpdated>
+    <lastUpdated>20210429130019</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>0.0.1-add-securestore-implementation-20210427.215831-2</value>
-        <updated>20210427215831</updated>
+        <extension>pom</extension>
+        <value>0.0.1-add-securestore-implementation-20210429.130019-3</value>
+        <updated>20210429130019</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>0.0.1-add-securestore-implementation-20210427.215831-2</value>
-        <updated>20210427215831</updated>
+        <extension>module</extension>
+        <value>0.0.1-add-securestore-implementation-20210429.130019-3</value>
+        <updated>20210429130019</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.0.1-add-securestore-implementation-20210429.130019-3</value>
+        <updated>20210429130019</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>0.0.1-add-securestore-implementation-20210427.215831-2</value>
-        <updated>20210427215831</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>0.0.1-add-securestore-implementation-20210427.215831-2</value>
-        <updated>20210427215831</updated>
+        <value>0.0.1-add-securestore-implementation-20210429.130019-3</value>
+        <updated>20210429130019</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
