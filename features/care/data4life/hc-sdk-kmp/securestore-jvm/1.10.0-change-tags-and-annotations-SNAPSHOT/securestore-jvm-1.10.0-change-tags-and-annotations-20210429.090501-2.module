@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.10.0-change-tags-and-annotations-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "wpmpnmkxcfhjdardqdbyexbrda"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.10.0-change-tags-and-annotations-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.10.0-change-tags-and-annotations-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.10.0-change-tags-and-annotations-SNAPSHOT.jar",
+          "size": 16453,
+          "sha512": "5a8168e021db24ec18ab73fc710a5b0146b1ee4e48b6aaac1f997f5bb4842d38c4550968a356fa883fd753ff9148d12f3de94183480dabc56c391361161403f4",
+          "sha256": "ddd40d5b063d77c5950b8295768503f09c3a8785261a8992f7f1754f73452697",
+          "sha1": "cc24798f9fbce6fe0efc8f08fd3beee54fb65f16",
+          "md5": "2122f73207fd087a03e29f9224716926"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.10.0-change-tags-and-annotations-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.10.0-change-tags-and-annotations-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.10.0-change-tags-and-annotations-SNAPSHOT.jar",
+          "size": 16453,
+          "sha512": "5a8168e021db24ec18ab73fc710a5b0146b1ee4e48b6aaac1f997f5bb4842d38c4550968a356fa883fd753ff9148d12f3de94183480dabc56c391361161403f4",
+          "sha256": "ddd40d5b063d77c5950b8295768503f09c3a8785261a8992f7f1754f73452697",
+          "sha1": "cc24798f9fbce6fe0efc8f08fd3beee54fb65f16",
+          "md5": "2122f73207fd087a03e29f9224716926"
+        }
+      ]
+    }
+  ]
+}
