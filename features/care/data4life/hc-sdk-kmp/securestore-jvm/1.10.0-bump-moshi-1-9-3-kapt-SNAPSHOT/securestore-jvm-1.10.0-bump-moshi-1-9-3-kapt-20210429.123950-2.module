@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "ztcrv55rn5gjrdntn7yjwcrf3e"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT.jar",
+          "size": 16453,
+          "sha512": "de0315253ba5362a6a659a30f52dbac55b97de0bb96bede51cd588ae26e87e1378bff3a0e6ec9edd5c1aaa594e62ab88965c030b75831cc0b82d2dd15e98adaf",
+          "sha256": "8b83788da752307a49f44555a6e62794ff7df267ac08882b15c752ea7ba8d53b",
+          "sha1": "48ae67988a58a44433a7c43deb82762dd91b4e61",
+          "md5": "322f721843e87507012957b91f1a6fd6"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT.jar",
+          "size": 16453,
+          "sha512": "de0315253ba5362a6a659a30f52dbac55b97de0bb96bede51cd588ae26e87e1378bff3a0e6ec9edd5c1aaa594e62ab88965c030b75831cc0b82d2dd15e98adaf",
+          "sha256": "8b83788da752307a49f44555a6e62794ff7df267ac08882b15c752ea7ba8d53b",
+          "sha1": "48ae67988a58a44433a7c43deb82762dd91b4e61",
+          "md5": "322f721843e87507012957b91f1a6fd6"
+        }
+      ]
+    }
+  ]
+}

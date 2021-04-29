@@ -5,31 +5,31 @@
   <version>1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210429.110534</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210429.123950</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210429110534</lastUpdated>
+    <lastUpdated>20210429123950</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>1.10.0-bump-moshi-1-9-3-kapt-20210429.110534-1</value>
-        <updated>20210429110534</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.10.0-bump-moshi-1-9-3-kapt-20210429.110534-1</value>
-        <updated>20210429110534</updated>
+        <extension>pom</extension>
+        <value>1.10.0-bump-moshi-1-9-3-kapt-20210429.123950-2</value>
+        <updated>20210429123950</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>1.10.0-bump-moshi-1-9-3-kapt-20210429.110534-1</value>
-        <updated>20210429110534</updated>
+        <value>1.10.0-bump-moshi-1-9-3-kapt-20210429.123950-2</value>
+        <updated>20210429123950</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.10.0-bump-moshi-1-9-3-kapt-20210429.110534-1</value>
-        <updated>20210429110534</updated>
+        <extension>module</extension>
+        <value>1.10.0-bump-moshi-1-9-3-kapt-20210429.123950-2</value>
+        <updated>20210429123950</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.10.0-bump-moshi-1-9-3-kapt-20210429.123950-2</value>
+        <updated>20210429123950</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
