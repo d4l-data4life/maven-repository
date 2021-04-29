@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>auth-jvm</artifactId>
   <versioning>
-    <latest>1.10.0-change-userid-on-client-SNAPSHOT</latest>
+    <latest>1.10.0-fix-document-upload-response-SNAPSHOT</latest>
     <release>1.9.0</release>
     <versions>
       <version>1.9.0-fix-release-ci-job-SNAPSHOT</version>
@@ -85,6 +85,6 @@
       <version>1.10.0-fix-document-upload-response-SNAPSHOT</version>
       <version>1.10.0-bump-update-kotlin-gradle-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210429094535</lastUpdated>
+    <lastUpdated>20210429095830</lastUpdated>
   </versioning>
 </metadata>
