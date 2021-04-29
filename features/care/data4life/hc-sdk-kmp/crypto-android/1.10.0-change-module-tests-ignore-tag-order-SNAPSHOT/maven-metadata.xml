@@ -5,31 +5,31 @@
   <version>1.10.0-change-module-tests-ignore-tag-order-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210427.074122</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210429.083650</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210427074122</lastUpdated>
+    <lastUpdated>20210429083650</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.10.0-change-module-tests-ignore-tag-order-20210427.074122-1</value>
-        <updated>20210427074122</updated>
+        <value>1.10.0-change-module-tests-ignore-tag-order-20210429.083650-2</value>
+        <updated>20210429083650</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.10.0-change-module-tests-ignore-tag-order-20210427.074122-1</value>
-        <updated>20210427074122</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.10.0-change-module-tests-ignore-tag-order-20210427.074122-1</value>
-        <updated>20210427074122</updated>
+        <value>1.10.0-change-module-tests-ignore-tag-order-20210429.083650-2</value>
+        <updated>20210429083650</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>1.10.0-change-module-tests-ignore-tag-order-20210427.074122-1</value>
-        <updated>20210427074122</updated>
+        <value>1.10.0-change-module-tests-ignore-tag-order-20210429.083650-2</value>
+        <updated>20210429083650</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.10.0-change-module-tests-ignore-tag-order-20210429.083650-2</value>
+        <updated>20210429083650</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
