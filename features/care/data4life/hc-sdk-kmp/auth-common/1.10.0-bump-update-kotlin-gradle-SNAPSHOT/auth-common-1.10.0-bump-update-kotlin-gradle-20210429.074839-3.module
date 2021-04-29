@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.10.0-bump-update-kotlin-gradle-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "jaop2jc4tfej7kxvvv6ulzacdu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.10.0-bump-update-kotlin-gradle-SNAPSHOT.jar",
+          "url": "auth-common-1.10.0-bump-update-kotlin-gradle-SNAPSHOT.jar",
+          "size": 3404,
+          "sha512": "5a535f0854b34a5124d78285f2aa182b57408f9658fe0b68580596923a908a05452f2b76bb6dc8438371538e3e09621fd9ef16bbdc70c00e526da0e8be05b628",
+          "sha256": "6e85c8506965739bc25e548b4f2c8866060bbd19c2cfda53807841047ee8a9ca",
+          "sha1": "bd55e70604e2c850d638b16b193f67da514d54ca",
+          "md5": "84f1619376852077fb506c5c445726da"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.10.0-bump-update-kotlin-gradle-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.10.0-bump-update-kotlin-gradle-SNAPSHOT.jar",
+          "url": "auth-common-1.10.0-bump-update-kotlin-gradle-SNAPSHOT.jar",
+          "size": 3404,
+          "sha512": "5a535f0854b34a5124d78285f2aa182b57408f9658fe0b68580596923a908a05452f2b76bb6dc8438371538e3e09621fd9ef16bbdc70c00e526da0e8be05b628",
+          "sha256": "6e85c8506965739bc25e548b4f2c8866060bbd19c2cfda53807841047ee8a9ca",
+          "sha1": "bd55e70604e2c850d638b16b193f67da514d54ca",
+          "md5": "84f1619376852077fb506c5c445726da"
+        }
+      ]
+    }
+  ]
+}
