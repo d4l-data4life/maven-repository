@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>sdk-android</artifactId>
   <versioning>
-    <latest>1.10.0-change-tags-and-annotations-SNAPSHOT</latest>
+    <latest>1.10.0-change-tag-tests-SNAPSHOT</latest>
     <release>1.9.0</release>
     <versions>
       <version>1.9.0-fix-release-ci-job-SNAPSHOT</version>
@@ -85,6 +85,6 @@
       <version>1.10.0-fix-document-upload-response-SNAPSHOT</version>
       <version>1.10.0-bump-update-kotlin-gradle-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210429091010</lastUpdated>
+    <lastUpdated>20210429093942</lastUpdated>
   </versioning>
 </metadata>

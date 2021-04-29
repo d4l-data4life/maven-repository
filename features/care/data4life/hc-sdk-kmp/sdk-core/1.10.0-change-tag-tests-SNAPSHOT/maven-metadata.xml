@@ -5,37 +5,37 @@
   <version>1.10.0-change-tag-tests-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210427.083710</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210429.093525</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210427083710</lastUpdated>
+    <lastUpdated>20210429093525</lastUpdated>
     <snapshotVersions>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.10.0-change-tag-tests-20210429.093525-2</value>
+        <updated>20210429093525</updated>
+      </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.10.0-change-tag-tests-20210427.083710-1</value>
-        <updated>20210427083710</updated>
+        <value>1.10.0-change-tag-tests-20210429.093525-2</value>
+        <updated>20210429093525</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.10.0-change-tag-tests-20210429.093525-2</value>
+        <updated>20210429093525</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.10.0-change-tag-tests-20210429.093525-2</value>
+        <updated>20210429093525</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.10.0-change-tag-tests-20210427.083710-1</value>
-        <updated>20210427083710</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.10.0-change-tag-tests-20210427.083710-1</value>
-        <updated>20210427083710</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.10.0-change-tag-tests-20210427.083710-1</value>
-        <updated>20210427083710</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.10.0-change-tag-tests-20210427.083710-1</value>
-        <updated>20210427083710</updated>
+        <value>1.10.0-change-tag-tests-20210429.093525-2</value>
+        <updated>20210429093525</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
