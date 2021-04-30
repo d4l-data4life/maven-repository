@@ -5,37 +5,37 @@
   <version>1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210429.123950</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210430.050026</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210429123950</lastUpdated>
+    <lastUpdated>20210430050026</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.10.0-bump-moshi-1-9-3-kapt-20210429.123950-2</value>
-        <updated>20210429123950</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>1.10.0-bump-moshi-1-9-3-kapt-20210429.123950-2</value>
-        <updated>20210429123950</updated>
+        <extension>module</extension>
+        <value>1.10.0-bump-moshi-1-9-3-kapt-20210430.050026-3</value>
+        <updated>20210430050026</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.10.0-bump-moshi-1-9-3-kapt-20210429.123950-2</value>
-        <updated>20210429123950</updated>
+        <value>1.10.0-bump-moshi-1-9-3-kapt-20210430.050026-3</value>
+        <updated>20210430050026</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>1.10.0-bump-moshi-1-9-3-kapt-20210429.123950-2</value>
-        <updated>20210429123950</updated>
+        <extension>jar</extension>
+        <value>1.10.0-bump-moshi-1-9-3-kapt-20210430.050026-3</value>
+        <updated>20210430050026</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.10.0-bump-moshi-1-9-3-kapt-20210429.123950-2</value>
-        <updated>20210429123950</updated>
+        <value>1.10.0-bump-moshi-1-9-3-kapt-20210430.050026-3</value>
+        <updated>20210430050026</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.10.0-bump-moshi-1-9-3-kapt-20210430.050026-3</value>
+        <updated>20210430050026</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

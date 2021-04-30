@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "zriivgusrng6bavxn7or772wey"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT.jar",
+          "url": "securestore-common-1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "2853272e7e64e40edbba17eb32be80ec77b5cf4f4f44ee8cfe07ddd9384d8a29725c33f479b2cfc627aa98d8d470f068de9d166c6d8d5004ba11d22e3c6ba5ae",
+          "sha256": "f4876447ac57f92f309745a7d491502f6390851caa6b8612cfdbe9192c196a74",
+          "sha1": "ef56d8c995778b54dd8552851e09bc758160a4c9",
+          "md5": "733bfb688f1323a9ac2b3ac58fcbf02f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT.jar",
+          "url": "securestore-common-1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "2853272e7e64e40edbba17eb32be80ec77b5cf4f4f44ee8cfe07ddd9384d8a29725c33f479b2cfc627aa98d8d470f068de9d166c6d8d5004ba11d22e3c6ba5ae",
+          "sha256": "f4876447ac57f92f309745a7d491502f6390851caa6b8612cfdbe9192c196a74",
+          "sha1": "ef56d8c995778b54dd8552851e09bc758160a4c9",
+          "md5": "733bfb688f1323a9ac2b3ac58fcbf02f"
+        }
+      ]
+    }
+  ]
+}
