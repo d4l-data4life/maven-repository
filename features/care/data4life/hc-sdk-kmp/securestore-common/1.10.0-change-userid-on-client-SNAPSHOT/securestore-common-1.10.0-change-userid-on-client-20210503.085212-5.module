@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.10.0-change-userid-on-client-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "wd43gdahbje6jkpbzmqxe6tv2i"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.10.0-change-userid-on-client-SNAPSHOT.jar",
+          "url": "securestore-common-1.10.0-change-userid-on-client-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "ff99779c83caab70a227b1d52c436d6b0f463c11565e8a6d0a200bc71612647a2bfadefdd1437f4e24ee033ec615e794842ca6b7b95faa92b2c8fcb3c08a9716",
+          "sha256": "58f8b73eb075d022a313fc7babfd9b3244057179656ab011f763163b47a94be7",
+          "sha1": "c2d5a5434e2793b7f194e40a2ce3391fb1203426",
+          "md5": "7f7adb6bc16f101039edf87bbe92df27"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.10.0-change-userid-on-client-SNAPSHOT.jar",
+          "url": "securestore-common-1.10.0-change-userid-on-client-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "ff99779c83caab70a227b1d52c436d6b0f463c11565e8a6d0a200bc71612647a2bfadefdd1437f4e24ee033ec615e794842ca6b7b95faa92b2c8fcb3c08a9716",
+          "sha256": "58f8b73eb075d022a313fc7babfd9b3244057179656ab011f763163b47a94be7",
+          "sha1": "c2d5a5434e2793b7f194e40a2ce3391fb1203426",
+          "md5": "7f7adb6bc16f101039edf87bbe92df27"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-android",
+    "version": "1.10.0-change-userid-on-client-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "wd43gdahbje6jkpbzmqxe6tv2i"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.10.0-change-userid-on-client-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.10.0-change-userid-on-client-SNAPSHOT.aar",
+          "url": "crypto-android-1.10.0-change-userid-on-client-SNAPSHOT.aar",
+          "size": 51867,
+          "sha512": "0f3770755ccd8b8172f04bd5039d91204070ab9e4b75a53d15a250f90208a6ddbaa1777c17b15b303620575ab9f818a625d4dd59baa413bd17913a20e08a9cea",
+          "sha256": "520691a06d7cc162e07f52a1a3cca19f7a0f5e618e8a42e87a4931bf6b06b769",
+          "sha1": "d490283926b99dbae463c666b386a2f8f75b8006",
+          "md5": "a3fd005dc32c11d967f14d7c43c62e4a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.10.0-change-userid-on-client-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.10.0-change-userid-on-client-SNAPSHOT.aar",
+          "url": "crypto-android-1.10.0-change-userid-on-client-SNAPSHOT.aar",
+          "size": 51867,
+          "sha512": "0f3770755ccd8b8172f04bd5039d91204070ab9e4b75a53d15a250f90208a6ddbaa1777c17b15b303620575ab9f818a625d4dd59baa413bd17913a20e08a9cea",
+          "sha256": "520691a06d7cc162e07f52a1a3cca19f7a0f5e618e8a42e87a4931bf6b06b769",
+          "sha1": "d490283926b99dbae463c666b386a2f8f75b8006",
+          "md5": "a3fd005dc32c11d967f14d7c43c62e4a"
+        }
+      ]
+    }
+  ]
+}
