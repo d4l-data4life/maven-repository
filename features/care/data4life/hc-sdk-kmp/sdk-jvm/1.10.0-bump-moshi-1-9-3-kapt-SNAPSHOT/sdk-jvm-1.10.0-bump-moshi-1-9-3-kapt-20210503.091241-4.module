@@ -1,0 +1,179 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "sdk-jvm",
+    "version": "1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "vfimpztftbhm5prj6mfe64n5hu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-jvm-1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT.jar",
+          "url": "sdk-jvm-1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT.jar",
+          "size": 11463,
+          "sha512": "7eb1ccc4fb2938ac3b7ddb02121db309f19d8655d8377821000c2a5aad49aa05b7f53cd0983c14ed592dee4beaa1506df1f2325717911f6bf8e85a8225041b6f",
+          "sha256": "8a2ef6a7dd8ce4c0db9095e79f86e18a30cf5d1e5a13eea7c1f1191557ee8189",
+          "sha1": "802a6539788a7a137bc9bed2a757b65a542109a6",
+          "md5": "9b3f560f3c38b52590b27e4d4a4c1ec5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-jvm",
+          "version": {
+            "requires": "1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-jvm",
+          "version": {
+            "requires": "1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.19"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-jvm-1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT.jar",
+          "url": "sdk-jvm-1.10.0-bump-moshi-1-9-3-kapt-SNAPSHOT.jar",
+          "size": 11463,
+          "sha512": "7eb1ccc4fb2938ac3b7ddb02121db309f19d8655d8377821000c2a5aad49aa05b7f53cd0983c14ed592dee4beaa1506df1f2325717911f6bf8e85a8225041b6f",
+          "sha256": "8a2ef6a7dd8ce4c0db9095e79f86e18a30cf5d1e5a13eea7c1f1191557ee8189",
+          "sha1": "802a6539788a7a137bc9bed2a757b65a542109a6",
+          "md5": "9b3f560f3c38b52590b27e4d4a4c1ec5"
+        }
+      ]
+    }
+  ]
+}
