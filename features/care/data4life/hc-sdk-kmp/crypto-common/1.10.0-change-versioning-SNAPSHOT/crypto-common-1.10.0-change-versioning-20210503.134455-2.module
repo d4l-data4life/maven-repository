@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.10.0-change-versioning-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "nlqi4dpq5baftgemygj3kxgg5e"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.10.0-change-versioning-SNAPSHOT.jar",
+          "url": "crypto-common-1.10.0-change-versioning-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "66fa8ce4b2d12aed7ee9b2897bec5c174df77388db6dc8ee11bd60672fb54fc073bcdaee0c644352c56f2fbdbf1c150161588f67f535e66348a8566f096ed65b",
+          "sha256": "d834435ae4a245f9646d7d3eda84d73cb86ed10ef57637f960431f68dbbd02ce",
+          "sha1": "b8ba1a34c7733ace70f69325b3568e3b08a46146",
+          "md5": "0ba3b1f1391c80ff218c19ca3d9ba0d2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.10.0-change-versioning-SNAPSHOT.jar",
+          "url": "crypto-common-1.10.0-change-versioning-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "66fa8ce4b2d12aed7ee9b2897bec5c174df77388db6dc8ee11bd60672fb54fc073bcdaee0c644352c56f2fbdbf1c150161588f67f535e66348a8566f096ed65b",
+          "sha256": "d834435ae4a245f9646d7d3eda84d73cb86ed10ef57637f960431f68dbbd02ce",
+          "sha1": "b8ba1a34c7733ace70f69325b3568e3b08a46146",
+          "md5": "0ba3b1f1391c80ff218c19ca3d9ba0d2"
+        }
+      ]
+    }
+  ]
+}
