@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.10.0-change-module-tests-ignore-tag-order-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "mfprk45s25axdkmq3qj2tphg7i"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.10.0-change-module-tests-ignore-tag-order-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.10.0-change-module-tests-ignore-tag-order-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.10.0-change-module-tests-ignore-tag-order-SNAPSHOT.jar",
+          "size": 57138,
+          "sha512": "c2554bdfb8b779ef4e7b147aa1b2ead8702b3bcdcd453a463fce0fdee83669f2d8cf1917d39344adbf5079eb8c544a04e327282db9e2541348a563d46dc82163",
+          "sha256": "2017a20a7a3429e8b3b6d55c8760bf973df891c4284d3f895ab5f3df4a364028",
+          "sha1": "1caeee59a8574953cd82a0ad23ad11ba4b16245b",
+          "md5": "422df7765f6af37d62e80089f5e2b130"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.10.0-change-module-tests-ignore-tag-order-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.10.0-change-module-tests-ignore-tag-order-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.10.0-change-module-tests-ignore-tag-order-SNAPSHOT.jar",
+          "size": 57138,
+          "sha512": "c2554bdfb8b779ef4e7b147aa1b2ead8702b3bcdcd453a463fce0fdee83669f2d8cf1917d39344adbf5079eb8c544a04e327282db9e2541348a563d46dc82163",
+          "sha256": "2017a20a7a3429e8b3b6d55c8760bf973df891c4284d3f895ab5f3df4a364028",
+          "sha1": "1caeee59a8574953cd82a0ad23ad11ba4b16245b",
+          "md5": "422df7765f6af37d62e80089f5e2b130"
+        }
+      ]
+    }
+  ]
+}

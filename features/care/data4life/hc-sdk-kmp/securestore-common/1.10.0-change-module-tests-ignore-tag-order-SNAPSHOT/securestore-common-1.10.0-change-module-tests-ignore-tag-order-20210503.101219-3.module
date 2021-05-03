@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.10.0-change-module-tests-ignore-tag-order-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "mfprk45s25axdkmq3qj2tphg7i"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.10.0-change-module-tests-ignore-tag-order-SNAPSHOT.jar",
+          "url": "securestore-common-1.10.0-change-module-tests-ignore-tag-order-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "0ad228d572945066e4563e0c26b950a024e39143a4900129a994ef18a4c87d4d8fcb2cb6c2fd50efa59acd2480f63850730c2d16f8febe3bfd47a0484e689ba5",
+          "sha256": "4f936996cd57aa13b442167a8d77f55978d2e44cb282cf8e66a41c78d4e10c4d",
+          "sha1": "6603ae1b0d43fb4927a2e5def77bd95970af9edd",
+          "md5": "8f1404e6bfcda023fc732516746250af"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.10.0-change-module-tests-ignore-tag-order-SNAPSHOT.jar",
+          "url": "securestore-common-1.10.0-change-module-tests-ignore-tag-order-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "0ad228d572945066e4563e0c26b950a024e39143a4900129a994ef18a4c87d4d8fcb2cb6c2fd50efa59acd2480f63850730c2d16f8febe3bfd47a0484e689ba5",
+          "sha256": "4f936996cd57aa13b442167a8d77f55978d2e44cb282cf8e66a41c78d4e10c4d",
+          "sha1": "6603ae1b0d43fb4927a2e5def77bd95970af9edd",
+          "md5": "8f1404e6bfcda023fc732516746250af"
+        }
+      ]
+    }
+  ]
+}
