@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.10.0-change-versioning-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "kiesx5ua4jadxg2xk34hit5upi"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.10.0-change-versioning-SNAPSHOT.jar",
+          "url": "securestore-common-1.10.0-change-versioning-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "206c4f805222f03c98371bf568fe0d480bd87168808ba4e7f1af5a41dc29905dbf584a2a135debc86f1301a543cb41593100482e28a5bc5c7b0e98f2432bb2e0",
+          "sha256": "b883dff56f948499312fe944e5671661924ebb2325266ce7f5b679a6adea92fb",
+          "sha1": "021b0c985ebd66736e9169bff516ae60ec0490c5",
+          "md5": "1cbea0d9c2f1c2c34d13f09451f5f9dd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.10.0-change-versioning-SNAPSHOT.jar",
+          "url": "securestore-common-1.10.0-change-versioning-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "206c4f805222f03c98371bf568fe0d480bd87168808ba4e7f1af5a41dc29905dbf584a2a135debc86f1301a543cb41593100482e28a5bc5c7b0e98f2432bb2e0",
+          "sha256": "b883dff56f948499312fe944e5671661924ebb2325266ce7f5b679a6adea92fb",
+          "sha1": "021b0c985ebd66736e9169bff516ae60ec0490c5",
+          "md5": "1cbea0d9c2f1c2c34d13f09451f5f9dd"
+        }
+      ]
+    }
+  ]
+}
