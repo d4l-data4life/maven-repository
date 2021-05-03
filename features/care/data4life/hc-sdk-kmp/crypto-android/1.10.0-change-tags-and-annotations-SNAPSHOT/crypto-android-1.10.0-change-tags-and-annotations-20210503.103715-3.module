@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-android",
+    "version": "1.10.0-change-tags-and-annotations-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "ppkjopaepzc23bvalhm2pnl5ta"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.10.0-change-tags-and-annotations-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.10.0-change-tags-and-annotations-SNAPSHOT.aar",
+          "url": "crypto-android-1.10.0-change-tags-and-annotations-SNAPSHOT.aar",
+          "size": 61909,
+          "sha512": "efc6d8173d42d2d5b89fbad860fdb0b232867dfdf1049e99baf96f977f188e10ebeb8bf2d143fdfeb206417bb35b76e36b3701ea0aacfe7cdb65811627a08dab",
+          "sha256": "380931ebcd12c0c0bf6d185c443fab777b9f622e8bd5edb0b84448f94b743270",
+          "sha1": "ac358dee32c63cad24f847819ed17308d02d483c",
+          "md5": "329ddbfccb81ca339b2a123c65431ec1"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.10.0-change-tags-and-annotations-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.10.0-change-tags-and-annotations-SNAPSHOT.aar",
+          "url": "crypto-android-1.10.0-change-tags-and-annotations-SNAPSHOT.aar",
+          "size": 61909,
+          "sha512": "efc6d8173d42d2d5b89fbad860fdb0b232867dfdf1049e99baf96f977f188e10ebeb8bf2d143fdfeb206417bb35b76e36b3701ea0aacfe7cdb65811627a08dab",
+          "sha256": "380931ebcd12c0c0bf6d185c443fab777b9f622e8bd5edb0b84448f94b743270",
+          "sha1": "ac358dee32c63cad24f847819ed17308d02d483c",
+          "md5": "329ddbfccb81ca339b2a123c65431ec1"
+        }
+      ]
+    }
+  ]
+}

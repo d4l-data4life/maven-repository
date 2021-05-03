@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.10.0-change-tags-and-annotations-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "ppkjopaepzc23bvalhm2pnl5ta"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.10.0-change-tags-and-annotations-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.10.0-change-tags-and-annotations-SNAPSHOT.jar",
+          "url": "auth-jvm-1.10.0-change-tags-and-annotations-SNAPSHOT.jar",
+          "size": 34283,
+          "sha512": "1ba1072b2939a4af93cbe702985e37ea7f657ba58152d94ae7a124a356aa59cf7dfa6d9b9e172adf722ed179f96bbcf1ebb753e68c7066bddc7334aeae2f7ec8",
+          "sha256": "29cc2fd748fbef1f4a420951dee9d171572818cad60c345c52fbdf1662ad6d44",
+          "sha1": "be7b279f461bb87dc090ad6f8db0017266308416",
+          "md5": "e2d41d2fa7ed6ee17729a680573a2837"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.10.0-change-tags-and-annotations-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.10.0-change-tags-and-annotations-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.10.0-change-tags-and-annotations-SNAPSHOT.jar",
+          "url": "auth-jvm-1.10.0-change-tags-and-annotations-SNAPSHOT.jar",
+          "size": 34283,
+          "sha512": "1ba1072b2939a4af93cbe702985e37ea7f657ba58152d94ae7a124a356aa59cf7dfa6d9b9e172adf722ed179f96bbcf1ebb753e68c7066bddc7334aeae2f7ec8",
+          "sha256": "29cc2fd748fbef1f4a420951dee9d171572818cad60c345c52fbdf1662ad6d44",
+          "sha1": "be7b279f461bb87dc090ad6f8db0017266308416",
+          "md5": "e2d41d2fa7ed6ee17729a680573a2837"
+        }
+      ]
+    }
+  ]
+}
