@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-android",
+    "version": "1.10.0-change-tag-tests-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "62ahl5xfzzdthdw2z5pft6qnim"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.10.0-change-tag-tests-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.10.0-change-tag-tests-SNAPSHOT.aar",
+          "url": "crypto-android-1.10.0-change-tag-tests-SNAPSHOT.aar",
+          "size": 61902,
+          "sha512": "17024b8fcc3881849c1ffc65c8ff9008257073700db3b43410ee58e2c65dd1ef78031705abb801d983707abbb979907aff037a9ab7f5e711f2c560ca8470d76a",
+          "sha256": "ed78b3fc7ef98eb206a5d69ad52f45d19ed5a40a9a173b1c48d8cfaf7f61f0c4",
+          "sha1": "72bcac0985b10e9e7410c7e464e4f6f87606d748",
+          "md5": "55f6bf4e4283b7138111c5ed7bb1f703"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.10.0-change-tag-tests-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.10.0-change-tag-tests-SNAPSHOT.aar",
+          "url": "crypto-android-1.10.0-change-tag-tests-SNAPSHOT.aar",
+          "size": 61902,
+          "sha512": "17024b8fcc3881849c1ffc65c8ff9008257073700db3b43410ee58e2c65dd1ef78031705abb801d983707abbb979907aff037a9ab7f5e711f2c560ca8470d76a",
+          "sha256": "ed78b3fc7ef98eb206a5d69ad52f45d19ed5a40a9a173b1c48d8cfaf7f61f0c4",
+          "sha1": "72bcac0985b10e9e7410c7e464e4f6f87606d748",
+          "md5": "55f6bf4e4283b7138111c5ed7bb1f703"
+        }
+      ]
+    }
+  ]
+}

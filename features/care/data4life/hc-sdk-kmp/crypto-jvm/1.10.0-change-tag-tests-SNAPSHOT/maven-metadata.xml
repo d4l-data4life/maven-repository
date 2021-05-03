@@ -5,37 +5,37 @@
   <version>1.10.0-change-tag-tests-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210429.093525</timestamp>
-      <buildNumber>2</buildNumber>
+      <timestamp>20210503.113233</timestamp>
+      <buildNumber>3</buildNumber>
     </snapshot>
-    <lastUpdated>20210429093525</lastUpdated>
+    <lastUpdated>20210503113233</lastUpdated>
     <snapshotVersions>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.10.0-change-tag-tests-20210429.093525-2</value>
-        <updated>20210429093525</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.10.0-change-tag-tests-20210429.093525-2</value>
-        <updated>20210429093525</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.10.0-change-tag-tests-20210429.093525-2</value>
-        <updated>20210429093525</updated>
-      </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.10.0-change-tag-tests-20210429.093525-2</value>
-        <updated>20210429093525</updated>
+        <value>1.10.0-change-tag-tests-20210503.113233-3</value>
+        <updated>20210503113233</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.10.0-change-tag-tests-20210429.093525-2</value>
-        <updated>20210429093525</updated>
+        <value>1.10.0-change-tag-tests-20210503.113233-3</value>
+        <updated>20210503113233</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.10.0-change-tag-tests-20210503.113233-3</value>
+        <updated>20210503113233</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.10.0-change-tag-tests-20210503.113233-3</value>
+        <updated>20210503113233</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.10.0-change-tag-tests-20210503.113233-3</value>
+        <updated>20210503113233</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
