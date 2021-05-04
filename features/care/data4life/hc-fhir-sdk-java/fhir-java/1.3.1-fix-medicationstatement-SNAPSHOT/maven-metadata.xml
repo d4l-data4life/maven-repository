@@ -5,37 +5,37 @@
   <version>1.3.1-fix-medicationstatement-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210504.071441</timestamp>
-      <buildNumber>3</buildNumber>
+      <timestamp>20210504.072932</timestamp>
+      <buildNumber>4</buildNumber>
     </snapshot>
-    <lastUpdated>20210504071441</lastUpdated>
+    <lastUpdated>20210504072932</lastUpdated>
     <snapshotVersions>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>1.3.1-fix-medicationstatement-20210504.071441-3</value>
-        <updated>20210504071441</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.3.1-fix-medicationstatement-20210504.071441-3</value>
-        <updated>20210504071441</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.3.1-fix-medicationstatement-20210504.071441-3</value>
-        <updated>20210504071441</updated>
-      </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.3.1-fix-medicationstatement-20210504.071441-3</value>
-        <updated>20210504071441</updated>
+        <value>1.3.1-fix-medicationstatement-20210504.072932-4</value>
+        <updated>20210504072932</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>1.3.1-fix-medicationstatement-20210504.071441-3</value>
-        <updated>20210504071441</updated>
+        <value>1.3.1-fix-medicationstatement-20210504.072932-4</value>
+        <updated>20210504072932</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.3.1-fix-medicationstatement-20210504.072932-4</value>
+        <updated>20210504072932</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.3.1-fix-medicationstatement-20210504.072932-4</value>
+        <updated>20210504072932</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.3.1-fix-medicationstatement-20210504.072932-4</value>
+        <updated>20210504072932</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
