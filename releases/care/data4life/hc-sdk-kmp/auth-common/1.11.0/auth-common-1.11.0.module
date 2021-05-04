@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.11.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "wakwsun7erdyhdcvwter7j4g3q"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.11.0.jar",
+          "url": "auth-common-1.11.0.jar",
+          "size": 3404,
+          "sha512": "f24fe4c9491de0883f833c5c74fc77b444be436c359c1a242b1d86b65cef297706190cceefa9b6cc801365cbddd2ed62e4e601f2284ab13a1000e14a897f5eed",
+          "sha256": "4edf30d658c0793cdcf106e6b8cf418d56004af4ab36e0111d46836499a9ce4a",
+          "sha1": "335dc31906e3db0147932af29db17b98121c580b",
+          "md5": "af452cb14ad344718863f31c6b0312d4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.11.0.jar",
+          "url": "auth-common-1.11.0.jar",
+          "size": 3404,
+          "sha512": "f24fe4c9491de0883f833c5c74fc77b444be436c359c1a242b1d86b65cef297706190cceefa9b6cc801365cbddd2ed62e4e601f2284ab13a1000e14a897f5eed",
+          "sha256": "4edf30d658c0793cdcf106e6b8cf418d56004af4ab36e0111d46836499a9ce4a",
+          "sha1": "335dc31906e3db0147932af29db17b98121c580b",
+          "md5": "af452cb14ad344718863f31c6b0312d4"
+        }
+      ]
+    }
+  ]
+}
