@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-fhir-sdk-java",
+    "module": "fhir-java",
+    "version": "1.3.1-fix-medicationstatement-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.7.1",
+      "buildId": "k5oe4instreohftj7vrnacteka"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "fhir-java-1.3.1-fix-medicationstatement-SNAPSHOT.jar",
+          "url": "fhir-java-1.3.1-fix-medicationstatement-SNAPSHOT.jar",
+          "size": 987574,
+          "sha512": "8622d818b8560ba2d983ba1bd57fce4226ec5875b83adc53781fa93971e64a5326b1f1ca9e40bf58df3a4251549867437aec18dddd6f98e0263fb33fa79a8299",
+          "sha256": "2f0f99ea4b99a2aa71baad82f24241ab3403037a60e91116093074d0f634e580",
+          "sha1": "f469222b4d22ae56e383b8bb2b459a9c614d65ad",
+          "md5": "9ab483761c5bfd3ef8962c157d324608"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 7,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi-adapters",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fhir-java-1.3.1-fix-medicationstatement-SNAPSHOT.jar",
+          "url": "fhir-java-1.3.1-fix-medicationstatement-SNAPSHOT.jar",
+          "size": 987574,
+          "sha512": "8622d818b8560ba2d983ba1bd57fce4226ec5875b83adc53781fa93971e64a5326b1f1ca9e40bf58df3a4251549867437aec18dddd6f98e0263fb33fa79a8299",
+          "sha256": "2f0f99ea4b99a2aa71baad82f24241ab3403037a60e91116093074d0f634e580",
+          "sha1": "f469222b4d22ae56e383b8bb2b459a9c614d65ad",
+          "md5": "9ab483761c5bfd3ef8962c157d324608"
+        }
+      ]
+    }
+  ]
+}
