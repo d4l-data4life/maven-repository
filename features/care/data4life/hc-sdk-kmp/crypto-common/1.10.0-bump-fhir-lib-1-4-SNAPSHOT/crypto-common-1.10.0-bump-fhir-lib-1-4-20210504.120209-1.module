@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.10.0-bump-fhir-lib-1-4-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "ctzmyecinjcjzlrgyyvbevqn5e"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.10.0-bump-fhir-lib-1-4-SNAPSHOT.jar",
+          "url": "crypto-common-1.10.0-bump-fhir-lib-1-4-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "67c6299181b0b3dffac62dfd84d4ade8b408ffedd8d4ec512fcd98777117879c2ebee55f05d21bcaa1ba1adb7f1fd4c61c22e07e834ee605d56343abf2c7495f",
+          "sha256": "17b9d62d1fc9f21dd0247f0a66ed42809573b7050f6d7e349ee87a82c3f60578",
+          "sha1": "69ce4b9c005a2ce1824613fd28b172f104788296",
+          "md5": "66c6d211b71f23edf6becd9dcf1a4eb5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.10.0-bump-fhir-lib-1-4-SNAPSHOT.jar",
+          "url": "crypto-common-1.10.0-bump-fhir-lib-1-4-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "67c6299181b0b3dffac62dfd84d4ade8b408ffedd8d4ec512fcd98777117879c2ebee55f05d21bcaa1ba1adb7f1fd4c61c22e07e834ee605d56343abf2c7495f",
+          "sha256": "17b9d62d1fc9f21dd0247f0a66ed42809573b7050f6d7e349ee87a82c3f60578",
+          "sha1": "69ce4b9c005a2ce1824613fd28b172f104788296",
+          "md5": "66c6d211b71f23edf6becd9dcf1a4eb5"
+        }
+      ]
+    }
+  ]
+}
