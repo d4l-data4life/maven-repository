@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-android",
+    "version": "1.11.0-add-resource-encryption-service-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "qh5gbqk3vze6jbl2o3umojltca"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.11.0-add-resource-encryption-service-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.11.0-add-resource-encryption-service-SNAPSHOT.aar",
+          "url": "securestore-android-1.11.0-add-resource-encryption-service-SNAPSHOT.aar",
+          "size": 41963,
+          "sha512": "1ab41019059eaf2b5599771d9759224ff6435287b84b7d091527abbb2f3c8289a9706a4ca469766de295ebda5c9854682b10d001598a00f524cec39d783b8335",
+          "sha256": "ba348a480e1fce6cfa87946b6160b9fe12c9117ea8d11dc7ce6d82af0012b942",
+          "sha1": "c76a711ca40e1a97af5644995b662b7a0462a913",
+          "md5": "4d6ab98553d5b0acaacace48d9c6ec46"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.11.0-add-resource-encryption-service-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.crypto.tink",
+          "module": "tink-android",
+          "version": {
+            "requires": "1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.11.0-add-resource-encryption-service-SNAPSHOT.aar",
+          "url": "securestore-android-1.11.0-add-resource-encryption-service-SNAPSHOT.aar",
+          "size": 41963,
+          "sha512": "1ab41019059eaf2b5599771d9759224ff6435287b84b7d091527abbb2f3c8289a9706a4ca469766de295ebda5c9854682b10d001598a00f524cec39d783b8335",
+          "sha256": "ba348a480e1fce6cfa87946b6160b9fe12c9117ea8d11dc7ce6d82af0012b942",
+          "sha1": "c76a711ca40e1a97af5644995b662b7a0462a913",
+          "md5": "4d6ab98553d5b0acaacace48d9c6ec46"
+        }
+      ]
+    }
+  ]
+}

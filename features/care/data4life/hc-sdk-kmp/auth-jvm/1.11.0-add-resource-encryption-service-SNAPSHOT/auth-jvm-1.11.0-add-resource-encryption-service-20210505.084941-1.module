@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-jvm",
+    "version": "1.11.0-add-resource-encryption-service-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "qh5gbqk3vze6jbl2o3umojltca"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.11.0-add-resource-encryption-service-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.11.0-add-resource-encryption-service-SNAPSHOT.jar",
+          "url": "auth-jvm-1.11.0-add-resource-encryption-service-SNAPSHOT.jar",
+          "size": 34283,
+          "sha512": "5ae87a0f50ba7d5a1171c89d78359fde7418127770873ae788f2923c933627d55e6cfe89c1ffd7581a01864500adcf742badd361bd7a749159bf0dad5858a954",
+          "sha256": "8fa1bed474d9697aeae701cee278ed8de40d8042f3a950faed3158698b3491da",
+          "sha1": "9273527c9066bc317fb546322d42c7d4ef50635a",
+          "md5": "c28fb16dc3aa3f75bbc342e7302b25d7"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.11.0-add-resource-encryption-service-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "com.github.scribejava",
+          "module": "scribejava-core",
+          "version": {
+            "requires": "6.1.0"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-common",
+          "version": {
+            "requires": "1.11.0-add-resource-encryption-service-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-jvm-1.11.0-add-resource-encryption-service-SNAPSHOT.jar",
+          "url": "auth-jvm-1.11.0-add-resource-encryption-service-SNAPSHOT.jar",
+          "size": 34283,
+          "sha512": "5ae87a0f50ba7d5a1171c89d78359fde7418127770873ae788f2923c933627d55e6cfe89c1ffd7581a01864500adcf742badd361bd7a749159bf0dad5858a954",
+          "sha256": "8fa1bed474d9697aeae701cee278ed8de40d8042f3a950faed3158698b3491da",
+          "sha1": "9273527c9066bc317fb546322d42c7d4ef50635a",
+          "md5": "c28fb16dc3aa3f75bbc342e7302b25d7"
+        }
+      ]
+    }
+  ]
+}
