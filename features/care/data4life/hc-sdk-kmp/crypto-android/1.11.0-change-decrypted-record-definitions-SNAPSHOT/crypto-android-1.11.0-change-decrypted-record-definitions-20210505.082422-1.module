@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-android",
+    "version": "1.11.0-change-decrypted-record-definitions-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "rhzzoimqbnhwpakrp2kvqterka"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.11.0-change-decrypted-record-definitions-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.11.0-change-decrypted-record-definitions-SNAPSHOT.aar",
+          "url": "crypto-android-1.11.0-change-decrypted-record-definitions-SNAPSHOT.aar",
+          "size": 61912,
+          "sha512": "14342a2700dc92f35131ca50bbc901c36dc6d77af21a413622785681ff184c331bc985145559549f6ac12d0dd103b4466bf8f93aa1110abca614301df707b483",
+          "sha256": "03162ea0b003d80265a035ecf620e78519471f6a04abe5eb2188f63265521d96",
+          "sha1": "511c59da0f7c3ed25acb5a3931a249e15c2693e3",
+          "md5": "548293ef3e74b838b3fab60a071e1fcc"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.11.0-change-decrypted-record-definitions-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.11.0-change-decrypted-record-definitions-SNAPSHOT.aar",
+          "url": "crypto-android-1.11.0-change-decrypted-record-definitions-SNAPSHOT.aar",
+          "size": 61912,
+          "sha512": "14342a2700dc92f35131ca50bbc901c36dc6d77af21a413622785681ff184c331bc985145559549f6ac12d0dd103b4466bf8f93aa1110abca614301df707b483",
+          "sha256": "03162ea0b003d80265a035ecf620e78519471f6a04abe5eb2188f63265521d96",
+          "sha1": "511c59da0f7c3ed25acb5a3931a249e15c2693e3",
+          "md5": "548293ef3e74b838b3fab60a071e1fcc"
+        }
+      ]
+    }
+  ]
+}

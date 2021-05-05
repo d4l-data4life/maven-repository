@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.11.0-change-decrypted-record-definitions-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "rhzzoimqbnhwpakrp2kvqterka"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.11.0-change-decrypted-record-definitions-SNAPSHOT.jar",
+          "url": "securestore-common-1.11.0-change-decrypted-record-definitions-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "321c2cfdbc06ac3d88cb56a5b82bff0b3dfbcf3f677290858269b36c6ac349663a7577dbf62c5606edb2eee0008e6fdcc449ebe87353587ac3bc2c9ab9f8b77c",
+          "sha256": "ea80a11d068a4c306aa5762d381dc9d9261c3cdc9b9276258ae1f79143a4a602",
+          "sha1": "0f2b624ccb836fe499ccc74259f491a40a34e1e0",
+          "md5": "70282259cb2827f4e80a68e67a8f178a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.11.0-change-decrypted-record-definitions-SNAPSHOT.jar",
+          "url": "securestore-common-1.11.0-change-decrypted-record-definitions-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "321c2cfdbc06ac3d88cb56a5b82bff0b3dfbcf3f677290858269b36c6ac349663a7577dbf62c5606edb2eee0008e6fdcc449ebe87353587ac3bc2c9ab9f8b77c",
+          "sha256": "ea80a11d068a4c306aa5762d381dc9d9261c3cdc9b9276258ae1f79143a4a602",
+          "sha1": "0f2b624ccb836fe499ccc74259f491a40a34e1e0",
+          "md5": "70282259cb2827f4e80a68e67a8f178a"
+        }
+      ]
+    }
+  ]
+}
