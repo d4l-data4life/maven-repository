@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.11.0-change-network-model-tests-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "qiqytyzdpzgi7kdggmyetgjnlu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.11.0-change-network-model-tests-SNAPSHOT.jar",
+          "url": "securestore-common-1.11.0-change-network-model-tests-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "6f13eec69920de87b2da2979a0a3aea3e39d07c6ebb32b1f2df255dacdfdb72e98f8bbc64bbcda58326fff5ad4d98df3625d25dad795fad78ad2a04d023c537e",
+          "sha256": "771393e358ac08083954621104e05b7a72ecab80bb4c98571e0b26be4693a3f1",
+          "sha1": "8dc9d80393d288e0fb359a1a56f0265a08924f7c",
+          "md5": "53ba4545c42e8074ad020ac6a9ac9b4d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.11.0-change-network-model-tests-SNAPSHOT.jar",
+          "url": "securestore-common-1.11.0-change-network-model-tests-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "6f13eec69920de87b2da2979a0a3aea3e39d07c6ebb32b1f2df255dacdfdb72e98f8bbc64bbcda58326fff5ad4d98df3625d25dad795fad78ad2a04d023c537e",
+          "sha256": "771393e358ac08083954621104e05b7a72ecab80bb4c98571e0b26be4693a3f1",
+          "sha1": "8dc9d80393d288e0fb359a1a56f0265a08924f7c",
+          "md5": "53ba4545c42e8074ad020ac6a9ac9b4d"
+        }
+      ]
+    }
+  ]
+}
