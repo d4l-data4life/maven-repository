@@ -5,37 +5,37 @@
   <version>1.11.0-change-data-resource-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210505.084041</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210505.152507</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210505084041</lastUpdated>
+    <lastUpdated>20210505152507</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.11.0-change-data-resource-20210505.084041-1</value>
-        <updated>20210505084041</updated>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.11.0-change-data-resource-20210505.152507-2</value>
+        <updated>20210505152507</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>1.11.0-change-data-resource-20210505.084041-1</value>
-        <updated>20210505084041</updated>
+        <value>1.11.0-change-data-resource-20210505.152507-2</value>
+        <updated>20210505152507</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.11.0-change-data-resource-20210505.152507-2</value>
+        <updated>20210505152507</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.11.0-change-data-resource-20210505.152507-2</value>
+        <updated>20210505152507</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.11.0-change-data-resource-20210505.084041-1</value>
-        <updated>20210505084041</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.11.0-change-data-resource-20210505.084041-1</value>
-        <updated>20210505084041</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>1.11.0-change-data-resource-20210505.084041-1</value>
-        <updated>20210505084041</updated>
+        <value>1.11.0-change-data-resource-20210505.152507-2</value>
+        <updated>20210505152507</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
