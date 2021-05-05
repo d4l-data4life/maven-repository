@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>sdk-android</artifactId>
   <versioning>
-    <latest>1.11.0-change-decrypted-record-definitions-SNAPSHOT</latest>
+    <latest>1.11.0-change-data-resource-SNAPSHOT</latest>
     <release>1.9.0</release>
     <versions>
       <version>1.9.0-fix-release-ci-job-SNAPSHOT</version>
@@ -89,7 +89,8 @@
       <version>1.10.0-bump-fhir-lib-1-4-SNAPSHOT</version>
       <version>1.10.0-SNAPSHOT</version>
       <version>1.11.0-change-decrypted-record-definitions-SNAPSHOT</version>
+      <version>1.11.0-change-data-resource-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210505082956</lastUpdated>
+    <lastUpdated>20210505084608</lastUpdated>
   </versioning>
 </metadata>

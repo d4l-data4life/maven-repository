@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.11.0-change-data-resource-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "vtq5ykq5jndbngibx2fzqtishy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.11.0-change-data-resource-SNAPSHOT.jar",
+          "url": "crypto-common-1.11.0-change-data-resource-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "d0e03fd9d3d01330bf89d1d25a189057f1426441c300a7dfb723846cde4bbe698a17041e01790d914c6985c0e04aff7f8c8e01176b6395353e99e05407366090",
+          "sha256": "e6a831db5de11c957174e421398c149a768316db05e94e55ebf517806ed09f73",
+          "sha1": "96c0b0a2a1701978084febd28c4faf73cc14a58c",
+          "md5": "a29988f868116f18f239a2ee4e9bd4af"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.11.0-change-data-resource-SNAPSHOT.jar",
+          "url": "crypto-common-1.11.0-change-data-resource-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "d0e03fd9d3d01330bf89d1d25a189057f1426441c300a7dfb723846cde4bbe698a17041e01790d914c6985c0e04aff7f8c8e01176b6395353e99e05407366090",
+          "sha256": "e6a831db5de11c957174e421398c149a768316db05e94e55ebf517806ed09f73",
+          "sha1": "96c0b0a2a1701978084febd28c4faf73cc14a58c",
+          "md5": "a29988f868116f18f239a2ee4e9bd4af"
+        }
+      ]
+    }
+  ]
+}
