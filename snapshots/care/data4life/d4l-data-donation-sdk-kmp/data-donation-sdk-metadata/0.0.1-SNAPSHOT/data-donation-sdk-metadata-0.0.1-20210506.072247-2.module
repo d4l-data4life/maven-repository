@@ -1,0 +1,38 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../data-donation-sdk-iosx64/0.0.1-SNAPSHOT/data-donation-sdk-iosx64-0.0.1-SNAPSHOT.module",
+    "group": "care.data4life.d4l-data-donation-sdk-kmp",
+    "module": "data-donation-sdk-iosx64",
+    "version": "0.0.1-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "a45i262ikba3bj2ve2r6tg42na"
+    }
+  },
+  "variants": [
+    {
+      "name": "metadataApiElements-published",
+      "attributes": {
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "common"
+      },
+      "files": [
+        {
+          "name": "data-donation-sdk-metadata-0.0.1-SNAPSHOT.jar",
+          "url": "data-donation-sdk-metadata-0.0.1-SNAPSHOT.jar",
+          "size": 63039,
+          "sha512": "40331f9d782be963510618e9b0a75ca5bd1e836de4da7e5e345c27941d6f842e23b99e60bb0e827a96f930cf34dccebf99aec42dbf7215acf8dcf85611b32a62",
+          "sha256": "a7f7040a807e2f5e2b52119b32a1bc5ea1e55da8d1be18d28237b975e8cddf15",
+          "sha1": "31a4fe045894b29ce269151523050e05c768505c",
+          "md5": "ccb5a926ba4cfe9fe6aa93670ca175a8"
+        }
+      ]
+    }
+  ]
+}
