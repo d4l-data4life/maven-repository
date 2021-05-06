@@ -5,37 +5,37 @@
   <version>1.11.0-add-resource-encryption-service-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20210505.084941</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20210506.081306</timestamp>
+      <buildNumber>2</buildNumber>
     </snapshot>
-    <lastUpdated>20210505084941</lastUpdated>
+    <lastUpdated>20210506081306</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.11.0-add-resource-encryption-service-20210505.084941-1</value>
-        <updated>20210505084941</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <classifier>sources</classifier>
-        <extension>jar</extension>
-        <value>1.11.0-add-resource-encryption-service-20210505.084941-1</value>
-        <updated>20210505084941</updated>
+        <extension>pom</extension>
+        <value>1.11.0-add-resource-encryption-service-20210506.081306-2</value>
+        <updated>20210506081306</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>1.11.0-add-resource-encryption-service-20210505.084941-1</value>
-        <updated>20210505084941</updated>
+        <value>1.11.0-add-resource-encryption-service-20210506.081306-2</value>
+        <updated>20210506081306</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>javadoc</classifier>
         <extension>jar</extension>
-        <value>1.11.0-add-resource-encryption-service-20210505.084941-1</value>
-        <updated>20210505084941</updated>
+        <value>1.11.0-add-resource-encryption-service-20210506.081306-2</value>
+        <updated>20210506081306</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>1.11.0-add-resource-encryption-service-20210505.084941-1</value>
-        <updated>20210505084941</updated>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>1.11.0-add-resource-encryption-service-20210506.081306-2</value>
+        <updated>20210506081306</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.11.0-add-resource-encryption-service-20210506.081306-2</value>
+        <updated>20210506081306</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

@@ -1,0 +1,86 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-common",
+    "version": "1.11.0-add-resource-encryption-service-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "5tqp76wi4jervi27f2o3t5lauu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.11.0-add-resource-encryption-service-SNAPSHOT.jar",
+          "url": "securestore-common-1.11.0-add-resource-encryption-service-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "e78301365b8447492b90376ddba4db6c69241ab6f38f7d9ab26192eedd10d40056be2433391505ce0968923fb2dd782f9df0ba80ef2ad0fd5d02cf09f7650dad",
+          "sha256": "12b273ab45f78a850f89ad3f4c30d58a7cfc149583f4d467461d5a8835b43565",
+          "sha1": "d01dc0e2db93de82c639370f8e2c13a8254610fb",
+          "md5": "33321314e99587c0c4362030f1c410dd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-common-1.11.0-add-resource-encryption-service-SNAPSHOT.jar",
+          "url": "securestore-common-1.11.0-add-resource-encryption-service-SNAPSHOT.jar",
+          "size": 6926,
+          "sha512": "e78301365b8447492b90376ddba4db6c69241ab6f38f7d9ab26192eedd10d40056be2433391505ce0968923fb2dd782f9df0ba80ef2ad0fd5d02cf09f7650dad",
+          "sha256": "12b273ab45f78a850f89ad3f4c30d58a7cfc149583f4d467461d5a8835b43565",
+          "sha1": "d01dc0e2db93de82c639370f8e2c13a8254610fb",
+          "md5": "33321314e99587c0c4362030f1c410dd"
+        }
+      ]
+    }
+  ]
+}

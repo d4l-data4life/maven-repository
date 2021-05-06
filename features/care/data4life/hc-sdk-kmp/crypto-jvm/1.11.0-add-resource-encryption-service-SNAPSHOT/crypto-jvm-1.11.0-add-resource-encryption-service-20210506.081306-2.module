@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.11.0-add-resource-encryption-service-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "5tqp76wi4jervi27f2o3t5lauu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.11.0-add-resource-encryption-service-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.11.0-add-resource-encryption-service-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.11.0-add-resource-encryption-service-SNAPSHOT.jar",
+          "size": 57138,
+          "sha512": "2627b14b11e8c766a899bafe63c64bc5368def3b590808c03730fb73f4d7fc1ad43647c6c42bc2f5d70c827f595860507778aafc3492ce386c0d83f4fa5d43e4",
+          "sha256": "e7e0f6c62b11e4b9506be703a22020dbe3bffdebabf05887e53f0e833dfe50d9",
+          "sha1": "9820d41b350af5a8850d9432b661dd691326e09d",
+          "md5": "a5b62e4650ff23f2f8e412f111efcd92"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.11.0-add-resource-encryption-service-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.11.0-add-resource-encryption-service-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.11.0-add-resource-encryption-service-SNAPSHOT.jar",
+          "size": 57138,
+          "sha512": "2627b14b11e8c766a899bafe63c64bc5368def3b590808c03730fb73f4d7fc1ad43647c6c42bc2f5d70c827f595860507778aafc3492ce386c0d83f4fa5d43e4",
+          "sha256": "e7e0f6c62b11e4b9506be703a22020dbe3bffdebabf05887e53f0e833dfe50d9",
+          "sha1": "9820d41b350af5a8850d9432b661dd691326e09d",
+          "md5": "a5b62e4650ff23f2f8e412f111efcd92"
+        }
+      ]
+    }
+  ]
+}
