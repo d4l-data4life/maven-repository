@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-common",
+    "version": "1.11.0-add-api-service-unit-tests-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "c7kv3sbzo5b5xakqhskkutrzzu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "crypto-common-1.11.0-add-api-service-unit-tests-SNAPSHOT.jar",
+          "url": "crypto-common-1.11.0-add-api-service-unit-tests-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "b01c12ef524f3143e5deb79dc09d605d39fe0edfe2f1f6b02f715a1bd0420c19263a690bf6149542ff453cb5c3e4db609aa544c59c07d0469079c020737c9460",
+          "sha256": "f86d9a798f0f16f83132f4e2200b1968d6b5bcb31002537c83e7fe2c959c0605",
+          "sha1": "50beb0bfa4d013c5d281775b61bb97d20e3435ae",
+          "md5": "ff9c57c6f2d5d8005d4274dea7b68126"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-common-1.11.0-add-api-service-unit-tests-SNAPSHOT.jar",
+          "url": "crypto-common-1.11.0-add-api-service-unit-tests-SNAPSHOT.jar",
+          "size": 11519,
+          "sha512": "b01c12ef524f3143e5deb79dc09d605d39fe0edfe2f1f6b02f715a1bd0420c19263a690bf6149542ff453cb5c3e4db609aa544c59c07d0469079c020737c9460",
+          "sha256": "f86d9a798f0f16f83132f4e2200b1968d6b5bcb31002537c83e7fe2c959c0605",
+          "sha1": "50beb0bfa4d013c5d281775b61bb97d20e3435ae",
+          "md5": "ff9c57c6f2d5d8005d4274dea7b68126"
+        }
+      ]
+    }
+  ]
+}
