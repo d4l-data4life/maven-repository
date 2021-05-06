@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.11.0-add-networking-contract-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "ovqqtql4fvehpib6k64hztsk34"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.11.0-add-networking-contract-SNAPSHOT.jar",
+          "url": "auth-common-1.11.0-add-networking-contract-SNAPSHOT.jar",
+          "size": 3404,
+          "sha512": "8280bbd1168eedd3e04ba0702d18fe2dcc968a23c6d573f2df3d453300a852ac791b78550e83b6a4e7d48fa5447c0fa541df0b9ef20c31d07942d6995a828056",
+          "sha256": "a07aff4944aed7a922ddd675a5d502474f317e029d31742b993f3f9ef6df303a",
+          "sha1": "41594046c21e7ea97bc3f175afcd43085ec90bd7",
+          "md5": "c7df5fed5c3a3a67676ac911c48f9771"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.11.0-add-networking-contract-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.11.0-add-networking-contract-SNAPSHOT.jar",
+          "url": "auth-common-1.11.0-add-networking-contract-SNAPSHOT.jar",
+          "size": 3404,
+          "sha512": "8280bbd1168eedd3e04ba0702d18fe2dcc968a23c6d573f2df3d453300a852ac791b78550e83b6a4e7d48fa5447c0fa541df0b9ef20c31d07942d6995a828056",
+          "sha256": "a07aff4944aed7a922ddd675a5d502474f317e029d31742b993f3f9ef6df303a",
+          "sha1": "41594046c21e7ea97bc3f175afcd43085ec90bd7",
+          "md5": "c7df5fed5c3a3a67676ac911c48f9771"
+        }
+      ]
+    }
+  ]
+}

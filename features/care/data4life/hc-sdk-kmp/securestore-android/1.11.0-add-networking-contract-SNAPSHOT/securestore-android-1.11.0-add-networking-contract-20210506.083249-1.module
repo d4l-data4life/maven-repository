@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-android",
+    "version": "1.11.0-add-networking-contract-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "ovqqtql4fvehpib6k64hztsk34"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.11.0-add-networking-contract-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.11.0-add-networking-contract-SNAPSHOT.aar",
+          "url": "securestore-android-1.11.0-add-networking-contract-SNAPSHOT.aar",
+          "size": 41957,
+          "sha512": "f1e0dd1505636bcf904326123b92cbbfeac0a49c0c43f438cb0fea48c6fc4d92195b297f661c01bce647e5fbb11c908a2270a9f6b7e7f1a679c80f46889ca15f",
+          "sha256": "4ec721aa90a30dadf2f138783cb6f93fc5dcfbdd950dd522df51a057606c9768",
+          "sha1": "349d2b6af4441d7f8d272cf30baba899de997b5b",
+          "md5": "e5c6887a733cc3390ce2006ea3012426"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.11.0-add-networking-contract-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.google.crypto.tink",
+          "module": "tink-android",
+          "version": {
+            "requires": "1.2.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-android-1.11.0-add-networking-contract-SNAPSHOT.aar",
+          "url": "securestore-android-1.11.0-add-networking-contract-SNAPSHOT.aar",
+          "size": 41957,
+          "sha512": "f1e0dd1505636bcf904326123b92cbbfeac0a49c0c43f438cb0fea48c6fc4d92195b297f661c01bce647e5fbb11c908a2270a9f6b7e7f1a679c80f46889ca15f",
+          "sha256": "4ec721aa90a30dadf2f138783cb6f93fc5dcfbdd950dd522df51a057606c9768",
+          "sha1": "349d2b6af4441d7f8d272cf30baba899de997b5b",
+          "md5": "e5c6887a733cc3390ce2006ea3012426"
+        }
+      ]
+    }
+  ]
+}

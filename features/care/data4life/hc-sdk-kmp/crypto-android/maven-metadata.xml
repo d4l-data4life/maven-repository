@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>crypto-android</artifactId>
   <versioning>
-    <latest>1.11.0-add-resource-encryption-service-SNAPSHOT</latest>
+    <latest>1.11.0-add-networking-contract-SNAPSHOT</latest>
     <release>1.9.0</release>
     <versions>
       <version>1.9.0-fix-release-ci-job-SNAPSHOT</version>
@@ -92,7 +92,8 @@
       <version>1.11.0-change-data-resource-SNAPSHOT</version>
       <version>1.11.0-add-resource-encryption-service-SNAPSHOT</version>
       <version>1.11.0-change-network-model-tests-SNAPSHOT</version>
+      <version>1.11.0-add-networking-contract-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210506081909</lastUpdated>
+    <lastUpdated>20210506083820</lastUpdated>
   </versioning>
 </metadata>
