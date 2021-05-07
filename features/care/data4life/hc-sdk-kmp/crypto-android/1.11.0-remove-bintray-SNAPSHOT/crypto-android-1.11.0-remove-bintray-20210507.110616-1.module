@@ -1,0 +1,112 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-android",
+    "version": "1.11.0-remove-bintray-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "hau4h3odnfdqrd3kcmmfixmrqa"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.11.0-remove-bintray-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.11.0-remove-bintray-SNAPSHOT.aar",
+          "url": "crypto-android-1.11.0-remove-bintray-SNAPSHOT.aar",
+          "size": 61900,
+          "sha512": "c16fcc99998139a8831b7c951e54b28f05f2c9b03cf82664bb46cd8283978ed7989ac4106ce8ae5e7df4e9521eb52f3cfe2923c5da72ac9d92d8e091c654414d",
+          "sha256": "7edeef67a0768bea49af6527c7e494d8667b19e41e8ae5f2e53455a5681607e4",
+          "sha1": "21e39790a4d174c083bfa7d99bc1821b0537c4ec",
+          "md5": "a93c163e782fd5e2e84c57fb606e7f21"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.11.0-remove-bintray-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-android",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-android-1.11.0-remove-bintray-SNAPSHOT.aar",
+          "url": "crypto-android-1.11.0-remove-bintray-SNAPSHOT.aar",
+          "size": 61900,
+          "sha512": "c16fcc99998139a8831b7c951e54b28f05f2c9b03cf82664bb46cd8283978ed7989ac4106ce8ae5e7df4e9521eb52f3cfe2923c5da72ac9d92d8e091c654414d",
+          "sha256": "7edeef67a0768bea49af6527c7e494d8667b19e41e8ae5f2e53455a5681607e4",
+          "sha1": "21e39790a4d174c083bfa7d99bc1821b0537c4ec",
+          "md5": "a93c163e782fd5e2e84c57fb606e7f21"
+        }
+      ]
+    }
+  ]
+}

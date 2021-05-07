@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "crypto-jvm",
+    "version": "1.11.0-remove-bintray-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "hau4h3odnfdqrd3kcmmfixmrqa"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.11.0-remove-bintray-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.11.0-remove-bintray-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.11.0-remove-bintray-SNAPSHOT.jar",
+          "size": 57138,
+          "sha512": "7f46c5540c77ba49f9f5d3f921dc62b578e10d462bc33e1f5e033837d915766bbe2636a8b06213b213de67f643801e9874b2397f183397ec0db7c6ddc96afdd8",
+          "sha256": "d89fd1df84f9ad3e679f7a36dd094034dc502690341c5fcf4868ecfc73ed6c41",
+          "sha1": "813c749cd2422f1ee51fc66ad50a583507a9daf0",
+          "md5": "6d1134caba317da07a95b05b37b2361b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "org.bouncycastle",
+          "module": "bcprov-jdk15on",
+          "version": {
+            "requires": "1.64"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-common",
+          "version": {
+            "requires": "1.11.0-remove-bintray-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "crypto-jvm-1.11.0-remove-bintray-SNAPSHOT.jar",
+          "url": "crypto-jvm-1.11.0-remove-bintray-SNAPSHOT.jar",
+          "size": 57138,
+          "sha512": "7f46c5540c77ba49f9f5d3f921dc62b578e10d462bc33e1f5e033837d915766bbe2636a8b06213b213de67f643801e9874b2397f183397ec0db7c6ddc96afdd8",
+          "sha256": "d89fd1df84f9ad3e679f7a36dd094034dc502690341c5fcf4868ecfc73ed6c41",
+          "sha1": "813c749cd2422f1ee51fc66ad50a583507a9daf0",
+          "md5": "6d1134caba317da07a95b05b37b2361b"
+        }
+      ]
+    }
+  ]
+}

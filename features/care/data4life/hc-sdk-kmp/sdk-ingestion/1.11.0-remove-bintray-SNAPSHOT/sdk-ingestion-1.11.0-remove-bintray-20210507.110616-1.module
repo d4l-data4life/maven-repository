@@ -1,0 +1,207 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "sdk-ingestion",
+    "version": "1.11.0-remove-bintray-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "hau4h3odnfdqrd3kcmmfixmrqa"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.11.0-remove-bintray-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-ingestion-1.11.0-remove-bintray-SNAPSHOT.jar",
+          "url": "sdk-ingestion-1.11.0-remove-bintray-SNAPSHOT.jar",
+          "size": 18139,
+          "sha512": "38f7c70ce20b9a8dbd48be0bec693e48a583020e287284c4e231845b4a970a20ec92d593b2d8ea0a1fb8924da94b0c70f4c1d21491cf68ccde1b00fc425f7c7d",
+          "sha256": "046bff769aa4ea3951e74cba9220c8b6f23b2200f061a8834d2a692ea30c2a5f",
+          "sha1": "44c326ae20c1aacbc8de846b80712a95aea046f8",
+          "md5": "552e63758c240a5217bea4e770e3a8da"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-jvm",
+          "version": {
+            "requires": "1.11.0-remove-bintray-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "crypto-jvm",
+          "version": {
+            "requires": "1.11.0-remove-bintray-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "auth-jvm",
+          "version": {
+            "requires": "1.11.0-remove-bintray-SNAPSHOT"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "care.data4life.hc-fhir-helper-sdk-kmp",
+          "module": "fhir-helper-jvm",
+          "version": {
+            "requires": "1.4.1"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-jvm"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            }
+          ]
+        },
+        {
+          "group": "care.data4life.hc-fhir-sdk-java",
+          "module": "fhir-java",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "org.threeten",
+          "module": "threetenbp",
+          "version": {
+            "requires": "1.4.4"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.19"
+          }
+        },
+        {
+          "group": "com.squareup.moshi",
+          "module": "moshi",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "sdk-core",
+          "version": {
+            "requires": "1.11.0-remove-bintray-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "care.data4life",
+              "module": "auth-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "securestore-android"
+            },
+            {
+              "group": "care.data4life",
+              "module": "crypto-android"
+            },
+            {
+              "group": "care.data4life.hc-fhir-sdk-java",
+              "module": "hc-fhir-sdk-java"
+            },
+            {
+              "group": "care.data4life.hc-util-sdk-kmp",
+              "module": "util-android"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "sdk-ingestion-1.11.0-remove-bintray-SNAPSHOT.jar",
+          "url": "sdk-ingestion-1.11.0-remove-bintray-SNAPSHOT.jar",
+          "size": 18139,
+          "sha512": "38f7c70ce20b9a8dbd48be0bec693e48a583020e287284c4e231845b4a970a20ec92d593b2d8ea0a1fb8924da94b0c70f4c1d21491cf68ccde1b00fc425f7c7d",
+          "sha256": "046bff769aa4ea3951e74cba9220c8b6f23b2200f061a8834d2a692ea30c2a5f",
+          "sha1": "44c326ae20c1aacbc8de846b80712a95aea046f8",
+          "md5": "552e63758c240a5217bea4e770e3a8da"
+        }
+      ]
+    }
+  ]
+}
