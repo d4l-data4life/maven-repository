@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "securestore-jvm",
+    "version": "1.11.0-change-naming-crypto-convention-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "d46pnr2s4rggvb6lxrm4qxpeay"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.11.0-change-naming-crypto-convention-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.11.0-change-naming-crypto-convention-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.11.0-change-naming-crypto-convention-SNAPSHOT.jar",
+          "size": 16453,
+          "sha512": "c46dcf8148c4f9d0a68c78bfb4611927b445f364960240a218f1aead4076264ac8f5b51b4040bc68474572bcd532e1e509fe1985fd728d2f6ef4d75a48e409ec",
+          "sha256": "353591513f854d20faee8e35933d74d60da1c30a762831787d529a13d691c6ef",
+          "sha1": "d78b309b47146c5d6200abe4188e406e9b8b1391",
+          "md5": "b26d4bb36566dd44238de408996f4326"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util-jvm",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.11.0-change-naming-crypto-convention-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "securestore-jvm-1.11.0-change-naming-crypto-convention-SNAPSHOT.jar",
+          "url": "securestore-jvm-1.11.0-change-naming-crypto-convention-SNAPSHOT.jar",
+          "size": 16453,
+          "sha512": "c46dcf8148c4f9d0a68c78bfb4611927b445f364960240a218f1aead4076264ac8f5b51b4040bc68474572bcd532e1e509fe1985fd728d2f6ef4d75a48e409ec",
+          "sha256": "353591513f854d20faee8e35933d74d60da1c30a762831787d529a13d691c6ef",
+          "sha1": "d78b309b47146c5d6200abe4188e406e9b8b1391",
+          "md5": "b26d4bb36566dd44238de408996f4326"
+        }
+      ]
+    }
+  ]
+}

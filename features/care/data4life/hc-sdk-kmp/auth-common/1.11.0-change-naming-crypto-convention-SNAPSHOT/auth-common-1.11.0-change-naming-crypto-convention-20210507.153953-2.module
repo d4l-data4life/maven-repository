@@ -1,0 +1,93 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "care.data4life.hc-sdk-kmp",
+    "module": "auth-common",
+    "version": "1.11.0-change-naming-crypto-convention-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "d46pnr2s4rggvb6lxrm4qxpeay"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.11.0-change-naming-crypto-convention-SNAPSHOT.jar",
+          "url": "auth-common-1.11.0-change-naming-crypto-convention-SNAPSHOT.jar",
+          "size": 3404,
+          "sha512": "d8b9ca3d4f659baeca3af8faaa338ac2730fc8a772bb000cb57fefa0293f15c0f3743d8bf5ea3fbf575373db09650f9bfd632c469084a9f6e6d6aac76a4da324",
+          "sha256": "f2903728cc01b1c4152484b23d831495771738d0188cc23f1e526f4900d9cc1b",
+          "sha1": "67c81ce9ab30f8464881623a15578f808d55e19a",
+          "md5": "905033cf262ada98af08e6233fec9dca"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "care.data4life.hc-sdk-kmp",
+          "module": "securestore-common",
+          "version": {
+            "requires": "1.11.0-change-naming-crypto-convention-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.4.32"
+          }
+        },
+        {
+          "group": "care.data4life.hc-util-sdk-kmp",
+          "module": "util",
+          "version": {
+            "requires": "1.6.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "auth-common-1.11.0-change-naming-crypto-convention-SNAPSHOT.jar",
+          "url": "auth-common-1.11.0-change-naming-crypto-convention-SNAPSHOT.jar",
+          "size": 3404,
+          "sha512": "d8b9ca3d4f659baeca3af8faaa338ac2730fc8a772bb000cb57fefa0293f15c0f3743d8bf5ea3fbf575373db09650f9bfd632c469084a9f6e6d6aac76a4da324",
+          "sha256": "f2903728cc01b1c4152484b23d831495771738d0188cc23f1e526f4900d9cc1b",
+          "sha1": "67c81ce9ab30f8464881623a15578f808d55e19a",
+          "md5": "905033cf262ada98af08e6233fec9dca"
+        }
+      ]
+    }
+  ]
+}

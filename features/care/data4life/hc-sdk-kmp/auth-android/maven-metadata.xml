@@ -3,7 +3,7 @@
   <groupId>care.data4life.hc-sdk-kmp</groupId>
   <artifactId>auth-android</artifactId>
   <versioning>
-    <latest>1.11.0-remove-bintray-SNAPSHOT</latest>
+    <latest>1.11.0-change-naming-crypto-convention-SNAPSHOT</latest>
     <release>1.9.0</release>
     <versions>
       <version>1.9.0-fix-release-ci-job-SNAPSHOT</version>
@@ -98,6 +98,6 @@
       <version>1.11.0-change-naming-crypto-convention-SNAPSHOT</version>
       <version>1.11.0-remove-bintray-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20210507111152</lastUpdated>
+    <lastUpdated>20210507154532</lastUpdated>
   </versioning>
 </metadata>
